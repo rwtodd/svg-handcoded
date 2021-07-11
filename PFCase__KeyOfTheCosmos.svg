@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+width="600" height="600"
+viewBox="-30 -35 60 70" preserveAspectRatio="xMinYMin meet"
+>
+<title>Key of the Cosmos and Numbers</title>
+<desc>From "The Tarot" by Paul Foster Case</desc>
+
+<defs>
+   <circle id="circs" r="10">
+      <desc>template for all the circles</desc>
+   </circle>
+</defs>
+
+<g stroke-width="0.2">
+   <g stroke-dasharray="1 0.5" 
+      stroke="#111111" fill="none">
+      <desc>the dashed circles</desc>
+      <use href="#circs" x="0" y="-20" />
+      <use href="#circs" x="0" y="0" />
+      <use href="#circs" x="0" y="20" />
+
+      <!-- let's find the center of the upper-right circle. 
+        distance from center to two nearest dashed circles c1,c2
+        should be equal to 2r = 20... 
+        and y coord is fixed at -10... just need x... two equations:
+           (x - x1)^2 + (-10 - y1)^2 = 20^2
+           (x - x2)^2 + (-10 - y2)^2 = 20^2
+        these both reduce to:
+           x^2 + 100 = 400
+           x = Sqrt(300) = 17.3205081
+      -->
+      <use href="#circs" x="17.3205081" y="-10" />
+      <use href="#circs" x="17.3205081" y="10" />
+      <use href="#circs" x="-17.3205081" y="-10" />
+      <use href="#circs" x="-17.3205081" y="10" />
+   </g>
+
+   <g stroke="black" fill="none">
+      <desc>central lined circles</desc>
+      <use href="#circs" x="0" y="-10" />
+      <use href="#circs" x="0" y="10" />
+   </g>
+
+   <ellipse cx="0" cy="0" ry="20" rx="13.3" 
+        fill="none" stroke="black" />
+
+   <g stroke="#111111" fill="none" 
+      stroke-dasharray="1 0.5">
+      <desc>the dashed triangles</desc>
+      <!-- 
+        ok... so the center of mass of the triangle is 0,0
+        and from center of mass to the tip (T) is radius*3 = 30.
+
+        30 = Side*sqrt(3)/3
+        90/sqrt(3) = Side = 51.9615242  (1/2 is 25.9807621)
+      
+        Total height = Side*sqrt(3)/2 
+        Total height = (90/sqrt(3))*sqrt(3)/2
+        Total height = 90/2 = 45 
+      -->
+      <polygon id="dashtri" 
+         points="0,-30  25.9807621,15  -25.9807621,15" />
+      <use href="#dashtri" transform="scale(1,-1)" />
+   </g>
+
+   <g stroke="black" fill="none">
+      <desc>the interior solid lines</desc>
+      <line x1="0" x2="0" y1="-20" y2="20" />
+      <line x1="0" x2="-13.3" y1="-20" y2="0" />
+      <line x1="-13.3" x2="13.3" y1="0" y2="0" />
+      <!-- 10 cos 30 deg = 8.66025404 -->
+      <!-- 10 sin 30 deg = 5 -->
+      <line x1="8.66025404" y1="-15" x2="-8.66025404" y2="15" />
+      <line x1="-8.66025404" y1="-15" x2="-8.66025404" y2="5" />
+      <line x1="-8.66025404" y1="-15" x2="8.66025404" y2="-15" />
+      <line x1="-8.66025404" y1="15" x2="8.66025404" y2="15" />
+   </g>
+
+   <g stroke="black" fill="black" stroke-width="0.05"
+      font-weight="bold"
+      font-family="Comic Sans MS, Comic Sans" font-size="3">
+      <desc>the letter labels</desc>
+      <text x="-1" y="-20.5">A</text>
+      <text x="-1" y="22.6">B</text>
+      <text x="-11" y="-15.5">C</text>
+      <text x="9" y="-15.5">D</text>
+      <text x="-11" y="17.5">E</text>
+      <text x="9" y="17.5">F</text>
+      <text x="-15.8" y="1">G</text>
+      <text x="13.5" y="1">H</text>
+      <text x="-8.5" y="6">I</text>
+   </g>
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
