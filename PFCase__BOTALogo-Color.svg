@@ -12,6 +12,17 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
       <rect x="-154" y="-230" width="308" height="460" />
    </clipPath>
 
+   <radialGradient id="radiantGrad">
+      <desc>the background "glow"</desc>
+      <stop offset="0%" stop-color="white" />
+      <stop offset="20%" stop-color="white" />
+      <stop offset="50%" stop-color="#ffe544" />
+      <stop offset="60%" stop-color="#ffd700" />
+      <stop offset="70%" stop-color="#ffe544" />
+      <stop offset="85%" stop-color="#fff066" />
+      <stop offset="100%" stop-color="#ffd700" />
+   </radialGradient>
+
    <line id="lline" x1="0" x2="0" y1="80" y2="230">
       <desc>template for the long lines</desc>
    </line>
@@ -39,19 +50,25 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
 
 </defs>
 
+<!-- <rect x="-174" y="-250" width="348" height="500" fill="url(#radiantGrad)" stroke="none" /> -->
+<rect x="-250" y="-250" width="500" height="500" fill="url(#radiantGrad)" stroke="none" />
+
 <g stroke-width="1">
    <g stroke="black" fill="none">
       <desc>the central disk</desc>
-      <circle cx="0" cy="0" r="70" />
+      <circle cx="0" cy="0" r="70" fill="white" />
       <circle cx="0" cy="0" r="55" mask="url(#hexMask)" fill="black" />
       <line id="ltrdivider" x1="0" x2="0" y1="55" y2="70" transform="rotate(45)" />
       <use href="#ltrdivider" transform="rotate(90)" />
       <use href="#ltrdivider" transform="rotate(-90)" />
       <use href="#ltrdivider" transform="rotate(180)" />
 
-      <line x1="0" x2="45.89935" y1="0" y2="-26.5" />
-      <line x1="0" x2="0" y1="0" y2="53" />
-      <line x1="0" x2="-45.89935" y1="0" y2="-26.5" />
+      <polygon points="0,0 0,53 45.89935,26.5 45.89935,-26.5"
+         stroke="black" fill="red" />
+      <polygon points="0,0 0,53 -45.89935,26.5 -45.89935,-26.5"
+         stroke="black" fill="blue" />
+      <polygon points="0,0 45.89935,-26.5 0,-53 -45.89935,-26.5"
+         stroke="black" fill="yellow" />
    </g>
 
    <g stroke="black" fill="black"
@@ -96,7 +113,7 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
       <circle cx="0" cy="-13" r="5" clip-path="url(#mercClip)" />
    </g>
 
-   <g stroke="black" clip-path="url(#radiantClip)">
+   <g stroke="white" clip-path="url(#radiantClip)" stroke-width="3">
       <desc>the radiating lines</desc>
       <use href="#lline" />
       <use href="#lline" transform="rotate(30)" />
