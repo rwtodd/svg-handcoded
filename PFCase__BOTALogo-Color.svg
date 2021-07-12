@@ -4,7 +4,7 @@ width="400" height="600"
 viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
 >
 <title>BOTA Logo</title>
-<desc>As seen on many BOTA items</desc>
+<desc>As seen on many BOTA items.  Handcoded SVG by Richard Todd 2021</desc>
 
 <defs>
    <clipPath id="radiantClip">
@@ -50,7 +50,6 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
 
 </defs>
 
-<!-- <rect x="-174" y="-250" width="348" height="500" fill="url(#radiantGrad)" stroke="none" /> -->
 <rect x="-250" y="-250" width="500" height="500" fill="url(#radiantGrad)" stroke="none" />
 
 <g stroke-width="1">

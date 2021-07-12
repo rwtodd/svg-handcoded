@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="600" height="600"
+viewBox="-300 -300 600 600" preserveAspectRatio="xMinYMin meet"
+>
+<title>TITLE</title>
+<desc>DESC</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<defs>
+</defs>
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
