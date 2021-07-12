@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="600" height="600"
+viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
+>
+<title>Cube of Space</title>
+<desc>As seen around the internet.  This version hand-coded by Richard Todd in 2021</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<defs>
+</defs>
+
+<g stroke-width="4">
+   <g stroke="black" fill="none">
+      <desc>The cube itself</desc>
+      <!-- 
+             -333,-700 ====== 667,-700 
+              /               / |
+           -667,-300 === 333,-300
+             | |            |   |
+             | -333,300 ....|..667,300
+             |/             | /
+           -667,700 ===== 333,700
+      -->
+      <g stroke-dasharray="15 10">
+         <desc>the background lines</desc>
+         <polyline points="667,300 -333,300 -333,-700" />
+         <line x1="-333" x2="-667" y1="300" y2="700" />
+      </g>
+      <polyline points="-667,-300 -333,-700 667,-700 667,300 333,700" />
+      <rect x="-667" y="-300" width="1000" height="1000" />
+      <line x1="333" x2="667" y1="-300" y2="-700" />
+   </g>
+
+   <g stroke="black" fill="none">
+      <desc>the inner axes</desc>
+      <circle id="uppercirc" r="50" transform="translate(0,-500) scale(1,0.5)" /> 
+      <use href="#uppercirc" transform="translate(0,1000)" />
+      <line x1="0" x2="0" y1="-475" y2="500" />
+
+      <circle id="sidecirc" r="50" transform="translate(-500,0) scale(0.5,1)" /> 
+      <use href="#sidecirc" transform="translate(1000)" />
+      <line x1="-500" x2="475" y1="0" y2="0" />
+
+      <circle cx="-167" cy="200" r="50" />
+      <circle cx="167" cy="-200" r="40" />
+      <!-- angle of line [Math]::PI/4 + 0.05 ... -->
+      <line x1="-133.09" x2="167" y1="162.922" y2="-200" />
+   </g>
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
