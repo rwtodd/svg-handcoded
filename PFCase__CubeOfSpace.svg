@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.2"
-width="600" height="600"
+width="700" height="700"
 viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
 >
 <title>Cube of Space</title>
 <desc>As seen around the internet.  This version hand-coded by Richard Todd in 2021</desc>
-
-<style type="text/css">
-<![CDATA[
-    #my-rect { fill: blue; }
-]]>
-</style>
-
-<defs>
-</defs>
 
 <g stroke-width="5">
    <g stroke="black" fill="none">
@@ -53,25 +44,26 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
       <line x1="-133.09" x2="167" y1="162.922" y2="-200" />
    </g>
 
-   <g stroke="black" fill="black" stroke-width="1"
+   <g stroke="black" fill="black" stroke-width="2"
      font-family="Comic Sans MS, Comic Sans, sans-serif"
      font-size="35"
+     style="white-space: pre;"
    >
       <desc>writing</desc>
       <!-- ZAIN -->
-      <text text-anchor="end" dominant-baseline="bottom"
+      <text text-anchor="end" dominant-baseline="auto"
           x="250" y="-710">EAST-ABOVE</text>
-      <text text-anchor="middle" dominant-baseline="bottom"
+      <text text-anchor="middle" dominant-baseline="auto"
           x="310" y="-710">Z</text>
-      <text text-anchor="start" dominant-baseline="bottom"
+      <text text-anchor="start" dominant-baseline="auto"
           x="370" y="-710">KEY 6</text>
 
       <!-- SAMECH -->
-      <text text-anchor="end" dominant-baseline="bottom"
+      <text text-anchor="end" dominant-baseline="auto"
           x="-50" y="-310">WEST-ABOVE</text>
-      <text text-anchor="middle" dominant-baseline="bottom"
+      <text text-anchor="middle" dominant-baseline="auto"
           x="110" y="-310">S</text>
-      <text text-anchor="start" dominant-baseline="bottom"
+      <text text-anchor="start" dominant-baseline="auto"
           x="170" y="-310">KEY 14</text>
 
       <!-- AYIN -->
@@ -91,9 +83,9 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
           x="170" y="310">KEY 7</text>
 
       <!-- BETH -->
-      <text text-anchor="middle" dominant-baseline="bottom"
+      <text text-anchor="middle" dominant-baseline="auto"
           x="0" y="-570">ABOVE</text>
-      <text text-anchor="middle" dominant-baseline="bottom"
+      <text text-anchor="middle" dominant-baseline="auto"
           x="0" y="-530">B KEY 1</text>
           
       <!-- GIMEL -->
@@ -122,7 +114,121 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
       <text text-anchor="start" dominant-baseline="hanging"
           x="30" y="50">TH</text>
       <text text-anchor="start" dominant-baseline="hanging"
-          x="90" y="50">KEY 21</text>
+          x="95" y="50">KEY 21</text>
+
+      <g stroke-width="2.5">
+         <desc>angled text has slightly more stroke width</desc>
+         <!-- PEH -->
+         <text text-anchor="middle" dominant-baseline="hanging"
+             transform="translate(-500,60) scale(0.6,1) skewY(-35.5)">
+             NORTH</text>
+         <text text-anchor="middle" dominant-baseline="hanging"
+             transform="translate(-500,100) scale(0.6,1) skewY(-35.5)">
+             P KEY 16</text>
+
+         <!-- RESH -->
+         <text text-anchor="middle" dominant-baseline="hanging"
+             transform="translate(500,60) scale(0.6,1) skewY(-35.5)">
+             SOUTH</text>
+         <text text-anchor="middle" dominant-baseline="hanging"
+             transform="translate(500,100) scale(0.6,1) skewY(-35.5)">
+             R KEY 19</text>
+
+         <!-- TZADDI -->
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(500,-510) scale(0.6,1) skewY(-35.5)">
+             SOUTH-ABOVE TZ KEY 17</text>
+
+         <!-- TETH/TAYT -->
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(-500,-510) scale(0.6,1) skewY(-35.5)">
+             NORTH-ABOVE T KEY 8</text>
+
+         <!-- YOD -->
+         <text text-anchor="middle" dominant-baseline="hanging"
+             transform="translate(-500,510) scale(0.6,1) skewY(-35.5)"
+             style="white-space:pre"
+             >NORTH-BELOW  I  KEY 9</text>
+
+         <!-- QOF -->
+         <text text-anchor="middle" dominant-baseline="hanging"
+             transform="translate(500,510) scale(0.6,1) skewY(-35.5)"
+             style="white-space:pre"
+             >SOUTH-BELOW  Q  KEY 18</text>
+
+         <!-- MEM -->
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(-10,0) scale(0.6,1) skewY(-35.5) scale(0.9,1)"
+             style="white-space:pre"
+             >EAST to WEST     M   KEY 12</text>
+      </g>
+      
+      <!-- NUN -->
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(344,-290) rotate(90)"
+      >SOUTH-WEST</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(344,20) rotate(90)"
+      >N</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(344,100) rotate(90)"
+      >KEY 13</text>
+
+      <!-- VAV -->
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(680,-680) rotate(90)"
+      >SOUTH-EAST</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(680,-360) rotate(90)"
+      >V</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(680,-250) rotate(90)"
+      >KEY 5</text>
+
+      <!-- HE -->
+      <text text-anchor="start" dominant-baseline="hanging"
+          transform="translate(-340,-600) rotate(90)"
+      >NORTH-EAST</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          transform="translate(-340,-280) rotate(90)"
+      >H</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          transform="translate(-340,-200) rotate(90)"
+      >KEY 4</text>
+
+      <!-- HE -->
+      <text text-anchor="start" dominant-baseline="hanging"
+          transform="translate(-680,-290) rotate(90)"
+      >NORTH-WEST</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          transform="translate(-680,20) rotate(90)"
+      >L</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          transform="translate(-680,100) rotate(90)"
+      >KEY 11</text>
+
+      <!-- ALEPH -->
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(10,-420) rotate(90) scale(0.9,1)"
+          style="white-space:pre"
+      >ABOVE   to  BELOW</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(10,125) rotate(90)"
+      >A</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(10,175) rotate(90)"
+      >KEY 0</text>
+
+      <!-- SHIN -->
+      <text text-anchor="end" dominant-baseline="auto"
+          transform="scale(0.9,1)"
+          x="-35" y="-10">NORTH to SOUTH</text>
+      <text text-anchor="middle" dominant-baseline="auto"
+          x="100" y="-10">SH</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="180" y="-10">KEY 20</text>
+
+
    </g>
 </g>
 <!-- vim: expandtab:sw=3
