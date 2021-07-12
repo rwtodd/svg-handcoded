@@ -15,7 +15,7 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
 <defs>
 </defs>
 
-<g stroke-width="4">
+<g stroke-width="5">
    <g stroke="black" fill="none">
       <desc>The cube itself</desc>
       <!-- 
@@ -39,18 +39,90 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
 
    <g stroke="black" fill="none">
       <desc>the inner axes</desc>
-      <circle id="uppercirc" r="50" transform="translate(0,-500) scale(1,0.5)" /> 
+      <circle id="uppercirc" r="50" transform="translate(0,-500) scale(1,0.4)" /> 
       <use href="#uppercirc" transform="translate(0,1000)" />
-      <line x1="0" x2="0" y1="-475" y2="500" />
+      <line x1="0" x2="0" y1="-482" y2="500" />
 
-      <circle id="sidecirc" r="50" transform="translate(-500,0) scale(0.5,1)" /> 
-      <use href="#sidecirc" transform="translate(1000)" />
-      <line x1="-500" x2="475" y1="0" y2="0" />
+      <circle id="sidecirc" r="50" transform="translate(-500,0) scale(0.334,1)" /> 
+      <use href="#sidecirc" transform="translate(1000,0)" />
+      <line x1="-500" x2="482" y1="0" y2="0" />
 
       <circle cx="-167" cy="200" r="50" />
       <circle cx="167" cy="-200" r="40" />
       <!-- angle of line [Math]::PI/4 + 0.05 ... -->
       <line x1="-133.09" x2="167" y1="162.922" y2="-200" />
+   </g>
+
+   <g stroke="black" fill="black" stroke-width="1"
+     font-family="Comic Sans MS, Comic Sans, sans-serif"
+     font-size="35"
+   >
+      <desc>writing</desc>
+      <!-- ZAIN -->
+      <text text-anchor="end" dominant-baseline="bottom"
+          x="250" y="-710">EAST-ABOVE</text>
+      <text text-anchor="middle" dominant-baseline="bottom"
+          x="310" y="-710">Z</text>
+      <text text-anchor="start" dominant-baseline="bottom"
+          x="370" y="-710">KEY 6</text>
+
+      <!-- SAMECH -->
+      <text text-anchor="end" dominant-baseline="bottom"
+          x="-50" y="-310">WEST-ABOVE</text>
+      <text text-anchor="middle" dominant-baseline="bottom"
+          x="110" y="-310">S</text>
+      <text text-anchor="start" dominant-baseline="bottom"
+          x="170" y="-310">KEY 14</text>
+
+      <!-- AYIN -->
+      <text text-anchor="end" dominant-baseline="hanging"
+          x="-150" y="710">WEST-BELOW</text>
+      <text text-anchor="middle" dominant-baseline="hanging"
+          x="-90" y="710">O</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="-30" y="710">KEY 15</text>
+
+      <!-- CHETH -->
+      <text text-anchor="end" dominant-baseline="hanging"
+          x="60" y="310">EAST-BELOW</text>
+      <text text-anchor="middle" dominant-baseline="hanging"
+          x="110" y="310">CH</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="170" y="310">KEY 7</text>
+
+      <!-- BETH -->
+      <text text-anchor="middle" dominant-baseline="bottom"
+          x="0" y="-570">ABOVE</text>
+      <text text-anchor="middle" dominant-baseline="bottom"
+          x="0" y="-530">B KEY 1</text>
+          
+      <!-- GIMEL -->
+      <text text-anchor="middle" dominant-baseline="hanging"
+          x="0" y="520">BELOW</text>
+      <text text-anchor="middle" dominant-baseline="hanging"
+          x="0" y="560">G KEY 2</text>
+
+      <!-- DALETH -->
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="150" y="-150">EAST</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="150" y="-110">D KEY 3</text>
+          
+      <!-- KAPH -->
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="-320" y="210">WEST</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="-320" y="250">K KEY 10</text>
+
+      <!-- TAV -->
+      <line x1="30" y1="35" x2="7" y2="7" stroke-width="4" />
+      <polyline points="7,24 8,8 24,7" stroke-width="4" />
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="30" y="10">CENTER</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="30" y="50">TH</text>
+      <text text-anchor="start" dominant-baseline="hanging"
+          x="90" y="50">KEY 21</text>
    </g>
 </g>
 <!-- vim: expandtab:sw=3
