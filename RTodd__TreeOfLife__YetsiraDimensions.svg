@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="360" height="600"
+viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>Yetsira Dimensions on the Tree</title>
+<desc>This is a translation of the Sepher Yetsirah dimensions,
+according to my interpretation of the text, and translated onto
+a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
+
+<defs>
+   <circle id="sephira" r="122.407">
+      <desc>A sephira circle</desc>
+   </circle>
+   <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-13" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-15" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-16" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-17" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-18" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-19" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-21" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-22" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-23" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-24" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-25" fill="none" d="M0,0 L0,400" />
+   <path id="path-26" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-27" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-28" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-29" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-30" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-31" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-32" fill="none" d="M0,400 L0,800" />
+</defs>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use href="#path-11" stroke="black" stroke-width="60" />
+   <use href="#path-11" stroke="white" stroke-width="50" />
+   <use href="#path-12" stroke="black" stroke-width="60" />
+   <use href="#path-12" stroke="white" stroke-width="50" />
+   <use href="#path-13" stroke="black" stroke-width="60" />
+   <use href="#path-13" stroke="white" stroke-width="50" />
+   <use href="#path-14" stroke="black" stroke-width="60" />
+   <use href="#path-14" stroke="white" stroke-width="50" />
+   <use href="#path-15" stroke="black" stroke-width="60" />
+   <use href="#path-15" stroke="white" stroke-width="50" />
+   <use href="#path-16" stroke="black" stroke-width="60" />
+   <use href="#path-16" stroke="white" stroke-width="50" />
+   <use href="#path-17" stroke="black" stroke-width="60" />
+   <use href="#path-17" stroke="white" stroke-width="50" />
+   <use href="#path-18" stroke="black" stroke-width="60" />
+   <use href="#path-18" stroke="white" stroke-width="50" />
+   <use href="#path-19" stroke="black" stroke-width="60" />
+   <use href="#path-19" stroke="white" stroke-width="50" />
+   <use href="#path-20" stroke="black" stroke-width="60" />
+   <use href="#path-20" stroke="white" stroke-width="50" />
+   <use href="#path-21" stroke="black" stroke-width="60" />
+   <use href="#path-21" stroke="#9999ff" stroke-width="50" />
+   <use href="#path-22" stroke="black" stroke-width="60" />
+   <use href="#path-22" stroke="#ff9999" stroke-width="50" />
+   <use href="#path-23" stroke="black" stroke-width="60" />
+   <use href="#path-23" stroke="white" stroke-width="50" />
+   <use href="#path-24" stroke="black" stroke-width="60" />
+   <use href="#path-24" stroke="white" stroke-width="50" />
+   <use href="#path-25" stroke="black" stroke-width="60" />
+   <use href="#path-25" stroke="white" stroke-width="50" />
+   <use href="#path-26" stroke="black" stroke-width="60" />
+   <use href="#path-26" stroke="white" stroke-width="50" />
+   <use href="#path-27" stroke="black" stroke-width="60" />
+   <use href="#path-27" stroke="white" stroke-width="50" />
+   <use href="#path-28" stroke="black" stroke-width="60" />
+   <use href="#path-28" stroke="white" stroke-width="50" />
+   <use href="#path-29" stroke="black" stroke-width="60" />
+   <use href="#path-29" stroke="white" stroke-width="50" />
+   <use href="#path-30" stroke="black" stroke-width="60" />
+   <use href="#path-30" stroke="#ffd766" stroke-width="50" />
+   <use href="#path-31" stroke="black" stroke-width="60" />
+   <use href="#path-31" stroke="white" stroke-width="50" />
+   <use href="#path-32" stroke="black" stroke-width="60" />
+   <use href="#path-32" stroke="white" stroke-width="50" />
+</g>
+
+<g stroke="black" fill="white" stroke-width="5">
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+  <use href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use href="#sephira" x="0" y="-400" fill="white" fill-opacity="0.7" stroke-dasharray="10 5" /> <!-- daath    -->
+  <use href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<g fill="black" stroke="black" stroke-width="2"
+   font-size="40" dominant-baseline="middle" text-anchor="middle"
+   font-family="verdana, sans-serif"
+>
+  <desc>The sephira labels</desc>
+  <text x="0" y="-825">1</text>
+  <text x="0" y="-775">Good</text>
+  <text x="0" y="775">2</text>
+  <text x="0" y="825">Evil</text>
+  <text x="346.41" y="-625">3</text>
+  <text x="346.41" y="-575">Beginning</text>
+  <text x="-346.41" y="-625">4</text>
+  <text x="-346.41" y="-575">End</text>
+  <text x="346.41" y="-225">5</text>
+  <text x="346.41" y="-175">West</text>
+  <text x="-346.41" y="-225">6</text>
+  <text x="-346.41" y="-175">North</text>
+  <text x="0" y="-25">7</text>
+  <text x="0" y="25">South</text>
+  <text x="0" y="375">8</text>
+  <text x="0" y="425">Below</text>
+  <text x="346.41" y="175">9</text>
+  <text x="346.41" y="225">East</text>
+  <text x="-346.41" y="175">10</text>
+  <text x="-346.41" y="225">Above</text>
+  <text x="0" y="-425">11</text>
+  <text x="0" y="-375">Center</text>
+</g>
+
+<g fill="black" stroke="black" stroke-width="2"
+   font-size="40" dominant-baseline="middle" text-anchor="middle"
+   font-family="verdana, sans-serif"
+>
+   <desc>I've noticed that the inner axes of the cube (mother letters)
+   map onto the tree dimensions via reflections of their normal path across the tree. 
+   In other words, Aleph-Air (path 11) reflects down to Above-Below (path 30).
+   Mem-Water (path 23) reflects across to East-West (path 21).
+   Shin-Fire (path 31) reflects up to North-South (path 22).  Pretty interesting.</desc>
+   <text dx="190"><textPath href="#path-11">א</textPath></text>
+   <text dx="190"><textPath href="#path-30">א-R</textPath></text>
+   <text dx="190"><textPath href="#path-23">מ</textPath></text>
+   <text dx="190"><textPath href="#path-21">מ-R</textPath></text>
+   <text dx="320"><textPath href="#path-31">ש</textPath></text>
+   <text dx="190"><textPath href="#path-22">ש-R</textPath></text>
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
