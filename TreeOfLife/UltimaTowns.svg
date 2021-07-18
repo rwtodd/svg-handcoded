@@ -3,9 +3,10 @@
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
-<title>Mandrake the Bard's Virtues</title>
-<desc>This is a mapping of the Mandrake the Bard's alternative 
-Ultima principles and virtues to a Kircher Tree of Life.  The mapping is of my own design.
+<title>Ultima Towns</title>
+<desc>This is a mapping of the Ultima cities and towns to the
+Kircher Tree of Life.  The mapping is of my own design, based on
+the virtues mapping givin in UltimaVirtues.svg.
 The principles have the white glow, while the virtues are represented
 in "flat" colors.  The three pillars are all balanced in terms of the
 "amount" of prinicples mixed in.  Hand-coded by Richard Todd 2021</desc>
@@ -138,26 +139,29 @@ in "flat" colors.  The three pillars are all balanced in terms of the
    font-size="40" dominant-baseline="middle" text-anchor="middle"
    font-family="verdana, sans-serif" font-weight="bold"
 >
-   <text x="0" y="-800">Song</text>
-   <text x="346.41" y="-600">Wine</text>
-   <text x="-346.41" y="-600">Women</text>
-   <text transform="translate(0,-400) scale(0.9,1.1)"
-   >Indulgence</text>
-   <text x="346.41" y="-200">Dance</text>
-   <text x="-346.41" y="-200">Laziness</text>
-   <text x="0" y="0">Harmony</text>
-   <text transform="translate(346.41,200) scale(0.9,1.1)"
-   >Inebriation</text>
-   <text x="-346.41" y="200">Sensuality</text>
-   <text x="0" y="400">Lust</text>
-   <text stroke="white" fill="white" x="0" y="800">Happiness</text>
+   <text x="0" y="-825">Empath</text>
+   <text x="0" y="-775">Abbey</text>
+   <text x="346.41" y="-625">Serpent's</text>
+   <text x="346.41" y="-575">Hold</text>
+   <text x="-346.41" y="-600">Lycaeum</text>
+   <text x="346.41" y="-200">Yew</text>
+   <text x="-346.41" y="-200">Minoc</text>
+   <text x="0" y="0">Britain</text>
+   <text x="346.41" y="200">Jhelom</text>
+   <text x="-346.41" y="200">Moonglow</text>
+   <text x="0" y="400">Trinsic</text>
+   <text stroke="white" fill="white" x="0" y="775">New</text>
+   <text stroke="white" fill="white" x="0" y="825">Magincia</text>
+   <text x="0" y="-425">Skara</text>
+   <text x="0" y="-375">Brae</text>
 </g>
 
 <defs>
    <text id="prideText"
-      fill="black" stroke="black" stroke-width="1" font-weight="bold"
-      font-size="55" dominant-baseline="middle" text-anchor="middle"
-      font-family="verdana, sans-serif">NEED</text>
+      fill="black" stroke="black" stroke-width="1"
+      font-size="45" dominant-baseline="middle" text-anchor="middle"
+      font-weight="bold"
+      font-family="verdana, sans-serif">MAGINCIA</text>
    <path id="leftEggShape"
       d="M0 -140 A122 122, 0 0 0, 0 140 
       L -30 100, 10 80, -20 30, 20 -20, 
@@ -197,7 +201,6 @@ in "flat" colors.  The three pillars are all balanced in terms of the
    <use href="#rightEgg"
       transform="translate(180,850) rotate(40)" />
 </g>
-
 
 <!-- vim: expandtab:sw=3
 -->

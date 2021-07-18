@@ -134,21 +134,67 @@ in "flat" colors.  The three pillars are all balanced in terms of the
   <use href="#sephira" fill="black" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g fill="black" stroke="black" stroke-width="2"
+<g fill="black" stroke="black" stroke-width="1"
    font-size="40" dominant-baseline="middle" text-anchor="middle"
-   font-family="verdana, sans-serif"
+   font-family="verdana, sans-serif" font-weight="bold"
 >
    <text x="0" y="-800">Love</text>
    <text x="346.41" y="-600">Courage</text>
    <text x="-346.41" y="-600">Truth</text>
    <text x="346.41" y="-200">Justice</text>
    <text x="-346.41" y="-200">Sacrifice</text>
-   <text x="0" y="0">Compassion</text>
+   <text x="0" y="0" font-size="39" transform="scale(0.9,1.1)">Compassion</text>
    <text x="346.41" y="200">Valor</text>
    <text x="-346.41" y="200">Honesty</text>
    <text x="0" y="400">Honor</text>
    <text stroke="white" fill="white" x="0" y="800">Humility</text>
    <text x="0" y="-400">Spirituality</text>
+</g>
+
+<defs>
+   <text id="prideText"
+      fill="black" stroke="black" stroke-width="1"
+      font-size="50" dominant-baseline="middle" text-anchor="middle"
+      font-weight="bold"
+      font-family="verdana, sans-serif">PRIDE</text>
+   <path id="leftEggShape"
+      d="M0 -140 A122 122, 0 0 0, 0 140 
+      L -30 100, 10 80, -20 30, 20 -20, 
+         -15 -55, 5 -80, -25 -110,
+         0 -140">
+      <desc>The left side of the egg</desc>
+   </path>
+   <clipPath id="leftEggClip">
+      <use href="#leftEggShape" />
+   </clipPath>
+   <g id="leftEgg">
+      <use href="#leftEggShape" fill="gray" stroke="black"
+         stroke-width="5" />
+      <use href="#prideText" clip-path="url(#leftEggClip)" />
+   </g>
+   <path id="rightEggShape"
+      d="M0 -140 A122 122, 0 0 1, 0 140 
+      L -30 100, 10 80, -20 30, 20 -20, 
+         -15 -55, 5 -80, -25 -110,
+         0 -140">
+      <desc>The left side of the egg</desc>
+   </path>
+   <clipPath id="rightEggClip">
+      <use href="#rightEggShape" />
+   </clipPath>
+   <g id="rightEgg">
+      <use href="#rightEggShape" fill="gray" stroke="black"
+         stroke-width="5" />
+      <use href="#prideText" clip-path="url(#rightEggClip)" />
+   </g>
+</defs>
+
+<g>
+   <desc>The cracked sphere at the bottom</desc>
+   <use href="#leftEgg"
+      transform="translate(-180,850) rotate(-40)" />
+   <use href="#rightEgg"
+      transform="translate(180,850) rotate(40)" />
 </g>
 
 <!-- vim: expandtab:sw=3
