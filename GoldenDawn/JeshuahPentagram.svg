@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="500" height="500"
+viewBox="-400 -400 800 700" preserveAspectRatio="xMinYMin meet"
+>
+<title>Jeshua Pentagram</title>
+<desc>A Golden-Dawn-style teaching.
+This version hand-coded as SVG by Richard Todd
+in 2021.</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<defs>
+  <polygon id="alchTriangle" points="0,-25 25,25 -25,25" />
+  <line id="alchCross" x1="-26" x2="26" y1="5" y2="5" />
+</defs>
+
+<polygon 
+   stroke="black"
+   stroke-width="20"
+   fill="none"
+   transform="rotate(-90)"
+   points="200.0,0.0
+61.803154349585924,44.90261999985367
+61.80339887498949,190.2113032590307
+-23.606704349585915,72.65396534368404
+-161.80339887498945,117.55705045849464
+-76.3929,9.355432046258383e-15
+-161.8033988749895,-117.5570504584946
+-23.606704349585932,-72.65396534368404
+61.80339887498945,-190.21130325903073
+61.80315434958591,-44.902619999853684
+">
+   <desc>the pentagram</desc>
+</polygon>
+
+<g fill="none" stroke="black" stroke-width="4">
+   <desc>Draw the element symbols by hand... unicode not up to the
+   task of quintessense</desc>
+   <g transform="translate(0,-355)">
+      <desc>quintessence</desc>
+      <circle cx="0" cy="0" r="25" />
+      <line id="quintLine" x1="-25" x2="25" y1="0" y2="0" />
+      <use href="#quintLine" transform="rotate(90)" />
+      <use href="#quintLine" transform="rotate(45)" />
+      <use href="#quintLine" transform="rotate(-45)" />
+   </g>
+   <use href="#alchTriangle" x="200" y="160" />
+   <use href="#alchTriangle" 
+      transform="translate(270,-140) scale(1,-1)" />
+   <use href="#alchTriangle" x="-270" y="-140" />
+   <use href="#alchCross" x="-270" y="-140" />
+   <use href="#alchTriangle" 
+      transform="translate(-200,160) scale(1,-1)" />
+   <use href="#alchCross"
+      transform="translate(-200,160) scale(1,-1)" />
+</g>
+
+<g fill="black" stroke="black" stroke-width="1" 
+   font-size="30" dominant-baseline="auto" text-anchor="middle"
+   font-family="verdana, sans-serif">
+   <desc>the alchemical unicode is 0001f701 ...  0001f704</desc>
+   <text x="0" y="-300">Head</text>
+   <text x="270" y="-80">Left Arm</text>
+   <text x="-270" y="-80">Right Arm</text>
+   <text x="200" y="215">Left Leg</text>
+   <text x="-200" y="215">Right Leg</text>
+</g>
+
+<g fill="black" stroke="black" stroke-width="1" 
+   font-size="50" dominant-baseline="auto" text-anchor="middle"
+   font-family="Times New Roman, Times, serif">
+   <desc>the hebrew looks better in times...</desc>
+   <text x="0" y="0">יהשוהּ</text>
+   <text x="0" y="-250">ש</text>
+   <text x="270" y="-30">ה</text>
+   <text x="-270" y="-30">ו</text>
+   <text x="200" y="260">י</text>
+   <text x="-200" y="260">הּ</text> <!-- 05d4 05bc -->
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
