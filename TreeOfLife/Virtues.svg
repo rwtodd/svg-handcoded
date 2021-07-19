@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="360" height="600"
+viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>Virtues of the Sephiroth</title>
+<desc>According to the Golden Dawn/Dion Fortune
+tradition.  This version hand-coded by Richard Todd 2021</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<defs>
+   <circle id="sephira" r="122.407">
+      <desc>A sephira circle</desc>
+   </circle>
+   <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-13" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-15" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-16" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-17" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-18" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-19" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-21" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-22" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-23" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-24" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-25" fill="none" d="M0,0 L0,400" />
+   <path id="path-26" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-27" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-28" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-29" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-30" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-31" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-32" fill="none" d="M0,400 L0,800" />
+</defs>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use href="#path-11" stroke="black" stroke-width="60" />
+   <use href="#path-11" stroke="white" stroke-width="50" />
+   <use href="#path-12" stroke="black" stroke-width="60" />
+   <use href="#path-12" stroke="white" stroke-width="50" />
+   <use href="#path-13" stroke="black" stroke-width="60" />
+   <use href="#path-13" stroke="white" stroke-width="50" />
+   <use href="#path-14" stroke="black" stroke-width="60" />
+   <use href="#path-14" stroke="white" stroke-width="50" />
+   <use href="#path-15" stroke="black" stroke-width="60" />
+   <use href="#path-15" stroke="white" stroke-width="50" />
+   <use href="#path-16" stroke="black" stroke-width="60" />
+   <use href="#path-16" stroke="white" stroke-width="50" />
+   <use href="#path-17" stroke="black" stroke-width="60" />
+   <use href="#path-17" stroke="white" stroke-width="50" />
+   <use href="#path-18" stroke="black" stroke-width="60" />
+   <use href="#path-18" stroke="white" stroke-width="50" />
+   <use href="#path-19" stroke="black" stroke-width="60" />
+   <use href="#path-19" stroke="white" stroke-width="50" />
+   <use href="#path-20" stroke="black" stroke-width="60" />
+   <use href="#path-20" stroke="white" stroke-width="50" />
+   <use href="#path-21" stroke="black" stroke-width="60" />
+   <use href="#path-21" stroke="white" stroke-width="50" />
+   <use href="#path-22" stroke="black" stroke-width="60" />
+   <use href="#path-22" stroke="white" stroke-width="50" />
+   <use href="#path-23" stroke="black" stroke-width="60" />
+   <use href="#path-23" stroke="white" stroke-width="50" />
+   <use href="#path-24" stroke="black" stroke-width="60" />
+   <use href="#path-24" stroke="white" stroke-width="50" />
+   <use href="#path-25" stroke="black" stroke-width="60" />
+   <use href="#path-25" stroke="white" stroke-width="50" />
+   <use href="#path-26" stroke="black" stroke-width="60" />
+   <use href="#path-26" stroke="white" stroke-width="50" />
+   <use href="#path-27" stroke="black" stroke-width="60" />
+   <use href="#path-27" stroke="white" stroke-width="50" />
+   <use href="#path-28" stroke="black" stroke-width="60" />
+   <use href="#path-28" stroke="white" stroke-width="50" />
+   <use href="#path-29" stroke="black" stroke-width="60" />
+   <use href="#path-29" stroke="white" stroke-width="50" />
+   <use href="#path-30" stroke="black" stroke-width="60" />
+   <use href="#path-30" stroke="white" stroke-width="50" />
+   <use href="#path-31" stroke="black" stroke-width="60" />
+   <use href="#path-31" stroke="white" stroke-width="50" />
+   <use href="#path-32" stroke="black" stroke-width="60" />
+   <use href="#path-32" stroke="white" stroke-width="50" />
+</g>
+
+<g stroke="black" fill="white" stroke-width="5">
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+  <use href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use href="#sephira" x="0" y="-400" fill-opacity="0.7" stroke-dasharray="10 5" /> <!-- daath    -->
+  <use href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<g fill="black" stroke="black" stroke-width="1" font-weight="bold"
+   font-size="35" dominant-baseline="middle" text-anchor="middle"
+   font-family="verdana, sans-serif"
+>
+   <text x="0" y="-800">Attainment</text>
+   <text x="346.41" y="-600">Devotion</text>
+   <text x="-346.41" y="-600">Silence</text>
+   <text x="0" y="-400">Detachment</text>
+   <text x="346.41" y="-200">Obedience</text>
+   <text x="-346.41" y="-200">Energy</text>
+   <text x="0" y="-50">Devotion</text>
+   <text x="0" y="-5">to the</text>
+   <text x="0" y="40">Great Work</text>
+   <text x="346.41" y="175">Unselfish-</text>
+   <text x="346.41" y="225">ness</text>
+   <text x="-346.41" y="200">Honesty</text>
+   <text x="0" y="375">Indepen-</text>
+   <text x="0" y="425">dence</text>
+   <text x="0" y="775">Discri-</text>
+   <text x="0" y="825">mination</text>
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
