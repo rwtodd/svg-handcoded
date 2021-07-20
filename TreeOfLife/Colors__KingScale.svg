@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="360" height="600"
+viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>King Scale -- Golden Dawn</title>
+<desc>This is a blank tree colored in the Golden-Dawn
+King Scale.  
+Color codes from:
+https://sites.google.com/site/dairiel23/colour-scales-and-hex-codes/etz-chaim-colour-key
+This version hand-coded by Richard Todd 2021</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<defs>
+   <circle id="sephira" r="122.407">
+      <desc>A sephira circle</desc>
+   </circle>
+   <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-13" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-15" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-16" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-17" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-18" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-19" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-21" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-22" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-23" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-24" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-25" fill="none" d="M0,0 L0,400" />
+   <path id="path-26" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-27" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-28" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-29" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-30" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-31" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-32" fill="none" d="M0,400 L0,800" />
+</defs>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use href="#path-11" stroke="black" stroke-width="60" />
+   <use href="#path-11" stroke="#ffff66" stroke-width="50" />
+   <use href="#path-12" stroke="black" stroke-width="60" />
+   <use href="#path-12" stroke="#ffff00" stroke-width="50" />
+   <use href="#path-13" stroke="black" stroke-width="60" />
+   <use href="#path-13" stroke="#0000ff" stroke-width="50" />
+   <use href="#path-14" stroke="black" stroke-width="60" />
+   <use href="#path-14" stroke="#00ff00" stroke-width="50" />
+   <use href="#path-15" stroke="black" stroke-width="60" />
+   <use href="#path-15" stroke="#ff0000" stroke-width="50" />
+   <use href="#path-16" stroke="black" stroke-width="60" />
+   <use href="#path-16" stroke="#ff3300" stroke-width="50" />
+   <use href="#path-17" stroke="black" stroke-width="60" />
+   <use href="#path-17" stroke="#ff9900" stroke-width="50" />
+   <use href="#path-18" stroke="black" stroke-width="60" />
+   <use href="#path-18" stroke="#ffcc00" stroke-width="50" />
+   <use href="#path-19" stroke="black" stroke-width="60" />
+   <use href="#path-19" stroke="#ccff33" stroke-width="50" />
+   <use href="#path-20" stroke="black" stroke-width="60" />
+   <use href="#path-20" stroke="#ccff66" stroke-width="50" />
+   <use href="#path-21" stroke="black" stroke-width="60" />
+   <use href="#path-21" stroke="#cc33ff" stroke-width="50" />
+   <use href="#path-22" stroke="black" stroke-width="60" />
+   <use href="#path-22" stroke="#339900" stroke-width="50" />
+   <use href="#path-23" stroke="black" stroke-width="60" />
+   <use href="#path-23" stroke="#000066" stroke-width="50" />
+   <use href="#path-24" stroke="black" stroke-width="60" />
+   <use href="#path-24" stroke="#009999" stroke-width="50" />
+   <use href="#path-25" stroke="black" stroke-width="60" />
+   <use href="#path-25" stroke="#0000cc" stroke-width="50" />
+   <use href="#path-26" stroke="black" stroke-width="60" />
+   <use href="#path-26" stroke="#330099" stroke-width="50" />
+   <use href="#path-27" stroke="black" stroke-width="60" />
+   <use href="#path-27" stroke="#ff3333" stroke-width="50" />
+   <use href="#path-28" stroke="black" stroke-width="60" />
+   <use href="#path-28" stroke="#cc33ff" stroke-width="50" />
+   <use href="#path-29" stroke="black" stroke-width="60" />
+   <use href="#path-29" stroke="#cc0000" stroke-width="50" />
+   <use href="#path-30" stroke="black" stroke-width="60" />
+   <use href="#path-30" stroke="#ff6600" stroke-width="50" />
+   <use href="#path-31" stroke="black" stroke-width="60" />
+   <use href="#path-31" stroke="#ff0000" stroke-width="50" />
+   <use href="#path-32" stroke="black" stroke-width="60" />
+   <use href="#path-32" stroke="#330099" stroke-width="50" />
+</g>
+
+<g stroke="black" stroke-width="5">
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+  <use href="#sephira" fill="#ffffff" x="0" y="-800" /> <!-- kether   -->
+  <use href="#sephira" fill="#66ccff" x="346.41" y="-600" /> <!-- chockmah -->
+  <use href="#sephira" fill="#cc0033" x="-346.41" y="-600" /> <!-- binah    -->
+  <use href="#sephira" fill="#cc99ff" fill-opacity="0.8" x="0" y="-400" stroke-dasharray="10 5" /> <!-- daath    -->
+  <use href="#sephira" fill="#993399" x="346.41" y="-200" /> <!-- chesed   -->
+  <use href="#sephira" fill="#ff6600" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use href="#sephira" fill="#ff66cc" x="0" y="0" /> <!-- tipharet -->
+  <use href="#sephira" fill="#ff9900" x="346.41" y="200" /> <!-- netzach  -->
+  <use href="#sephira" fill="#660066" x="-346.41" y="200" /> <!-- hod      -->
+  <use href="#sephira" fill="#000066" x="0" y="400" /> <!-- yesod    -->
+  <use href="#sephira" fill="#ffff00" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
