@@ -8,5 +8,5 @@ HEIGHT=100
 RADIUS=4
 
 for x in range(80):
-    print(f'<circle cx="{random()*WIDTH}" cy="{random()*HEIGHT}" r="{random()*RADIUS}" fill="gold" />')
+    print(f'<circle cx="{random()*WIDTH}" cy="{random()*HEIGHT}" r="{random()*RADIUS}" fill="#cc0000" />')
 

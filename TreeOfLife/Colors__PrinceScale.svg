@@ -204,7 +204,7 @@ This version hand-coded by Richard Todd 2021</desc>
   <use href="#sephira" fill="#ccff00" x="346.41" y="200" /> <!-- netzach  -->
   <use href="#sephira" fill="#993333" x="-346.41" y="200" /> <!-- hod      -->
   <use href="#sephira" fill="#330066" x="0" y="400" /> <!-- yesod    -->
-   <g transform="translate(0,800)"> 
+   <g transform="translate(0,800) rotate(45)"> 
      <rect stroke="none" fill="#ffff66" x="-300" y="-300" 
         width="300" height="300" clip-path="url(#sephClip)" />
      <rect stroke="none" fill="#669900" x="0" y="-300" 
