@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="600" height="600"
+viewBox="-70 -70 140 140" preserveAspectRatio="xMinYMin meet"
+>
+<title>TITLE</title>
+<desc>DESC</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<defs>
+<polygon id="part"
+   points="-28.9,-9.9 0,-60 17.5,-30 6,-30 0,-40 -23,0"
+/>
+</defs>
+<!-- -s 6  -d 50 28.867525 -->
+<g fill="none" stroke="none" stroke-width="7" transform="rotate(90)">
+<polygon points="
+50.0,0.0 
+25.00000999438238,14.433762499999998 
+25.000000000000007,43.30127018922193 
+1.76762610452781e-15,28.867525 
+-24.99999999999999,43.30127018922194 
+-25.000009994382374,14.43376250000001 
+-50.0,6.123233995736766e-15 
+-25.00000999438238,-14.433762499999991 
+-25.00000000000002,-43.30127018922192 
+-5.302878313583429e-15,-28.867525 
+24.999999999999968,-43.30127018922195 
+25.00000999438237,-14.433762500000013 
+">
+   <desc>???</desc>
+</polygon>
+
+</g>
+<g id="pattern" fill="none" stroke="black" stroke-width="1">
+   <desc>Hexagram</desc>
+   <use href="#part" fill="gold" />
+   <use href="#part" fill="gold" transform="rotate(60)" />
+   <use href="#part" fill="gold" transform="rotate(120)" />
+   <use href="#part" fill="gold" transform="rotate(180)" />
+   <use href="#part" fill="gold" transform="rotate(240)" />
+   <use href="#part" fill="gold" transform="rotate(300)" />
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
