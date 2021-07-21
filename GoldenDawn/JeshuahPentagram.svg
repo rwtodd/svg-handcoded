@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.2"
 width="500" height="500"
-viewBox="-400 -400 800 700" preserveAspectRatio="xMinYMin meet"
+viewBox="-400 -450 800 850" preserveAspectRatio="xMinYMin meet"
 >
 <title>Jeshua Pentagram</title>
 <desc>A Golden-Dawn-style teaching.
@@ -17,31 +17,23 @@ in 2021.</desc>
 <defs>
   <polygon id="alchTriangle" points="0,-25 25,25 -25,25" />
   <line id="alchCross" x1="-26" x2="26" y1="5" y2="5" />
+  <polygon id="pentacle-arm" transform="scale(6)"
+    points="-20,-2 0,-65 15,-19.75 5,-19.75 0,-34 -12,4" />
 </defs>
 
-<polygon 
-   stroke="black"
-   stroke-width="20"
-   fill="none"
-   transform="rotate(-90)"
-   points="200.0,0.0
-61.803154349585924,44.90261999985367
-61.80339887498949,190.2113032590307
--23.606704349585915,72.65396534368404
--161.80339887498945,117.55705045849464
--76.3929,9.355432046258383e-15
--161.8033988749895,-117.5570504584946
--23.606704349585932,-72.65396534368404
-61.80339887498945,-190.21130325903073
-61.80315434958591,-44.902619999853684
-">
-   <desc>the pentagram</desc>
-</polygon>
+<g id="pattern" fill="none" stroke="black" stroke-width="1">
+   <desc>the pentacle</desc>
+   <use href="#pentacle-arm" fill="white" />
+   <use href="#pentacle-arm" fill="#f5e04e" transform="rotate(-72)" />
+   <use href="#pentacle-arm" fill="#4e9fe5" transform="rotate(72)" />
+   <use href="#pentacle-arm" fill="#e54e54" transform="rotate(144)" />
+   <use href="#pentacle-arm" fill="black" transform="rotate(216)" />
+</g>
 
 <g fill="none" stroke="black" stroke-width="4">
    <desc>Draw the element symbols by hand... unicode not up to the
    task of quintessense</desc>
-   <g transform="translate(0,-355)">
+   <g transform="translate(0,-260)">
       <desc>quintessence</desc>
       <circle cx="0" cy="0" r="25" />
       <line id="quintLine" x1="-25" x2="25" y1="0" y2="0" />
@@ -49,26 +41,26 @@ in 2021.</desc>
       <use href="#quintLine" transform="rotate(45)" />
       <use href="#quintLine" transform="rotate(-45)" />
    </g>
-   <use href="#alchTriangle" x="200" y="160" />
+   <use href="#alchTriangle" x="150" y="200" />
    <use href="#alchTriangle" 
-      transform="translate(270,-140) scale(1,-1)" />
-   <use href="#alchTriangle" x="-270" y="-140" />
-   <use href="#alchCross" x="-270" y="-140" />
-   <use href="#alchTriangle" 
-      transform="translate(-200,160) scale(1,-1)" />
-   <use href="#alchCross"
-      transform="translate(-200,160) scale(1,-1)" />
+      transform="translate(240,-80) scale(1,-1)" />
+   <use href="#alchTriangle" x="-240" y="-80" />
+   <use href="#alchCross" x="-240" y="-80" />
+   <use href="#alchTriangle" stroke="white"
+      transform="translate(-150,200) scale(1,-1)" />
+   <use href="#alchCross" stroke="white"
+      transform="translate(-150,200) scale(1,-1)" />
 </g>
 
 <g fill="black" stroke="black" stroke-width="1" 
    font-size="30" dominant-baseline="auto" text-anchor="middle"
    font-family="verdana, sans-serif">
    <desc>the alchemical unicode is 0001f701 ...  0001f704</desc>
-   <text x="0" y="-300">Head</text>
-   <text x="270" y="-80">Left Arm</text>
-   <text x="-270" y="-80">Right Arm</text>
-   <text x="200" y="215">Left Leg</text>
-   <text x="-200" y="215">Right Leg</text>
+   <text x="0" y="-400">Head</text>
+   <text x="270" y="-140">Left Arm</text>
+   <text x="-270" y="-140">Right Arm</text>
+   <text x="230" y="360">Left Leg</text>
+   <text x="-230" y="360">Right Leg</text>
 </g>
 
 <g fill="black" stroke="black" stroke-width="1" 
@@ -76,11 +68,11 @@ in 2021.</desc>
    font-family="Times New Roman, Times, serif">
    <desc>the hebrew looks better in times...</desc>
    <text x="0" y="0">יהשוהּ</text>
-   <text x="0" y="-250">ש</text>
-   <text x="270" y="-30">ה</text>
-   <text x="-270" y="-30">ו</text>
-   <text x="200" y="260">י</text>
-   <text x="-200" y="260">הּ</text> <!-- 05d4 05bc -->
+   <text x="0" y="-300">ש</text>
+   <text x="300" y="-80">ה</text>
+   <text x="-300" y="-80">ו</text>
+   <text x="180" y="260">י</text>
+   <text x="-180" y="260" stroke="white" stroke-width="0.5" fill="white">הּ</text> <!-- 05d4 05bc -->
 </g>
 <!-- vim: expandtab:sw=3
 -->
