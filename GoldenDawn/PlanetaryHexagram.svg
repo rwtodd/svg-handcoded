@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.2"
 width="600" height="600"
-viewBox="-70 -105 140 210" preserveAspectRatio="xMinYMin meet"
+viewBox="-95 -95 190 190" preserveAspectRatio="xMinYMin meet"
 >
-<title>TITLE</title>
-<desc>DESC</desc>
+<title>Planetary Hexagram</title>
+<desc>Shows the planets in their Tree-of-Life pattern
+on the outside of an interlaced hexagon.</desc>
 
 <style type="text/css">
 <![CDATA[
@@ -33,16 +34,16 @@ viewBox="-70 -105 140 210" preserveAspectRatio="xMinYMin meet"
 <!-- -s 6  -d 50 28.867525 -->
 <g id="pattern" fill="none" stroke="black" stroke-width="1">
    <desc>Hexagram</desc>
-   <use href="#hex-part" fill="gold" />
-   <use href="#hex-part" fill="gold" transform="rotate(60)" />
-   <use href="#hex-part" fill="gold" transform="rotate(120)" />
-   <use href="#hex-part" fill="gold" transform="rotate(180)" />
-   <use href="#hex-part" fill="gold" transform="rotate(240)" />
-   <use href="#hex-part" fill="gold" transform="rotate(300)" />
+   <use href="#hex-part" fill="#ffd755" />
+   <use href="#hex-part" fill="#55ff55" transform="rotate(60)" />
+   <use href="#hex-part" fill="#ffd755" transform="rotate(120)" />
+   <use href="#hex-part" fill="#55ff55" transform="rotate(180)" />
+   <use href="#hex-part" fill="#ffd755" transform="rotate(240)" />
+   <use href="#hex-part" fill="#55ff55" transform="rotate(300)" />
 </g>
 
 <g stroke="none" fill="black" 
-   transform="translate(-57,-35)scale(0.7,0.7)">
+   transform="translate(-59,-35)scale(0.7,0.7)">
    <desc>Mars Symbol... bounding box -15,-15,30,30</desc>
    <path d="
      M-15,5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
@@ -64,15 +65,14 @@ viewBox="-70 -105 140 210" preserveAspectRatio="xMinYMin meet"
 </g>
 
 <g stroke="none" fill="black" 
-   transform="translate(60,32) scale(0.7,0.7)">
+   transform="translate(62,32) scale(0.7,0.7)">
    <desc>Venus Symbol</desc>
    <use href="#venus-shape" />
 </g>
 
 
 <g stroke="none" fill="black" 
-   transform="translate(-60,35) scale(0.7,0.7)">
-   <rect x="-15" y="-15" height="30" width="30" stroke-width="1" stroke="none" fill="none" />
+   transform="translate(-62,35) scale(0.7,0.7)">
    <desc>Mercury Symbol</desc>
    <use href="#venus-shape" />
    <path d="
@@ -83,7 +83,6 @@ viewBox="-70 -105 140 210" preserveAspectRatio="xMinYMin meet"
 
 <g stroke="none" fill="black" 
    transform="translate(0,75) scale(0.7,0.7)">
-   <rect x="-15" y="-15" height="30" width="30" stroke-width="1" stroke="none" fill="none" />
    <desc>the moon</desc>
    <path d="
       M-10.6066,-10.6066 a 15,15 0,1,1 0,21.2132 
@@ -96,23 +95,39 @@ viewBox="-70 -105 140 210" preserveAspectRatio="xMinYMin meet"
 </g>
 
 <g stroke="none" fill="black" 
-   transform="translate(60,-32) scale(0.7,0.7)">
-   <rect x="-15" y="-15" height="30" width="30" stroke-width="1" stroke="none" fill="none" />
+   transform="translate(62,-35) scale(0.7,0.7)">
    <desc>Jupiter</desc>
    <path 
       d="M 1.5,4.0 l1.5,2 v 2 h -9 l -2,2 h 11 
            v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
            h 5 l2,1.5 v -5 l-2,1.5 h -5 v -2 l1.5,-2 z" />
    <path fill="black" stroke="none"
-      d=" M -10,11 C 5,0 5,-13  -13,-13 
-          C 0,-13 0,-2  -10,11 z
+      d=" M -9.5,11.5 C 3,3 5,-13 -5,-14 
+          S -15,-8 -11,-4
+         C -15,-8 -10,-14 -5,-12
+         S 3,2 -11,10.5 z
       " />
+      <path fill="none" stroke="red" 
+         d="M -11,-4 
+         "/>
 </g>
 
 <g stroke="none" fill="black" 
-   transform="translate(60,32) scale(0.7,0.7)">
-   <rect x="-15" y="-15" height="30" width="30" stroke-width="1" stroke="none" fill="none" />
-
+   transform="translate(0,-74) scale(0.7,0.7)">
+   <desc>Saturn</desc>
+   <path fill="black" stroke="none"
+      d="M-1.25,-21 h -5 l 1.5,2 v 5 h -5 l -2,-1.5 v 5
+         l 2,-1.5 h 5 v 17 l2,-4 v-13
+         h 5 l 2,1.5 v -5 l -2,1.5 h -5 v -5 z
+      "/>
+   <path fill="black" stroke="none" stroke-width="0.5"
+      d="M -4.8,3.5
+         C 5,-25 20,5 7,7.5 
+         S 0,15 5,11
+         C -1,18 -7.5,9 4.5,6.5
+         S 5,-22 -4.5,5.5
+         z
+      "/>
 </g>
 <!-- vim: expandtab:sw=3
 -->
