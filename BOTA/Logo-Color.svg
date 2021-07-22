@@ -6,6 +6,15 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
 <title>BOTA Logo</title>
 <desc>As seen on many BOTA items.  Handcoded SVG by Richard Todd 2021</desc>
 
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+]]>
+</style>
+
 <defs>
    <clipPath id="radiantClip">
       <desc>The radiating lines are cut off on the left and right</desc>
@@ -70,10 +79,9 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
          stroke="black" fill="yellow" />
    </g>
 
-   <g stroke="black" fill="black"
+   <g class="midtext" stroke="black" fill="black"
       font-size="15" stroke-width="0.5" 
       font-family="Times New Roman, Times, serif"
-      text-anchor="middle" dominant-baseline="middle"
       >
       <desc>The writing around the disc</desc>
       <text x="-62.5" y="0">A</text>

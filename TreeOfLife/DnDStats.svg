@@ -11,7 +11,9 @@ place.  Hand-coded by Richard Todd 2021</desc>
 
 <style type="text/css">
 <![CDATA[
-    #my-rect { fill: blue; }
+    g.medtext textPath {
+        dominant-baseline: middle
+    }
 ]]>
 </style>
 
@@ -114,9 +116,9 @@ place.  Hand-coded by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g fill="black" stroke="black" stroke-width="1" font-weight="bold"
-   font-size="35" dominant-baseline="middle"
-   font-family="verdana, sans-serif"
+<g class="medtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="bold"
+   font-size="35" font-family="verdana, sans-serif"
 >
   <text dx="160"><textPath href="#path-24">CON</textPath></text>
   <text dx="160"><textPath href="#path-25">DEX</textPath></text>

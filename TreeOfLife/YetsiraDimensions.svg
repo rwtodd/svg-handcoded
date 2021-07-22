@@ -8,6 +8,18 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 according to my interpretation of the text, and translated onto
 a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
 
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath {
+      dominant-baseline: middle; 
+   } 
+]]>
+</style>
+
 <defs>
    <circle id="sephira" r="122.407">
       <desc>A sephira circle</desc>
@@ -107,9 +119,8 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g fill="black" stroke="black" stroke-width="1" font-weight="bold"
-   font-size="40" dominant-baseline="middle" text-anchor="middle"
-   font-family="verdana, sans-serif"
+<g class="midtext" fill="black" stroke="black" stroke-width="1" font-weight="bold"
+   font-size="40" font-family="verdana, sans-serif"
 >
   <desc>The sephira labels</desc>
   <text x="0" y="-825">1</text>
@@ -136,8 +147,9 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
   <text x="0" y="-375">Center</text>
 </g>
 
-<g fill="black" stroke="black" stroke-width="1" font-weight="bold"
-   font-size="43" dominant-baseline="middle" text-anchor="middle"
+<g class="midtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="bold"
+   font-size="43" 
    font-family="times new roman, times, serif"
 >
    <desc>I've noticed that the inner axes of the cube (mother letters)
