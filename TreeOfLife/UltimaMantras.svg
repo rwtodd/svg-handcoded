@@ -10,9 +10,14 @@ The principles have the white glow, while the virtues are represented
 in "flat" colors.  The three pillars are all balanced in terms of the
 "amount" of prinicples mixed in.  Hand-coded by Richard Todd 2021</desc>
 
+<!-- Safari doesn't seem to get the dominant-baseline from the
+     parent group... so use CSS to help out -->
 <style type="text/css">
 <![CDATA[
-    #my-rect { fill: blue; }
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
 ]]>
 </style>
 
@@ -134,9 +139,8 @@ in "flat" colors.  The three pillars are all balanced in terms of the
   <use href="#sephira" fill="black" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g fill="black" stroke="black" stroke-width="1"
-   font-size="40" dominant-baseline="middle" text-anchor="middle"
-   font-family="verdana, sans-serif" font-weight="bold"
+<g class="midtext" fill="black" stroke="black" stroke-width="1"
+   font-size="40" font-family="verdana, sans-serif" font-weight="bold"
 >
 <!--   <text x="0" y="-800">Love</text>
    <text x="346.41" y="-600">Courage</text>

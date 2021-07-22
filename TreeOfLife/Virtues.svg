@@ -9,7 +9,7 @@ tradition.  This version hand-coded by Richard Todd 2021</desc>
 
 <style type="text/css">
 <![CDATA[
-    #my-rect { fill: blue; }
+    g.midtext text { dominant-baseline: middle; text-anchor: middle; }
 ]]>
 </style>
 
@@ -112,9 +112,9 @@ tradition.  This version hand-coded by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g fill="black" stroke="black" stroke-width="1" font-weight="bold"
-   font-size="35" dominant-baseline="middle" text-anchor="middle"
-   font-family="verdana, sans-serif"
+<g class="midtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="bold"
+   font-size="35" font-family="verdana, sans-serif"
 >
    <text x="0" y="-800">Attainment</text>
    <text x="346.41" y="-600">Devotion</text>

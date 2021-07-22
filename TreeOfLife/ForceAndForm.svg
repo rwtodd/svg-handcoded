@@ -7,6 +7,15 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 <desc>Describes the Golden Dawn description of force/activating
 and form/formative parts of the Tree of Life.</desc>
 
+<style type="text/css">
+<![CDATA[
+   g.hangtext text {
+      dominant-baseline: hanging;
+      text-anchor: middle;
+   }
+]]>
+</style>
+
 <defs>
    <circle id="sephira" r="122.407">
       <desc>A sephira circle</desc>
@@ -111,9 +120,8 @@ and form/formative parts of the Tree of Life.</desc>
    <rect x="10" y="10" width="350" height="75" fill="#e54e54" />
    <rect x="10" y="85" width="350" height="75" fill="#4e9fe5" />
    <rect x="10" y="160" width="350" height="75" fill="#f5e04e" />
-   <g fill="black" stroke="black" stroke-width="1"
-      font-size="50" dominant-baseline="hanging" text-anchor="middle"
-      font-family="verdana, sans-serif">
+   <g class="hangtext" fill="black" stroke="black" stroke-width="1"
+      font-size="50" font-family="verdana, sans-serif">
      <text x="185" y="-60">Key</text>
      <text x="185" y="20">Activating</text>
      <text x="185" y="95">Formative</text>

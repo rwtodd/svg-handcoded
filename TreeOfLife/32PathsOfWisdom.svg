@@ -7,9 +7,18 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 <desc>These are the Golden-Dawn attributions of the 32 Paths
 of Wisdom. This drawing hand-coded by Richard Todd 2021</desc>
 
+<!-- Safari doesn't seem to get the dominant-baseline from the
+     parent group... so use CSS to help out -->
 <style type="text/css">
 <![CDATA[
-    #my-rect { fill: blue; }
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath { 
+      text-anchor: start; 
+      dominant-baseline: middle; 
+   }
 ]]>
 </style>
 
@@ -112,9 +121,9 @@ of Wisdom. This drawing hand-coded by Richard Todd 2021</desc>
    <use href="#path-32" stroke="white" stroke-width="50" />
 </g>
 
-<g fill="black" stroke="black" stroke-width="1" font-weight="bold"
-   font-size="35" dominant-baseline="middle"
-   font-family="verdana, sans-serif"
+<g class="midtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="bold"
+   font-size="35" font-family="verdana, sans-serif"
 >
   <text dx="90"><textPath href="#path-11">Scintillating</textPath></text>
   <text dx="80"><textPath href="#path-12">Transparency</textPath></text>
@@ -140,16 +149,16 @@ of Wisdom. This drawing hand-coded by Richard Todd 2021</desc>
   <text dx="80"><textPath href="#path-32">Administrative</textPath></text>
 
    <!-- The sephiroth also have attributions -->
-   <text x="0" y="-850" text-anchor="middle">Admirable</text>
-   <text x="346.41" y="-600" text-anchor="middle">Illuminating</text>
-   <text x="-346.41" y="-600" text-anchor="middle">Sanctifying</text>
-   <text x="346.41" y="-200" text-anchor="middle">Receiving</text>
-   <text x="-346.41" y="-200" text-anchor="middle">Radical</text>
-   <text x="0" y="0" text-anchor="middle">Mediating</text>
-   <text x="346.41" y="200" text-anchor="middle">Hidden</text>
-   <text x="-346.41" y="200" text-anchor="middle">Perfect</text>
-   <text x="0" y="400" text-anchor="middle">Purified</text>
-   <text x="0" y="800" text-anchor="middle">Resplendent</text>
+   <text x="0" y="-850">Admirable</text>
+   <text x="346.41" y="-600">Illuminating</text>
+   <text x="-346.41" y="-600">Sanctifying</text>
+   <text x="346.41" y="-200">Receiving</text>
+   <text x="-346.41" y="-200">Radical</text>
+   <text x="0" y="0">Mediating</text>
+   <text x="346.41" y="200">Hidden</text>
+   <text x="-346.41" y="200">Perfect</text>
+   <text x="0" y="400">Purified</text>
+   <text x="0" y="800" transform="scale(0.95,1)">Resplendent</text>
 </g>
 <!-- vim: expandtab:sw=3
 -->

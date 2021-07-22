@@ -10,9 +10,14 @@ The principles have the white glow, while the virtues are represented
 in "flat" colors.  The three pillars are all balanced in terms of the
 "amount" of prinicples mixed in.  Hand-coded by Richard Todd 2021</desc>
 
+<!-- Safari doesn't seem to get the dominant-baseline from the
+     parent group... so use CSS to help out -->
 <style type="text/css">
 <![CDATA[
-    #my-rect { fill: blue; }
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
 ]]>
 </style>
 
@@ -134,8 +139,8 @@ in "flat" colors.  The three pillars are all balanced in terms of the
   <use href="#sephira" fill="black" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g fill="black" stroke="black" stroke-width="1"
-   font-size="40" dominant-baseline="middle" text-anchor="middle"
+<g class="midtext" fill="black" stroke="black" stroke-width="1"
+   font-size="40" 
    font-family="verdana, sans-serif" font-weight="bold"
 >
    <text x="0" y="-825">Hatred</text>
@@ -168,10 +173,6 @@ in "flat" colors.  The three pillars are all balanced in terms of the
 </g>
 
 <defs>
-   <text id="prideText"
-      fill="black" stroke="black" stroke-width="2"
-      font-size="55" dominant-baseline="middle" text-anchor="middle"
-      font-family="verdana, sans-serif"></text>
    <path id="leftEggShape"
       d="M0 -140 A122 122, 0 0 0, 0 140 
       L -30 100, 10 80, -20 30, 20 -20, 
@@ -185,7 +186,6 @@ in "flat" colors.  The three pillars are all balanced in terms of the
    <g id="leftEgg">
       <use href="#leftEggShape" fill="gray" stroke="black"
          stroke-width="5" />
-      <use href="#prideText" clip-path="url(#leftEggClip)" />
    </g>
    <path id="rightEggShape"
       d="M0 -140 A122 122, 0 0 1, 0 140 
@@ -200,7 +200,6 @@ in "flat" colors.  The three pillars are all balanced in terms of the
    <g id="rightEgg">
       <use href="#rightEggShape" fill="gray" stroke="black"
          stroke-width="5" />
-      <use href="#prideText" clip-path="url(#rightEggClip)" />
    </g>
 </defs>
 
