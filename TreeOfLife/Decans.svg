@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="360" height="600"
+viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>Decan Rulers</title>
+<desc>This is a Tree of Life annotated with Decan
+rulers on it, using Golden Dawn attributions to tarot
+cards (and thus, the Sephiroth numbers).
+This version hand-coded by Richard Todd 2021</desc>
+
+<style type="text/css">
+<![CDATA[
+    g.midtext text {
+       dominant-baseline: middle;
+       text-anchor: middle;
+    }
+]]>
+</style>
+
+<defs>
+   <path id="quarter" stroke="black" stroke-width="3"
+      d="M 0,0 h 122.407 A 122.407,122.407 0,0,0 0,-122.407 z">
+      <desc>A quarter of a sephira</desc>
+   </path>
+
+   <g id="sephira">
+      <desc>A sephira circle</desc>
+      <use href="#quarter" fill="red" />
+      <use href="#quarter" fill="blue" transform="rotate(-90)" />
+      <use href="#quarter" fill="yellow" transform="rotate(-180)" />
+      <use href="#quarter" fill="green" transform="rotate(-270)" />
+   </g>
+
+   <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-13" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-15" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-16" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-17" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-18" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-19" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-21" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-22" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-23" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-24" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-25" fill="none" d="M0,0 L0,400" />
+   <path id="path-26" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-27" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-28" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-29" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-30" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-31" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-32" fill="none" d="M0,400 L0,800" />
+
+   <!-- our planetary symbols -->
+   <g id="venus-shape">
+      <desc>reusable venus shape..needed for mercury</desc>
+      <path d="
+        M-10,-5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+        m 2.1,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+      " />
+      <path 
+      d="M -1,4.9 v 3.1 h -4 l -2,-1.5 v 5 l 2,-1.5 h 4 
+           v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+           h 4 l2,1.5 v -5 l-2,1.5 h -4 v -3.1 z" />
+   </g>
+
+   <g id="mars-shape">
+      <desc>Mars Symbol... bounding box -15,-15,30,30</desc>
+      <path d="
+        M-15,5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+        m 2.5,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+      " />
+      <path d="
+        M1.4,-2.1 l 10,-10 h -7 l -2,-2 h 12 v 12 l -2,-2 v -6 l -10,10 z 
+      " />
+   </g>
+
+   <g id="sun-shape">
+      <desc>Sun Symbol</desc>
+      <path d="
+        M-15,0 a 15,15 0,1,0 30,0 a 15,15 0,1,0 -30,0
+        m 2,0 a 13,14 0,1,1 26,0 a 13,14 0,1,1 -26,0
+      " />
+      <circle r="2" />
+   </g>
+
+   <g id="mercury-shape">
+      <desc>Mercury Symbol</desc>
+      <use href="#venus-shape" />
+      <path d="
+        M-10,-21 a 10,7 0,1,0 20,0 l -2.2,1
+          a 7.8,5 0,0,1 -15.6,0 z
+        " />
+   </g>
+
+   <g id="moon-shape">
+      <desc>the moon</desc>
+      <path d="
+         M-10.6066,-10.6066 a 15,15 0,1,1 0,21.2132 
+         a 14,14 0,1,0 0,-21.2132 z
+      " />
+      <path d="
+         M-10.6066,-10.6066 a 11,15 0,1,1 0,21.2132 
+         a 10.5,14 0,1,0 0,-21.2132 z
+      " />
+   </g>
+
+   <g id="jupiter-shape">
+      <desc>Jupiter</desc>
+      <path 
+         d="M 1.5,4.0 l1.5,2 v 2 h -9 l -2,2 h 11 
+              v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+              h 5 l2,1.5 v -5 l-2,1.5 h -5 v -2 l1.5,-2 z" />
+      <path fill="black" stroke="none"
+         d=" M -9.5,11.5 C 3,3 5,-13 -5,-14 
+             S -15,-8 -11,-4
+            C -15,-8 -10,-14 -5,-12
+            S 3,2 -11,10.5 z
+         " />
+         <path fill="none" stroke="red" 
+            d="M -11,-4 
+            "/>
+   </g>
+
+   <g id="saturn-shape"> 
+      <desc>Saturn</desc>
+      <path fill="black" stroke="none"
+         d="M-1.25,-21 h -5 l 1.5,2 v 5 h -5 l -2,-1.5 v 5
+            l 2,-1.5 h 5 v 17 l2,-4 v-13
+            h 5 l 2,1.5 v -5 l -2,1.5 h -5 v -5 z
+         "/>
+      <path fill="black" stroke="none" stroke-width="0.5"
+         d="M -4.8,3.5
+            C 5,-25 20,5 7,7.5 
+            S 0,15 5,11
+            C -1,18 -7.5,9 4.5,6.5
+            S 5,-22 -4.5,5.5
+            z
+         "/>
+   </g>
+</defs>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use href="#path-11" stroke="black" stroke-width="60" />
+   <use href="#path-11" stroke="white" stroke-width="50" />
+   <use href="#path-12" stroke="black" stroke-width="60" />
+   <use href="#path-12" stroke="white" stroke-width="50" />
+   <use href="#path-13" stroke="black" stroke-width="60" />
+   <use href="#path-13" stroke="white" stroke-width="50" />
+   <use href="#path-14" stroke="black" stroke-width="60" />
+   <use href="#path-14" stroke="white" stroke-width="50" />
+   <use href="#path-15" stroke="black" stroke-width="60" />
+   <use href="#path-15" stroke="white" stroke-width="50" />
+   <use href="#path-16" stroke="black" stroke-width="60" />
+   <use href="#path-16" stroke="white" stroke-width="50" />
+   <use href="#path-17" stroke="black" stroke-width="60" />
+   <use href="#path-17" stroke="white" stroke-width="50" />
+   <use href="#path-18" stroke="black" stroke-width="60" />
+   <use href="#path-18" stroke="white" stroke-width="50" />
+   <use href="#path-19" stroke="black" stroke-width="60" />
+   <use href="#path-19" stroke="white" stroke-width="50" />
+   <use href="#path-20" stroke="black" stroke-width="60" />
+   <use href="#path-20" stroke="white" stroke-width="50" />
+   <use href="#path-21" stroke="black" stroke-width="60" />
+   <use href="#path-21" stroke="white" stroke-width="50" />
+   <use href="#path-22" stroke="black" stroke-width="60" />
+   <use href="#path-22" stroke="white" stroke-width="50" />
+   <use href="#path-23" stroke="black" stroke-width="60" />
+   <use href="#path-23" stroke="white" stroke-width="50" />
+   <use href="#path-24" stroke="black" stroke-width="60" />
+   <use href="#path-24" stroke="white" stroke-width="50" />
+   <use href="#path-25" stroke="black" stroke-width="60" />
+   <use href="#path-25" stroke="white" stroke-width="50" />
+   <use href="#path-26" stroke="black" stroke-width="60" />
+   <use href="#path-26" stroke="white" stroke-width="50" />
+   <use href="#path-27" stroke="black" stroke-width="60" />
+   <use href="#path-27" stroke="white" stroke-width="50" />
+   <use href="#path-28" stroke="black" stroke-width="60" />
+   <use href="#path-28" stroke="white" stroke-width="50" />
+   <use href="#path-29" stroke="black" stroke-width="60" />
+   <use href="#path-29" stroke="white" stroke-width="50" />
+   <use href="#path-30" stroke="black" stroke-width="60" />
+   <use href="#path-30" stroke="white" stroke-width="50" />
+   <use href="#path-31" stroke="black" stroke-width="60" />
+   <use href="#path-31" stroke="white" stroke-width="50" />
+   <use href="#path-32" stroke="black" stroke-width="60" />
+   <use href="#path-32" stroke="white" stroke-width="50" />
+</g>
+
+<g>
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+  <use href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<g transform="translate(346.41,-600)" stroke="none" 
+   fill="black">
+   <desc>the twos</desc>
+   <use href="#mars-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#venus-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#moon-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#jupiter-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(-346.41,-600)" stroke="none" 
+   fill="black">
+   <desc>the threes</desc>
+   <use href="#sun-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#mercury-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#saturn-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#mars-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(346.41,-200)" stroke="none" 
+   fill="black">
+   <desc>the fours</desc>
+   <use href="#venus-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#moon-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#jupiter-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#sun-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(-346.41,-200)" stroke="none" 
+   fill="black">
+   <desc>the fives</desc>
+   <use href="#saturn-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#mars-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#venus-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#mercury-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(0,0)" stroke="none" 
+   fill="black">
+   <desc>the sixes</desc>
+   <use href="#jupiter-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#sun-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#mercury-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#moon-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(346.41,200)" stroke="none" 
+   fill="black">
+   <desc>the sevens</desc>
+   <use href="#mars-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#venus-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#moon-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#saturn-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(-346.41,200)" stroke="none" 
+   fill="black">
+   <desc>the eights</desc>
+   <use href="#mercury-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#saturn-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#jupiter-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#sun-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(0,400)" stroke="none" 
+   fill="black">
+   <desc>the nines</desc>
+   <use href="#moon-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#jupiter-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#mars-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#venus-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+<g transform="translate(0,800)" stroke="none" 
+   fill="black">
+   <desc>the tens</desc>
+   <use href="#saturn-shape" 
+      transform="translate(48,-48) scale(2,2)" />
+   <use href="#mars-shape" 
+      transform="translate(-48,-48) scale(2,2)" />
+   <use href="#sun-shape" 
+      transform="translate(-48,50) scale(2,2)" />
+   <use href="#mercury-shape" 
+      transform="translate(48,48) scale(2,2)" />
+</g>
+
+
+
+
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
