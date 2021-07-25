@@ -37,68 +37,27 @@ by Richard Todd 2021</desc>
       <path d="M-5,-8 a 5,9 0,0,0 10,0 z" />
    </g>
 
-   <g id="wandy-icon">
-      <desc>wand icon for the tarot suit 10x20, centered at 0</desc>
-      <path d="
-         M-1.5,-4 v10.5 a 2.5,2 0,1,0 3,0 v-10.5 z 
-      " />
-      <path d="M-1.5,6.5 a 3,3 0,0,0 3,0  
-               M-1.5,4.5 a 3,3 0,0,0 3,0  
-               M-1.5,2.5 a 3,3 0,0,0 3,0  
-               M-1.5,0.5 a 3,3 0,0,0 3,0  
-      " />
-      <circle cx="0" cy="-7" r="2.5" />
-   </g>
-
-   <g id="wand2-icon">
-      <desc>wand icon for the tarot suit 10x20, centered at 0</desc>
-<!--
-   <rect x="-5" y="-10" width="10" height="20" fill="none" /> 
--->
-      <path d="M-1,-2.2 
-          a 2.5,2 0,1,1 2,0 v 8 
-          a 2.5,2 0,1,1 -2,0 
-          z" />
-      <path d="M-5,-6 a 4,3 0,0,1 10,0" fill="none"/>
-      <path d="M-4.5,-3.5 a 3,3 0,0,1 9,0" fill="none"/>
-   </g>
-
-   <g id="wand3-icon">
-      <desc>wand icon for the tarot suit 10x20, centered at 0</desc>
-<!--
-   <rect x="-5" y="-10" width="10" height="20" fill="none" /> 
--->
-      <path d="M-1,-6 
-          a 2,2 0,1,1 2,0 v 12 
-          a 2,2 0,1,1 -2,0 
-          z" />
-   </g>
-
    <g id="wand-icon">
       <desc>wand icon for the tarot suit 10x20, centered at 0</desc>
-<!--
--->
-   <rect x="-5" y="-10" width="10" height="20" stroke="green" fill="none" /> 
-   <path d="
-
-   "/>
+       <g transform="translate(2,-7) rotate(20)">
+        <rect x="-1.5" y="6" width="3" height="2" />
+        <rect x="-1.5" y="8" width="3" height="2" />
+        <rect x="-1.5" y="10" width="3" height="2" />
+        <rect x="-1.5" y="12" width="3" height="2" />
+        <rect x="-1.5" y="14" width="3" height="2" />
+        <rect x="-1.5" y="16" width="3" height="2" />
+        <polygon points="0,0 -2.5,4.5 -1.5,6 1.5,6 2.5,4.5" />
+        <circle cx="0" cy="0" r="3" />
+     </g>
    </g>
 
    <g id="pentacle-icon">
       <desc>pentacle icon for the tarot suit 15x15, centered at 0</desc>
-      <circle cx="0" cy="0" r="7.5" />
+      <circle cx="0" cy="0" r="7.5" stroke="black" />
       <path d="M0,-6.5 L 3.820604139901076 5.258610463437158 -6.181867355918498 -2.0086104634371584
         6.181867355918498 -2.0086104634371584 -3.820604139901076 5.258610463437158 z " />
    </g>
    
-   <g id="pentacle-black-icon">
-      <desc>pentacle icon for the tarot suit 15x15, centered at 0</desc>
-      <circle cx="0" cy="0" r="7.5" stroke="black" fill="black" />
-      <path stroke="white" d="M0,-6.5 L 3.820604139901076 5.258610463437158 -6.181867355918498 -2.0086104634371584
-        6.181867355918498 -2.0086104634371584 -3.820604139901076 5.258610463437158 z " />
-   </g>
-
-
    <circle id="sephira" r="122.407">
       <desc>A sephira circle</desc>
    </circle>
@@ -197,16 +156,25 @@ by Richard Todd 2021</desc>
 </g>
 
 <g stroke-width="1"> 
-   <use href="#pentacle-black-icon" transform="translate(0,-800) scale(5,5)" />
-   <use href="#sword-icon" fill="black" stroke="black" transform="translate(-346.41,-600) scale(5,5)" />
-   <use href="#cup-icon" fill="black" stroke="black" transform="translate(346.41,-600) scale(5,5)" />
-   <use href="#cup-icon" fill="#33aaff" stroke="black" transform="translate(346.41,-200) scale(5,5)" />
-   <use href="#sword-icon" fill="yellow" stroke="black" transform="translate(-346.41,-200) scale(5,5)" />
-   <use href="#cup-icon" fill="#33aaff" stroke="black" transform="translate(346.41,-200) scale(5,5)" />
-   <use href="#pentacle-icon" fill="#33ffaa" stroke="black" transform="translate(-346.41,200) scale(5,5)" />
-   <use href="#wand-icon" fill="#ff33aa" stroke="black" transform="translate(346.41,200) scale(5,5)" />
-   <use href="#wand-icon" fill="black" stroke="black" transform="translate(0,400) scale(5,5)" />
-   <use href="#wand-icon" fill="#ff33aa" stroke="black" transform="translate(0,800) scale(10,10)" />
+   <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(0,-800) scale(5,5)" />
+   <!-- chockmah -->
+   <use href="#sword-icon" fill="#f5e04e" stroke="black" transform="translate(346.41,-600) scale(5,5)" />
+   <!-- binah -->
+   <use href="#sword-icon" fill="#f5e04e" stroke="black" transform="translate(-346.41,-600) scale(5,5)" />
+   <!-- chesed -->
+   <use href="#sword-icon" fill="#f5e04e" stroke="black" transform="translate(346.41,-200) scale(5,5)" />
+   <!-- geburah -->
+   <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(-346.41,-200) scale(5,5)" />
+   <!-- tipharet -->
+   <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(0,0) scale(5,5)" />
+   <!-- netzach -->
+   <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(346.41,200) scale(5,5)" />
+   <!-- hod -->
+   <use href="#wand-icon" fill="#e54e54" stroke="black" transform="translate(-346.41,200) scale(5,5)" />
+   <!-- yesod -->
+   <use href="#wand-icon" fill="#e54e54" stroke="black" transform="translate(0,400) scale(5,5)" />
+   <!-- malkuth -->
+   <use href="#wand-icon" fill="#e54e54" stroke="black" transform="translate(0,800) scale(5,5)" />
 </g>
 
 <!-- vim: expandtab:sw=3
