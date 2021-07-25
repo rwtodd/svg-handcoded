@@ -12,11 +12,115 @@ by Richard Todd 2021</desc>
 
 <style type="text/css">
 <![CDATA[
-    #my-rect { fill: blue; }
+    g.midtext text {
+       font-family: verdana, arial, sans-serif;
+       font-size: 80px;
+       stroke: black;
+       stroke-width: 1;
+       fill: black;
+       dominant-baseline: middle;
+       text-anchor: middle;
+    }
+   g.midtext textPath {
+      dominant-baseline: middle; 
+      font-family: Times New Roman, Times, serif;
+      font-size: 75px;
+      stroke: black;
+      stroke-width: 1;
+      fill: black;
+   } 
 ]]>
 </style>
 
 <defs>
+   <!-- our planetary symbols -->
+   <g id="venus-shape">
+      <desc>reusable venus shape..needed for mercury</desc>
+      <path d="
+        M-10,-5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+        m 2.1,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+      " />
+      <path 
+      d="M -1,4.9 v 3.1 h -4 l -2,-1.5 v 5 l 2,-1.5 h 4 
+           v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+           h 4 l2,1.5 v -5 l-2,1.5 h -4 v -3.1 z" />
+   </g>
+
+   <g id="mars-shape">
+      <desc>Mars Symbol... bounding box -15,-15,30,30</desc>
+      <path d="
+        M-15,5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+        m 2.5,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+      " />
+      <path d="
+        M1.4,-2.1 l 10,-10 h -7 l -2,-2 h 12 v 12 l -2,-2 v -6 l -10,10 z 
+      " />
+   </g>
+
+   <g id="sun-shape">
+      <desc>Sun Symbol</desc>
+      <path d="
+        M-15,0 a 15,15 0,1,0 30,0 a 15,15 0,1,0 -30,0
+        m 2,0 a 13,14 0,1,1 26,0 a 13,14 0,1,1 -26,0
+      " />
+      <circle r="2" />
+   </g>
+
+   <g id="mercury-shape">
+      <desc>Mercury Symbol</desc>
+      <use href="#venus-shape" />
+      <path d="
+        M-10,-21 a 10,7 0,1,0 20,0 l -2.2,1
+          a 7.8,5 0,0,1 -15.6,0 z
+        " />
+   </g>
+
+   <g id="moon-shape">
+      <desc>the moon</desc>
+      <path d="
+         M-10.6066,-10.6066 a 15,15 0,1,1 0,21.2132 
+         a 14,14 0,1,0 0,-21.2132 z
+      " />
+      <path d="
+         M-10.6066,-10.6066 a 11,15 0,1,1 0,21.2132 
+         a 10.5,14 0,1,0 0,-21.2132 z
+      " />
+   </g>
+
+   <g id="jupiter-shape">
+      <desc>Jupiter</desc>
+      <path 
+         d="M 1.5,4.0 l1.5,2 v 2 h -9 l -2,2 h 11 
+              v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+              h 5 l2,1.5 v -5 l-2,1.5 h -5 v -2 l1.5,-2 z" />
+      <path fill="black" stroke="none"
+         d=" M -9.5,11.5 C 3,3 5,-13 -5,-14 
+             S -15,-8 -11,-4
+            C -15,-8 -10,-14 -5,-12
+            S 3,2 -11,10.5 z
+         " />
+         <path fill="none" stroke="red" 
+            d="M -11,-4 
+            "/>
+   </g>
+
+   <g id="saturn-shape"> 
+      <desc>Saturn</desc>
+      <path fill="black" stroke="none"
+         d="M-1.25,-21 h -5 l 1.5,2 v 5 h -5 l -2,-1.5 v 5
+            l 2,-1.5 h 5 v 17 l2,-4 v-13
+            h 5 l 2,1.5 v -5 l -2,1.5 h -5 v -5 z
+         "/>
+      <path fill="black" stroke="none" stroke-width="0.5"
+         d="M -4.8,3.5
+            C 5,-25 20,5 7,7.5 
+            S 0,15 5,11
+            C -1,18 -7.5,9 4.5,6.5
+            S 5,-22 -4.5,5.5
+            z
+         "/>
+   </g>
+
    <g id="sword-icon">
       <desc>sword icon for the tarot suit 10x20, centered at 0</desc>
       <path d="M0,-10 l3,2 -1,12 h-4 l-1,-12 z" />
@@ -93,7 +197,7 @@ by Richard Todd 2021</desc>
     the circles, then the white paths)
    </desc>
    <use href="#path-11" stroke="black" stroke-width="60" />
-   <use href="#path-11" stroke="white" stroke-width="50" />
+   <use href="#path-11" stroke="#f5e04e" stroke-width="50" />
    <use href="#path-12" stroke="black" stroke-width="60" />
    <use href="#path-12" stroke="white" stroke-width="50" />
    <use href="#path-13" stroke="black" stroke-width="60" />
@@ -117,7 +221,7 @@ by Richard Todd 2021</desc>
    <use href="#path-22" stroke="black" stroke-width="60" />
    <use href="#path-22" stroke="white" stroke-width="50" />
    <use href="#path-23" stroke="black" stroke-width="60" />
-   <use href="#path-23" stroke="white" stroke-width="50" />
+   <use href="#path-23" stroke="#4ef5e0" stroke-width="50" />
    <use href="#path-24" stroke="black" stroke-width="60" />
    <use href="#path-24" stroke="white" stroke-width="50" />
    <use href="#path-25" stroke="black" stroke-width="60" />
@@ -133,7 +237,7 @@ by Richard Todd 2021</desc>
    <use href="#path-30" stroke="black" stroke-width="60" />
    <use href="#path-30" stroke="white" stroke-width="50" />
    <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="white" stroke-width="50" />
+   <use href="#path-31" stroke="#e45e45" stroke-width="50" />
    <use href="#path-32" stroke="black" stroke-width="60" />
    <use href="#path-32" stroke="white" stroke-width="50" />
 </g>
@@ -155,26 +259,75 @@ by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g stroke-width="1"> 
+<g class="midtext" stroke-width="1"> 
+   <!-- kether -->
    <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(0,-800) scale(5,5)" />
+   <text x="-60" y="-800">A</text>
    <!-- chockmah -->
    <use href="#sword-icon" fill="#f5e04e" stroke="black" transform="translate(346.41,-600) scale(5,5)" />
+   <text x="286" y="-600">2</text>
+   <use href="#moon-shape" 
+      stroke="none"
+      transform="translate(405,-600) scale(2.5)" />
    <!-- binah -->
    <use href="#sword-icon" fill="#f5e04e" stroke="black" transform="translate(-346.41,-600) scale(5,5)" />
+   <text x="-405" y="-600">3</text>
+   <use href="#saturn-shape" 
+      stroke="none"
+      transform="translate(-286,-600) scale(2.5)" />
    <!-- chesed -->
    <use href="#sword-icon" fill="#f5e04e" stroke="black" transform="translate(346.41,-200) scale(5,5)" />
+   <text x="286" y="-200">4</text>
+   <use href="#jupiter-shape" 
+      stroke="none"
+      transform="translate(405,-200) scale(2.5)" />
    <!-- geburah -->
    <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(-346.41,-200) scale(5,5)" />
+   <text x="-405" y="-200">5</text>
+   <use href="#mars-shape" 
+      stroke="none"
+      transform="translate(-286,-200) scale(2.5)" />
    <!-- tipharet -->
    <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(0,0) scale(5,5)" />
+   <text x="-60" y="0">6</text>
+   <use href="#sun-shape" 
+      stroke="none"
+      transform="translate(65,0) scale(2.5)" />
    <!-- netzach -->
    <use href="#cup-icon" fill="#4ef5e0" stroke="black" transform="translate(346.41,200) scale(5,5)" />
+   <text x="286" y="200">7</text>
+   <use href="#venus-shape" 
+      stroke="none"
+      transform="translate(405,200) scale(2.5)" />
    <!-- hod -->
    <use href="#wand-icon" fill="#e54e54" stroke="black" transform="translate(-346.41,200) scale(5,5)" />
+   <text x="-405" y="200">8</text>
+   <use href="#mercury-shape" 
+      stroke="none"
+      transform="translate(-286,200) scale(2.5)" />
    <!-- yesod -->
    <use href="#wand-icon" fill="#e54e54" stroke="black" transform="translate(0,400) scale(5,5)" />
+   <text x="-60" y="400">9</text>
+   <use href="#moon-shape" 
+      stroke="none"
+      transform="translate(60,400) scale(2.5)" />
    <!-- malkuth -->
    <use href="#wand-icon" fill="#e54e54" stroke="black" transform="translate(0,800) scale(5,5)" />
+   <text x="-65" y="800">10</text>
+   <use href="#saturn-shape" 
+      stroke="none"
+      transform="translate(60,800) scale(2.5)" />
+</g>
+
+<g class="midtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="bold"
+   font-size="43" 
+>
+   <desc>I've noticed that the mother letters line up nicely with
+   the elements in the Fall tree.  I note that here.</desc>
+   <text dx="190"><textPath href="#path-11">א</textPath></text>
+   <text dx="190"><textPath href="#path-23">מ</textPath></text>
+   <text dx="320"><textPath href="#path-31">ש</textPath></text>
 </g>
 
 <!-- vim: expandtab:sw=3
