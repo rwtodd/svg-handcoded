@@ -3,11 +3,9 @@
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
-<title>Decan Tree -- Fall</title>
+<title>Decan Tree -- Spring</title>
 <desc>This is a tree of life, with the decans for the
-fall months overlaid.  It should be noted that this is
-the "natural" tree, where the decan rulers correspond
-to the sephirot rulers.  This version hand-coded
+spring months overlaid.  This version hand-coded
 by Richard Todd 2021</desc>
 
 <style type="text/css">
@@ -36,7 +34,7 @@ by Richard Todd 2021</desc>
    g.fire-sign { fill: #ff5555; }
    g.water-sign { fill: #55ffff; }
    g.air-sign { fill: #ffd755; }
-   g.earth-sign { fill: #0000ff; }
+   g.earth-sign { fill: #55ff55; }
 ]]>
 </style>
 
@@ -205,7 +203,7 @@ by Richard Todd 2021</desc>
     the circles, then the white paths)
    </desc>
    <use href="#path-11" stroke="black" stroke-width="60" />
-   <use href="#path-11" stroke="#ffd755" stroke-width="50" />
+   <use href="#path-11" stroke="white" stroke-width="50" />
    <use href="#path-12" stroke="black" stroke-width="60" />
    <use href="#path-12" stroke="white" stroke-width="50" />
    <use href="#path-13" stroke="black" stroke-width="60" />
@@ -229,7 +227,7 @@ by Richard Todd 2021</desc>
    <use href="#path-22" stroke="black" stroke-width="60" />
    <use href="#path-22" stroke="white" stroke-width="50" />
    <use href="#path-23" stroke="black" stroke-width="60" />
-   <use href="#path-23" stroke="#55ffff" stroke-width="50" />
+   <use href="#path-23" stroke="white" stroke-width="50" />
    <use href="#path-24" stroke="black" stroke-width="60" />
    <use href="#path-24" stroke="white" stroke-width="50" />
    <use href="#path-25" stroke="black" stroke-width="60" />
@@ -245,7 +243,7 @@ by Richard Todd 2021</desc>
    <use href="#path-30" stroke="black" stroke-width="60" />
    <use href="#path-30" stroke="white" stroke-width="50" />
    <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="#ff5555" stroke-width="50" />
+   <use href="#path-31" stroke="white" stroke-width="50" />
    <use href="#path-32" stroke="black" stroke-width="60" />
    <use href="#path-32" stroke="white" stroke-width="50" />
 </g>
@@ -267,75 +265,69 @@ by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
+<!-- red #e45e45
+      blue #4ef5e0  
+     yellow #f5e04e
+    green #e04ef5
+-->
 <g class="midtext" stroke-width="1"> 
    <!-- kether -->
-   <use href="#cup-icon" transform="translate(0,-800) scale(5,5)" />
+   <use href="#pentacle-icon" transform="translate(0,-800) scale(5,5)" />
    <text x="-60" y="-800">A</text>
    <!-- chockmah -->
-   <use href="#sword-icon" transform="translate(346.41,-600) scale(5,5)" />
+   <use href="#wand-icon" transform="translate(346.41,-600) scale(5,5)" />
    <text x="286" y="-600">2</text>
-   <use href="#moon-shape" 
+   <use href="#mars-shape" 
       stroke="none"
       transform="translate(405,-600) scale(2.5)" />
    <!-- binah -->
-   <use href="#sword-icon" transform="translate(-346.41,-600) scale(5,5)" />
+   <use href="#wand-icon" transform="translate(-346.41,-600) scale(5,5)" />
    <text x="-405" y="-600">3</text>
-   <use href="#saturn-shape" 
+   <use href="#sun-shape" 
       stroke="none"
       transform="translate(-286,-600) scale(2.5)" />
    <!-- chesed -->
-   <use href="#sword-icon" transform="translate(346.41,-200) scale(5,5)" />
+   <use href="#wand-icon" transform="translate(346.41,-200) scale(5,5)" />
    <text x="286" y="-200">4</text>
-   <use href="#jupiter-shape" 
+   <use href="#venus-shape" 
       stroke="none"
       transform="translate(405,-200) scale(2.5)" />
    <!-- geburah -->
-   <use href="#cup-icon" transform="translate(-346.41,-200) scale(5,5)" />
+   <use href="#pentacle-icon" transform="translate(-346.41,-200) scale(5,5)" />
    <text x="-405" y="-200">5</text>
-   <use href="#mars-shape" 
+   <use href="#mercury-shape" 
       stroke="none"
       transform="translate(-286,-200) scale(2.5)" />
    <!-- tipharet -->
-   <use href="#cup-icon" transform="translate(0,0) scale(5,5)" />
+   <use href="#pentacle-icon" transform="translate(0,0) scale(5,5)" />
    <text x="-60" y="0">6</text>
-   <use href="#sun-shape" 
+   <use href="#moon-shape" 
       stroke="none"
       transform="translate(65,0) scale(2.5)" />
    <!-- netzach -->
-   <use href="#cup-icon" transform="translate(346.41,200) scale(5,5)" />
+   <use href="#pentacle-icon" transform="translate(346.41,200) scale(5,5)" />
    <text x="286" y="200">7</text>
-   <use href="#venus-shape" 
+   <use href="#saturn-shape" 
       stroke="none"
       transform="translate(405,200) scale(2.5)" />
    <!-- hod -->
-   <use href="#wand-icon" transform="translate(-346.41,200) scale(5,5)" />
+   <use href="#sword-icon" transform="translate(-346.41,200) scale(5,5)" />
    <text x="-405" y="200">8</text>
-   <use href="#mercury-shape" 
+   <use href="#jupiter-shape" 
       stroke="none"
       transform="translate(-286,200) scale(2.5)" />
    <!-- yesod -->
-   <use href="#wand-icon" transform="translate(0,400) scale(5,5)" />
+   <use href="#sword-icon" transform="translate(0,400) scale(5,5)" />
    <text x="-60" y="400">9</text>
-   <use href="#moon-shape" 
+   <use href="#mars-shape" 
       stroke="none"
       transform="translate(60,400) scale(2.5)" />
    <!-- malkuth -->
-   <use href="#wand-icon" transform="translate(0,800) scale(5,5)" />
+   <use href="#sword-icon" transform="translate(0,800) scale(5,5)" />
    <text x="-65" y="800">10</text>
-   <use href="#saturn-shape" 
+   <use href="#sun-shape" 
       stroke="none"
       transform="translate(60,800) scale(2.5)" />
-</g>
-
-<g class="midtext" fill="black" stroke="black" 
-   stroke-width="1" font-weight="bold"
-   font-size="43" 
->
-   <desc>I've noticed that the mother letters line up nicely with
-   the elements in the Fall tree.  I note that here.</desc>
-   <text dx="190"><textPath href="#path-11">א</textPath></text>
-   <text dx="190"><textPath href="#path-23">מ</textPath></text>
-   <text dx="320"><textPath href="#path-31">ש</textPath></text>
 </g>
 
 <!-- vim: expandtab:sw=3
