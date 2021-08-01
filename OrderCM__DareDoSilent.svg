@@ -15,9 +15,6 @@ in 2021.</desc>
 </style>
 
 <defs>
-   <!--  outer points: 0..4 | %{ (60 * [Math]::Cos($_*72*[Math]::PI/180)),(60* [Math]::Sin($_*72*[Math]::PI/180)) } 
- inner points:  0..4| %{(22.95 * [Math]::Cos(($_*72+36)*[Math]::PI/180)),(22.95* [Math]::Sin(($_*72+36)*[Math]::PI/180)) } 
-   -->
   <polygon id="bigstar" points="
          60,0 
          18.566940020905,13.4896715401123
@@ -43,15 +40,6 @@ in 2021.</desc>
       <use href="#upline" transform="rotate(2.5)" />
       <use href="#upline" transform="rotate(5)" />
       <use href="#upline" transform="rotate(7.5)" /> 
-<!--      <use href="#upline" transform="rotate(-7.6)" />
-      <use href="#upline" transform="rotate(-5.7)" />
-      <use href="#upline" transform="rotate(-3.8)" />
-      <use href="#upline" transform="rotate(-1.9)" />
-      <use href="#upline" transform="rotate(0)" />
-      <use href="#upline" transform="rotate(1.9)" /> 
-      <use href="#upline" transform="rotate(3.8)" /> 
-      <use href="#upline" transform="rotate(5.7)" /> 
-      <use href="#upline" transform="rotate(7.6)" />  -->
    </g>
 
    <mask id="innerTriMask">
@@ -67,21 +55,8 @@ in 2021.</desc>
    <desc>The main structure</desc>
    <circle r="490" stroke-width="14" />
 
-   <!-- equilateral triangle: 120 degrees of the circle each... 
-         In Powershell... 30 degrees below the equator...
-         474 * [Math]::Cos(30*[Math]::PI/180)
-         == 410.496041393824
-         474 * [Math]::Sin(30*[Math]::PI/180)
-         == 237
-   -->
    <polygon stroke-width="20"
       points="0,-474 410.496,237 -410.496,237" />
-   <!--
-         238 * [Math]::Cos(30*[Math]::PI/180)
-         == 206.114046100696
-         238 * [Math]::Sin(30*[Math]::PI/180)
-         == 119
-   -->
    <polygon id="innerTri" stroke-width="7"
       points="0,-238 206.114,119 -206.114,119" />
 </g>
@@ -117,9 +92,55 @@ in 2021.</desc>
    <use href="#lineBundle" transform="rotate(150)" />
 </g>
 
-<!-- placeholder -->
-<ellipse fill="white" stroke="black" stroke-width="4"
-   rx="130" ry="80" />
+
+<g mask="url(#innerTriMask)"> 
+  <path fill="white" stroke="none" 
+      d="
+         M-130,0 a 130,85 0,0,1 260,0 z
+         M -140,0 v10 C -35,83 35,83 125,20 v-20 z
+      " >
+      <desc>color the eye white</desc>
+  </path>
+  <g>
+     <desc> the overall eye shape </desc>
+     <path stroke="black" stroke-width="5" fill="black"
+        d="M -124,-10 v-16 C -20,-90 20,-95 126,-9
+           h10 l-16,-34
+           C 26,-95 -20,-120 -140,-30 v 30 z
+        "/>
+     <path stroke="black" stroke-width="5" fill="black"
+        d="M-101,0 L-107,-17 
+           C-20,-75 20,-75 104,-6.5 l -5,10 h2 l 5,-10
+           C21,-77 -21,-77 -140,0 z
+        "/>
+     <path stroke="black" stroke-width="5" fill="black"
+        d="M-89,0 C -20,-53 20,-53 82,5  h22 l -12,-5
+                  C 30,-63 -30,-63 -102,0 z
+        "/>
+     <path stroke="black" stroke-width="5" fill="black"
+        d="M-89,0 C -20,53 20,53 74,5  h30 l -40,15
+                  C 20,52 -30,52 -95,0 z
+        "/>
+     <path stroke="black" stroke-width="5" fill="black"
+        d="M-140,10 C -35,83 35,83 125,20 l 7,2 v-5 l -5,-6
+           C 35,83 -35,83 -135,0 h -15 z
+        " />
+     <path stroke="black" stroke-width="2" fill="black"
+        d="M-94,21 C -20,62 20,62 79,30 l-1,-2 
+           C 20,62 -20,62 -94,18 z
+        " />
+  </g>
+  <g> 
+     <desc> the iris/pupil</desc>
+     <circle r="39" stroke="black" stroke-width="7" fill="white" />
+     <circle r="19.5" stroke="black" stroke-width="1" fill="black" />
+     <path stroke="black" stroke-width="7" fill="black"
+        transform="rotate(35)"
+        d="M6,38 a 39,39 0,0,0 0,-76 z
+        " />
+  </g>
+
+</g>
 <!-- vim: expandtab:sw=3
 -->
 </svg>
