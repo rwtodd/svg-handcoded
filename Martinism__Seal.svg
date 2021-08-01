@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="600" height="600"
+viewBox="-90 -90 180 180" preserveAspectRatio="xMinYMin meet"
+>
+<title>Martinist Seal</title>
+<desc>As seen on martinist materials everywhere.
+This version hand-coded by Richard Todd 2021</desc>
+
+<style type="text/css">
+<![CDATA[
+    .lined { stroke: #be0000; fill: none; }
+    .filled { fill: #be0000; stroke: #be0000; }
+    .empty { fill: white; stroke: #be0000; }
+]]>
+</style>
+
+<defs>
+   <polygon id="hex-part"
+      points="-28.9,-9.9 0,-60 17.5,-30 6,-30 0,-40 -23,0">
+      <desc>One section of the hexagon shape</desc>
+   </polygon>
+</defs>
+
+<g class="empty" stroke-width="2" transform="scale(-1,1)">
+   <desc>Hexagram, empty half</desc>
+   <use href="#hex-part" />
+   <use href="#hex-part" transform="rotate(120)" />
+   <use href="#hex-part" transform="rotate(240)" />
+</g>
+<g class="filled" stroke-width="2" transform="scale(-1,1)">
+   <desc>Hexagram, filled half</desc>
+   <use href="#hex-part" transform="rotate(60)" />
+   <use href="#hex-part" transform="rotate(180)" />
+   <use href="#hex-part" transform="rotate(300)" />
+</g>
+
+<circle class="lined" stroke-width="10" r="77" />
+<polygon class="lined" stroke-dasharray="2 2" stroke-width="2"
+   points="
+   71.0,0.0
+   35.50000000000001,61.48780366869514
+   -35.499999999999986,61.48780366869515
+   -71.0,8.694992273946208e-15
+   -35.50000000000003,-61.48780366869512
+   35.49999999999995,-61.48780366869517
+   ">
+   <desc>the dotten hexagram</desc>
+</polygon>
+<path class="lined" stroke-width="2"
+  d="M0,-77 v 154 M-77,0 h 154
+  "/>
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
