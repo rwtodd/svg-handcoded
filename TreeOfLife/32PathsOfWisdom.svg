@@ -3,11 +3,12 @@
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
-<title>Blank Tree of Life (Luria Pattern)</title>
-<desc>This is a blank tree to use as a basis for
-various labelled trees I might make.  This version
-hand-coded by Richard Todd 2021</desc>
+<title>32 Paths of Wisdom (Kaplan Attributions)</title>
+<desc>These are the 32 Paths of Wisdom. 
+This drawing hand-coded by Richard Todd 2021</desc>
 
+<!-- Safari doesn't seem to get the dominant-baseline from the
+     parent group... so use CSS to help out -->
 <style type="text/css">
 <![CDATA[
    g.midtext text {
@@ -18,6 +19,12 @@ hand-coded by Richard Todd 2021</desc>
       text-anchor: start; 
       dominant-baseline: middle; 
    }
+]]>
+</style>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
 ]]>
 </style>
 
@@ -115,7 +122,6 @@ hand-coded by Richard Todd 2021</desc>
    <use href="#path-21" stroke="black" stroke-width="60" />
    <use href="#path-21" stroke="white" stroke-width="50" />
    <use href="#path-25" stroke="black" stroke-width="60" />
-   <use href="#path-25" stroke="white" stroke-width="50" />
    <use href="#path-17" stroke="black" stroke-width="60" />
    <use href="#path-17" stroke="white" stroke-width="50" />
    <use href="#path-20" stroke="black" stroke-width="60" />
@@ -132,6 +138,7 @@ hand-coded by Richard Todd 2021</desc>
    <use href="#path-16" stroke="white" stroke-width="50" />
    <use href="#path-32" stroke="black" stroke-width="60" />
    <use href="#path-32" stroke="white" stroke-width="50" />
+   <use href="#path-25" stroke="white" stroke-width="50" />
 </g>
 
 <g stroke="black" fill="white" stroke-width="5">
@@ -142,7 +149,7 @@ hand-coded by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="-800" /> <!-- path 1 kether   -->
   <use href="#sephira" x="346.41" y="-600" /> <!-- path 3 chockmah -->
   <use href="#sephira" x="-346.41" y="-600" /> <!-- path 7 binah    -->
-  <use href="#sephira" x="0" y="-400" fill="none" stroke-dasharray="10 5" /> <!-- daath    -->
+<!--  <use href="#sephira" x="0" y="-400" fill="none" stroke-dasharray="10 5" /> --> <!-- daath    -->
   <use href="#sephira" x="346.41" y="-200" /> <!-- path 10 chesed   -->
   <use href="#sephira" x="-346.41" y="-200" /> <!-- path 13 geburah  -->
   <use href="#sephira" x="0" y="0" /> <!-- path 15 tipharet -->
@@ -152,6 +159,47 @@ hand-coded by Richard Todd 2021</desc>
   <use href="#sephira" x="0" y="800" /> <!-- path 30 malkuth  -->
 </g>
 
+<g class="midtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="bold"
+   font-size="35" font-family="verdana, sans-serif"
+>
+   <text x="0" y="-800">Mystical</text><!--Path 1 -->
+   <text dx="127"><textPath href="#path-2">Radiant</textPath></text>
+   <text x="346.41" y="-600">Sanctifying</text><!-- Path 3 -->
+   <text dx="130"><textPath href="#path-4">Settled</textPath></text>
+   <text dx="130"><textPath href="#path-5">Rooted</textPath></text>
+   <text dx="150"><textPath href="#path-6">Trancend.</textPath></text>
+   <text dx="470"><textPath href="#path-6">Influx</textPath></text>
+   <text x="-346.41" y="-600">Hidden</text><!-- Path 7 -->
+   <text dx="270"><textPath href="#path-8">Perfect</textPath></text>
+   <text dx="150"><textPath href="#path-9">Pure</textPath></text>
+   <text x="346.41" y="-200">Scintillating</text> <!-- Path 10 -->
+   <text dx="390"><textPath href="#path-11">Glaring</textPath></text>
+   <text dx="150"><textPath href="#path-12">Glow.</textPath></text>
+   <text x="-346.41" y="-225">Unity</text> <!-- Path 13 -->
+   <text x="-346.41" y="-175">Directing</text> <!-- Path 13 -->
+   <text dx="260"><textPath href="#path-14">Illuminating</textPath></text>
+   <text x="0" y="0">Stabilizing</text> <!-- Path 15 -->
+   <text dx="130"><textPath href="#path-16">Enduring</textPath></text>
+   <text dx="130"><textPath href="#path-17">Senses</textPath></text>
+   <text dx="140"><textPath href="#path-18">Influx</textPath></text>
+   <text x="346.41" y="175">Mystery of</text> <!-- Path 19 -->
+   <text x="346.41" y="225">Spiritual</text> <!-- Path 19 -->
+   <text dx="150"><textPath href="#path-20">Will</textPath></text>
+   <text dx="130"><textPath href="#path-21">Sought</textPath></text>
+   <text dx="126"><textPath href="#path-22">Faithful</textPath></text>
+   <text x="-346.41" y="200">Sustaining</text> <!-- Path 23 -->
+   <text dx="250"><textPath href="#path-24">Apparative</textPath></text>
+   <text dx="130"><textPath href="#path-25">Testing</textPath></text>
+   <text x="0" y="400">Renewing</text> <!-- Path 26 -->
+   <text dx="150"><textPath href="#path-27">Palp.</textPath></text>
+   <text dx="130"><textPath href="#path-28">Natural</textPath></text>
+   <text dx="126"><textPath href="#path-29">Physic.</textPath></text>
+   <text x="0" y="800">General</text><!-- Path 30 -->
+   <text dx="130"><textPath href="#path-31">Continuous</textPath></text>
+   <text dx="123"><textPath href="#path-32">Worship</textPath></text>
+
+</g>
 <!-- vim: expandtab:sw=3
 -->
 </svg>
