@@ -14,7 +14,7 @@ tradition.  This version hand-coded by Richard Todd 2021</desc>
 </style>
 
 <defs>
-   <circle id="sephira" r="122.407">
+   <circle id="sephira" r="130">
       <desc>A sephira circle</desc>
    </circle>
    <!-- draw the individual paths so it's easy to run

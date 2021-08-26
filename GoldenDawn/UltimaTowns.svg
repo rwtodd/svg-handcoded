@@ -3,11 +3,12 @@
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
-<title>Ultima Virtues</title>
-<desc>This is a mapping of the Ultima principles and virtues
-to a Kircher Tree of Life.  The mapping is of my own design.
+<title>Ultima Towns</title>
+<desc>This is a mapping of the Ultima cities and towns to the
+Kircher Tree of Life.  The mapping is of my own design, based on
+the virtues mapping givin in UltimaVirtues.svg.
 The principles have the white glow, while the virtues are represented
-in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
+in "flat" colors. Hand-coded by Richard Todd 2021</desc>
 
 <style type="text/css">
 <![CDATA[
@@ -22,62 +23,30 @@ in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
    <circle id="sephira" r="135">
       <desc>A sephira circle</desc>
    </circle>
-   <!-- draw the individual paths so it's easy to run
+  <!-- draw the individual paths so it's easy to run
         textPaths against them -->
-   <!-- path 1 Kether -->
-   <!-- path 2 Heh 1-2 -->
-   <path id="path-2" fill="none" d="M0,-800 L346.41,-600" />
-   <!-- path 3 Chokmah -->
-   <!-- path 4 Bet 2-4 -->
-   <path id="path-4" fill="none" d="M346.41,-600 v400" />
-   <!-- path 5 Vav 1-3 -->
-   <path id="path-5" fill="none" d="M0,-800 L-346.41,-600" />
-   <!-- path 6 Zayin 2-5 -->
-   <path id="path-6" fill="none" d="M346.41,-600 L-346.41,-200" />
-   <!-- path 7 Bina -->
-   <!-- path 8 Alef 4-5 -->
-   <path id="path-8" fill="none" d="M346.41,-200 L-346.41,-200" />
-   <!-- path 9 Chet 4-6 -->
-   <path id="path-9" fill="none" d="M346.41,-200 L0,0" />
-   <!-- path 10 Chesed -->
-   <!-- path 11 Tet 2-6 -->
-   <path id="path-11" fill="none" d="M346.41,-600 L0,0" />
-   <!-- path 12 Gimel 3-5 -->
-   <path id="path-12" fill="none" d="M-346.41,-600 L-346.41,-200" />
-   <!-- path 13 Gevurah -->
-   <!-- path 14 Dalet 1-6 -->
-   <path id="path-14" fill="none" d="M0,-800 L0,0" />
-   <!-- path 15 Tiferet -->
-   <!-- path 16 Mem 7-8 -->
-   <path id="path-16" fill="none" d="M346.41,200 L-346.41,200" />
-   <!-- path 17 Yud 6-7 -->
-   <path id="path-17" fill="none" d="M0,0 L346.41,200" />
-   <!-- path 18 Kaf 4-7 -->
-   <path id="path-18" fill="none" d="M346.41,-200 v400" />
-   <!-- path 19 Netzach -->
-   <!-- path 20 Lamed 8-9 -->
-   <path id="path-20" fill="none" d="M-346.41,200 L0,400" />
-   <!-- path 21 Peh 5-8 -->
-   <path id="path-21" fill="none" d="M-346.41,-200 v400" />
-   <!-- path 22 Nun 7-9 -->
-   <path id="path-22" fill="none" d="M346.41,200 L0,400" />
-   <!-- path 23 Hod -->
-   <!-- path 24 Shin 2-3 -->
-   <path id="path-24" fill="none" d="M346.41,-600 L-346.41,-600" />
-   <!-- path 25 Resh 6-9 -->
-   <path id="path-25" fill="none" d="M0,0 v400" />
-   <!-- path 26 Yesod -->
-   <!-- path 27 Samekh 6-8 -->
-   <path id="path-27" fill="none" d="M0,0 L-346.41,200" />
-   <!-- path 28 Eyin 3-6 -->
-   <path id="path-28" fill="none" d="M-346.41,-600 L0,0" />
-   <!-- path 29 Tzadi 5-6 -->
-   <path id="path-29" fill="none" d="M-346.41,-200 L0,0" />
-   <!-- path 30 Malchut -->
-   <!-- path 31 Kuf 3-4 -->
-   <path id="path-31" fill="none" d="M-346.41,-600 L346.41,-200" />
-   <!-- path 32 Tav 9-10 -->
-   <path id="path-32" fill="none" d="M0,400 v400" />
+   <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-13" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-15" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-16" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-17" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-18" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-19" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-21" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-22" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-23" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-24" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-25" fill="none" d="M0,0 L0,400" />
+   <path id="path-26" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-27" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-28" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-29" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-30" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-31" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-32" fill="none" d="M0,400 L0,800" />
 </defs>
 
 <g>
@@ -85,48 +54,48 @@ in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
     (note: for "open" sephiroth, draw the black paths, then
     the circles, then the white paths)
    </desc>
-   <use href="#path-2" stroke="black" stroke-width="60" />
-   <use href="#path-2" stroke="white" stroke-width="50" />
-   <use href="#path-4" stroke="black" stroke-width="60" />
-   <use href="#path-4" stroke="white" stroke-width="50" />
-   <use href="#path-5" stroke="black" stroke-width="60" />
-   <use href="#path-5" stroke="white" stroke-width="50" />
    <use href="#path-11" stroke="black" stroke-width="60" />
    <use href="#path-11" stroke="white" stroke-width="50" />
-   <use href="#path-28" stroke="black" stroke-width="60" />
-   <use href="#path-28" stroke="white" stroke-width="50" />
-   <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="white" stroke-width="50" />
-   <use href="#path-6" stroke="black" stroke-width="60" />
-   <use href="#path-6" stroke="white" stroke-width="50" />
-   <use href="#path-14" stroke="black" stroke-width="60" />
-   <use href="#path-14" stroke="white" stroke-width="50" />
-   <use href="#path-8" stroke="black" stroke-width="60" />
-   <use href="#path-8" stroke="white" stroke-width="50" />
-   <use href="#path-24" stroke="black" stroke-width="60" />
-   <use href="#path-24" stroke="white" stroke-width="50" />
    <use href="#path-12" stroke="black" stroke-width="60" />
    <use href="#path-12" stroke="white" stroke-width="50" />
-   <use href="#path-18" stroke="black" stroke-width="60" />
-   <use href="#path-18" stroke="white" stroke-width="50" />
-   <use href="#path-21" stroke="black" stroke-width="60" />
-   <use href="#path-21" stroke="white" stroke-width="50" />
-   <use href="#path-25" stroke="black" stroke-width="60" />
-   <use href="#path-25" stroke="white" stroke-width="50" />
-   <use href="#path-17" stroke="black" stroke-width="60" />
-   <use href="#path-17" stroke="white" stroke-width="50" />
-   <use href="#path-20" stroke="black" stroke-width="60" />
-   <use href="#path-20" stroke="white" stroke-width="50" />
-   <use href="#path-22" stroke="black" stroke-width="60" />
-   <use href="#path-22" stroke="white" stroke-width="50" />
-   <use href="#path-27" stroke="black" stroke-width="60" />
-   <use href="#path-27" stroke="white" stroke-width="50" />
-   <use href="#path-9" stroke="black" stroke-width="60" />
-   <use href="#path-9" stroke="white" stroke-width="50" />
-   <use href="#path-29" stroke="black" stroke-width="60" />
-   <use href="#path-29" stroke="white" stroke-width="50" />
+   <use href="#path-13" stroke="black" stroke-width="60" />
+   <use href="#path-13" stroke="white" stroke-width="50" />
+   <use href="#path-14" stroke="black" stroke-width="60" />
+   <use href="#path-14" stroke="white" stroke-width="50" />
+   <use href="#path-15" stroke="black" stroke-width="60" />
+   <use href="#path-15" stroke="white" stroke-width="50" />
    <use href="#path-16" stroke="black" stroke-width="60" />
    <use href="#path-16" stroke="white" stroke-width="50" />
+   <use href="#path-17" stroke="black" stroke-width="60" />
+   <use href="#path-17" stroke="white" stroke-width="50" />
+   <use href="#path-18" stroke="black" stroke-width="60" />
+   <use href="#path-18" stroke="white" stroke-width="50" />
+   <use href="#path-19" stroke="black" stroke-width="60" />
+   <use href="#path-19" stroke="white" stroke-width="50" />
+   <use href="#path-20" stroke="black" stroke-width="60" />
+   <use href="#path-20" stroke="white" stroke-width="50" />
+   <use href="#path-21" stroke="black" stroke-width="60" />
+   <use href="#path-21" stroke="white" stroke-width="50" />
+   <use href="#path-22" stroke="black" stroke-width="60" />
+   <use href="#path-22" stroke="white" stroke-width="50" />
+   <use href="#path-23" stroke="black" stroke-width="60" />
+   <use href="#path-23" stroke="white" stroke-width="50" />
+   <use href="#path-24" stroke="black" stroke-width="60" />
+   <use href="#path-24" stroke="white" stroke-width="50" />
+   <use href="#path-25" stroke="black" stroke-width="60" />
+   <use href="#path-25" stroke="white" stroke-width="50" />
+   <use href="#path-26" stroke="black" stroke-width="60" />
+   <use href="#path-26" stroke="white" stroke-width="50" />
+   <use href="#path-27" stroke="black" stroke-width="60" />
+   <use href="#path-27" stroke="white" stroke-width="50" />
+   <use href="#path-28" stroke="black" stroke-width="60" />
+   <use href="#path-28" stroke="white" stroke-width="50" />
+   <use href="#path-29" stroke="black" stroke-width="60" />
+   <use href="#path-29" stroke="white" stroke-width="50" />
+   <use href="#path-30" stroke="black" stroke-width="60" />
+   <use href="#path-30" stroke="white" stroke-width="50" />
+   <use href="#path-31" stroke="black" stroke-width="60" />
+   <use href="#path-31" stroke="white" stroke-width="50" />
    <use href="#path-32" stroke="black" stroke-width="60" />
    <use href="#path-32" stroke="white" stroke-width="50" />
 </g>
@@ -172,25 +141,29 @@ in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
    font-size="40" font-family="verdana, sans-serif" 
    font-weight="bold"
 >
-   <text x="0" y="-800">Love</text>
-   <text x="346.41" y="-600">Truth</text>
-   <text x="-346.41" y="-600">Courage</text>
-   <text transform="translate(346.41,-200) scale(0.9,1)">Compassion</text>
-   <text x="-346.41" y="-200">Honor</text>
-   <text x="0" y="0">Justice</text>
-   <text x="346.41" y="200">Valor</text>
-   <text x="-346.41" y="200">Sacrifice</text>
-   <text x="0" y="400">Honesty</text>
-   <text stroke="white" fill="white" x="0" y="800">Humility</text>
-   <text x="0" y="-400">Spirituality</text>
+   <text x="0" y="-825">Empath</text>
+   <text x="0" y="-775">Abbey</text>
+   <text x="-346.41" y="-625">Serpent's</text>
+   <text x="-346.41" y="-575">Hold</text>
+   <text x="346.41" y="-600">Lycaeum</text>
+   <text x="346.41" y="-200">Britain</text>
+   <text x="-346.41" y="-200">Trinsic</text>
+   <text x="0" y="0">Yew</text>
+   <text x="346.41" y="200">Jhelom</text>
+   <text x="-346.41" y="200">Minoc</text>
+   <text x="0" y="400">Moonglow</text>
+   <text stroke="white" fill="white" x="0" y="775">New</text>
+   <text stroke="white" fill="white" x="0" y="825">Magincia</text>
+   <text x="0" y="-425">Skara</text>
+   <text x="0" y="-375">Brae</text>
 </g>
 
 <defs>
    <text id="prideText"
       fill="black" stroke="black" stroke-width="1"
-      font-size="50" dominant-baseline="middle" text-anchor="middle"
+      font-size="45" dominant-baseline="middle" text-anchor="middle"
       font-weight="bold"
-      font-family="verdana, sans-serif">PRIDE</text>
+      font-family="verdana, sans-serif">MAGINCIA</text>
    <path id="leftEggShape"
       d="M0 -140 A122 122, 0 0 0, 0 140 
       L -30 100, 10 80, -20 30, 20 -20, 

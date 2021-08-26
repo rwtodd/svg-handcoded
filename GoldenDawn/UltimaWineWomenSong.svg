@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+width="360" height="600"
+viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>Mandrake the Bard's Virtues</title>
+<desc>This is a mapping of the Mandrake the Bard's alternative 
+Ultima principles and virtues to a Kircher Tree of Life.  The mapping is of my own design.
+The principles have the white glow, while the virtues are represented
+in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
+
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+]]>
+</style>
+
+<defs>
+   <circle id="sephira" r="135">
+      <desc>A sephira circle</desc>
+   </circle>
+  <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-13" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-15" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-16" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-17" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-18" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-19" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-21" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-22" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-23" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-24" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-25" fill="none" d="M0,0 L0,400" />
+   <path id="path-26" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-27" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-28" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-29" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-30" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-31" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-32" fill="none" d="M0,400 L0,800" />
+</defs>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use href="#path-11" stroke="black" stroke-width="60" />
+   <use href="#path-11" stroke="white" stroke-width="50" />
+   <use href="#path-12" stroke="black" stroke-width="60" />
+   <use href="#path-12" stroke="white" stroke-width="50" />
+   <use href="#path-13" stroke="black" stroke-width="60" />
+   <use href="#path-13" stroke="white" stroke-width="50" />
+   <use href="#path-14" stroke="black" stroke-width="60" />
+   <use href="#path-14" stroke="white" stroke-width="50" />
+   <use href="#path-15" stroke="black" stroke-width="60" />
+   <use href="#path-15" stroke="white" stroke-width="50" />
+   <use href="#path-16" stroke="black" stroke-width="60" />
+   <use href="#path-16" stroke="white" stroke-width="50" />
+   <use href="#path-17" stroke="black" stroke-width="60" />
+   <use href="#path-17" stroke="white" stroke-width="50" />
+   <use href="#path-18" stroke="black" stroke-width="60" />
+   <use href="#path-18" stroke="white" stroke-width="50" />
+   <use href="#path-19" stroke="black" stroke-width="60" />
+   <use href="#path-19" stroke="white" stroke-width="50" />
+   <use href="#path-20" stroke="black" stroke-width="60" />
+   <use href="#path-20" stroke="white" stroke-width="50" />
+   <use href="#path-21" stroke="black" stroke-width="60" />
+   <use href="#path-21" stroke="white" stroke-width="50" />
+   <use href="#path-22" stroke="black" stroke-width="60" />
+   <use href="#path-22" stroke="white" stroke-width="50" />
+   <use href="#path-23" stroke="black" stroke-width="60" />
+   <use href="#path-23" stroke="white" stroke-width="50" />
+   <use href="#path-24" stroke="black" stroke-width="60" />
+   <use href="#path-24" stroke="white" stroke-width="50" />
+   <use href="#path-25" stroke="black" stroke-width="60" />
+   <use href="#path-25" stroke="white" stroke-width="50" />
+   <use href="#path-26" stroke="black" stroke-width="60" />
+   <use href="#path-26" stroke="white" stroke-width="50" />
+   <use href="#path-27" stroke="black" stroke-width="60" />
+   <use href="#path-27" stroke="white" stroke-width="50" />
+   <use href="#path-28" stroke="black" stroke-width="60" />
+   <use href="#path-28" stroke="white" stroke-width="50" />
+   <use href="#path-29" stroke="black" stroke-width="60" />
+   <use href="#path-29" stroke="white" stroke-width="50" />
+   <use href="#path-30" stroke="black" stroke-width="60" />
+   <use href="#path-30" stroke="white" stroke-width="50" />
+   <use href="#path-31" stroke="black" stroke-width="60" />
+   <use href="#path-31" stroke="white" stroke-width="50" />
+   <use href="#path-32" stroke="black" stroke-width="60" />
+   <use href="#path-32" stroke="white" stroke-width="50" />
+</g>
+
+<g stroke="black" stroke-width="5">
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+   <radialGradient id="loveGrad">
+      <desc>the background "glow"</desc>
+      <stop offset="0%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
+      <!-- <stop offset="100%" stop-color="#f5e04e" /> -->
+      <stop offset="100%" stop-color="#f5d02e" />
+   </radialGradient>
+   <radialGradient id="courageGrad">
+      <desc>the background "glow"</desc>
+      <stop offset="0%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
+      <stop offset="100%" stop-color="#e54e54" />
+   </radialGradient>
+   <radialGradient id="truthGrad">
+      <desc>the background "glow"</desc>
+      <stop offset="0%" stop-color="white" />
+      <stop offset="50%" stop-color="white" />
+      <stop offset="100%" stop-color="#4e9fe5" />
+   </radialGradient>
+  <use href="#sephira" fill="url(#loveGrad)" x="0" y="-800" /> <!-- kether   -->
+  <use href="#sephira" fill="url(#truthGrad)" x="346.41" y="-600" /> <!-- chockmah    -->
+  <use href="#sephira" fill="url(#courageGrad)" x="-346.41" y="-600" /> <!-- bina -->
+  <use href="#sephira" x="0" y="-400" fill="white" fill-opacity="0.8" stroke-dasharray="10 5" /> <!-- daath    -->
+  <use href="#sephira" fill="#f5e04e" x="346.41" y="-200" /> <!-- chesed   -->
+  <use href="#sephira" fill="#9a779d" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use href="#sephira" fill="#a2c099" x="0" y="0" /> <!-- tipharet -->
+  <use href="#sephira" fill="#e54e54" x="346.41" y="200" /> <!-- netzach  -->
+  <use href="#sephira" fill="#f09751" x="-346.41" y="200" /> <!-- hod      -->
+  <use href="#sephira" fill="#4e9fe5" x="0" y="400" /> <!-- yesod    -->
+  <use href="#sephira" fill="black" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<g class="midtext" fill="black" stroke="black" stroke-width="1"
+   font-size="40" font-family="verdana, sans-serif" 
+   font-weight="bold"
+>
+   <text x="0" y="-800">Women</text>
+   <text x="346.41" y="-600">Song</text>
+   <text x="-346.41" y="-600">Wine</text>
+   <text x="346.41" y="-200">Sensuality</text>
+   <text x="-346.41" y="-200">Laziness</text>
+   <text x="0" y="0">Dance</text>
+   <text x="346.41" y="200">Inebriation</text>
+   <text x="-346.41" y="200">Lust</text>
+   <text x="0" y="400">Harmony</text>
+   <text stroke="white" fill="white" x="0" y="800">Happiness</text>
+   <text x="0" y="-400">Indulgence</text>
+</g>
+
+<defs>
+   <text id="prideText"
+      fill="black" stroke="black" stroke-width="1" font-weight="bold"
+      font-size="55" dominant-baseline="middle" text-anchor="middle"
+      font-family="verdana, sans-serif">NEED</text>
+   <path id="leftEggShape"
+      d="M0 -140 A122 122, 0 0 0, 0 140 
+      L -30 100, 10 80, -20 30, 20 -20, 
+         -15 -55, 5 -80, -25 -110,
+         0 -140">
+      <desc>The left side of the egg</desc>
+   </path>
+   <clipPath id="leftEggClip">
+      <use href="#leftEggShape" />
+   </clipPath>
+   <g id="leftEgg">
+      <use href="#leftEggShape" fill="gray" stroke="black"
+         stroke-width="5" />
+      <use href="#prideText" clip-path="url(#leftEggClip)" />
+   </g>
+   <path id="rightEggShape"
+      d="M0 -140 A122 122, 0 0 1, 0 140 
+      L -30 100, 10 80, -20 30, 20 -20, 
+         -15 -55, 5 -80, -25 -110,
+         0 -140">
+      <desc>The left side of the egg</desc>
+   </path>
+   <clipPath id="rightEggClip">
+      <use href="#rightEggShape" />
+   </clipPath>
+   <g id="rightEgg">
+      <use href="#rightEggShape" fill="gray" stroke="black"
+         stroke-width="5" />
+      <use href="#prideText" clip-path="url(#rightEggClip)" />
+   </g>
+</defs>
+
+<g>
+   <desc>The cracked sphere at the bottom</desc>
+   <use href="#leftEgg"
+      transform="translate(-180,850) rotate(-40)" />
+   <use href="#rightEgg"
+      transform="translate(180,850) rotate(40)" />
+</g>
+
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
