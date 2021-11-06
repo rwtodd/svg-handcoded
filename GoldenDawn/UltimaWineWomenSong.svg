@@ -124,15 +124,15 @@ in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
       <stop offset="100%" stop-color="#4e9fe5" />
    </radialGradient>
   <use href="#sephira" fill="url(#loveGrad)" x="0" y="-800" /> <!-- kether   -->
-  <use href="#sephira" fill="url(#truthGrad)" x="346.41" y="-600" /> <!-- chockmah    -->
-  <use href="#sephira" fill="url(#courageGrad)" x="-346.41" y="-600" /> <!-- bina -->
+  <use href="#sephira" fill="url(#courageGrad)" x="346.41" y="-600" /> <!-- chockmah    -->
+  <use href="#sephira" fill="url(#truthGrad)" x="-346.41" y="-600" /> <!-- bina -->
   <use href="#sephira" x="0" y="-400" fill="white" fill-opacity="0.8" stroke-dasharray="10 5" /> <!-- daath    -->
   <use href="#sephira" fill="#f5e04e" x="346.41" y="-200" /> <!-- chesed   -->
-  <use href="#sephira" fill="#9a779d" x="-346.41" y="-200" /> <!-- geburah  -->
-  <use href="#sephira" fill="#a2c099" x="0" y="0" /> <!-- tipharet -->
+  <use href="#sephira" fill="#a2c099" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use href="#sephira" fill="#f09751" x="0" y="0" /> <!-- tipharet -->
   <use href="#sephira" fill="#e54e54" x="346.41" y="200" /> <!-- netzach  -->
-  <use href="#sephira" fill="#f09751" x="-346.41" y="200" /> <!-- hod      -->
-  <use href="#sephira" fill="#4e9fe5" x="0" y="400" /> <!-- yesod    -->
+  <use href="#sephira" fill="#4e9fe5" x="-346.41" y="200" /> <!-- hod      -->
+  <use href="#sephira" fill="#9a779d" x="0" y="400" /> <!-- yesod    -->
   <use href="#sephira" fill="black" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
@@ -141,14 +141,14 @@ in "flat" colors.  Hand-coded by Richard Todd 2021</desc>
    font-weight="bold"
 >
    <text x="0" y="-800">Women</text>
-   <text x="346.41" y="-600">Song</text>
-   <text x="-346.41" y="-600">Wine</text>
+   <text x="346.41" y="-600">Wine</text>
+   <text x="-346.41" y="-600">Song</text>
    <text x="346.41" y="-200">Sensuality</text>
-   <text x="-346.41" y="-200">Laziness</text>
-   <text x="0" y="0">Dance</text>
+   <text x="-346.41" y="-200">Dance</text>
+   <text x="0" y="0">Lust</text>
    <text x="346.41" y="200">Inebriation</text>
-   <text x="-346.41" y="200">Lust</text>
-   <text x="0" y="400">Harmony</text>
+   <text x="-346.41" y="200">Harmony</text>
+   <text x="0" y="400">Laziness</text>
    <text stroke="white" fill="white" x="0" y="800">Happiness</text>
    <text x="0" y="-400">Indulgence</text>
 </g>

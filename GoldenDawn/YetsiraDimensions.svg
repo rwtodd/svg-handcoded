@@ -124,24 +124,24 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
 >
   <desc>The sephira labels</desc>
   <text x="0" y="-825">1</text>
-  <text x="0" y="-775">Good</text>
+  <text x="0" y="-775">Beginning</text>
   <text x="0" y="775">2</text>
-  <text x="0" y="825">Evil</text>
+  <text x="0" y="825">End</text>
   <text x="346.41" y="-625">3</text>
-  <text x="346.41" y="-575">Beginning</text>
+  <text x="346.41" y="-575">Good</text>
   <text x="-346.41" y="-625">4</text>
-  <text x="-346.41" y="-575">End</text>
-  <text x="346.41" y="-225">5</text>
+  <text x="-346.41" y="-575">Evil</text>
+  <text x="346.41" y="-225">8</text>
   <text x="346.41" y="-175">West</text>
-  <text x="-346.41" y="-225">6</text>
+  <text x="-346.41" y="-225">10</text>
   <text x="-346.41" y="-175">North</text>
-  <text x="0" y="-25">7</text>
+  <text x="0" y="-25">9</text>
   <text x="0" y="25">South</text>
-  <text x="0" y="375">8</text>
+  <text x="0" y="375">6</text>
   <text x="0" y="425">Below</text>
-  <text x="346.41" y="175">9</text>
+  <text x="346.41" y="175">7</text>
   <text x="346.41" y="225">East</text>
-  <text x="-346.41" y="175">10</text>
+  <text x="-346.41" y="175">5</text>
   <text x="-346.41" y="225">Above</text>
   <text x="0" y="-425">11</text>
   <text x="0" y="-375">Center</text>
