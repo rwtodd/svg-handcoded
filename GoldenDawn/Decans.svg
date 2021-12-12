@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
@@ -26,10 +28,10 @@ This version hand-coded by Richard Todd 2021</desc>
 
    <g id="sephira">
       <desc>A sephira circle</desc>
-      <use href="#quarter" fill="red" />
-      <use href="#quarter" fill="blue" transform="rotate(-90)" />
-      <use href="#quarter" fill="yellow" transform="rotate(-180)" />
-      <use href="#quarter" fill="green" transform="rotate(-270)" />
+      <use xlink:href="#quarter" fill="red" />
+      <use xlink:href="#quarter" fill="blue" transform="rotate(-90)" />
+      <use xlink:href="#quarter" fill="yellow" transform="rotate(-180)" />
+      <use xlink:href="#quarter" fill="green" transform="rotate(-270)" />
    </g>
 
    <!-- draw the individual paths so it's easy to run
@@ -92,7 +94,7 @@ This version hand-coded by Richard Todd 2021</desc>
 
    <g id="mercury-shape">
       <desc>Mercury Symbol</desc>
-      <use href="#venus-shape" />
+      <use xlink:href="#venus-shape" />
       <path d="
         M-10,-21 a 10,7 0,1,0 20,0 l -2.2,1
           a 7.8,5 0,0,1 -15.6,0 z
@@ -151,50 +153,50 @@ This version hand-coded by Richard Todd 2021</desc>
     (note: for "open" sephiroth, draw the black paths, then
     the circles, then the white paths)
    </desc>
-   <use href="#path-11" stroke="black" stroke-width="60" />
-   <use href="#path-11" stroke="white" stroke-width="50" />
-   <use href="#path-12" stroke="black" stroke-width="60" />
-   <use href="#path-12" stroke="white" stroke-width="50" />
-   <use href="#path-13" stroke="black" stroke-width="60" />
-   <use href="#path-13" stroke="white" stroke-width="50" />
-   <use href="#path-14" stroke="black" stroke-width="60" />
-   <use href="#path-14" stroke="white" stroke-width="50" />
-   <use href="#path-15" stroke="black" stroke-width="60" />
-   <use href="#path-15" stroke="white" stroke-width="50" />
-   <use href="#path-16" stroke="black" stroke-width="60" />
-   <use href="#path-16" stroke="white" stroke-width="50" />
-   <use href="#path-17" stroke="black" stroke-width="60" />
-   <use href="#path-17" stroke="white" stroke-width="50" />
-   <use href="#path-18" stroke="black" stroke-width="60" />
-   <use href="#path-18" stroke="white" stroke-width="50" />
-   <use href="#path-19" stroke="black" stroke-width="60" />
-   <use href="#path-19" stroke="white" stroke-width="50" />
-   <use href="#path-20" stroke="black" stroke-width="60" />
-   <use href="#path-20" stroke="white" stroke-width="50" />
-   <use href="#path-21" stroke="black" stroke-width="60" />
-   <use href="#path-21" stroke="white" stroke-width="50" />
-   <use href="#path-22" stroke="black" stroke-width="60" />
-   <use href="#path-22" stroke="white" stroke-width="50" />
-   <use href="#path-23" stroke="black" stroke-width="60" />
-   <use href="#path-23" stroke="white" stroke-width="50" />
-   <use href="#path-24" stroke="black" stroke-width="60" />
-   <use href="#path-24" stroke="white" stroke-width="50" />
-   <use href="#path-25" stroke="black" stroke-width="60" />
-   <use href="#path-25" stroke="white" stroke-width="50" />
-   <use href="#path-26" stroke="black" stroke-width="60" />
-   <use href="#path-26" stroke="white" stroke-width="50" />
-   <use href="#path-27" stroke="black" stroke-width="60" />
-   <use href="#path-27" stroke="white" stroke-width="50" />
-   <use href="#path-28" stroke="black" stroke-width="60" />
-   <use href="#path-28" stroke="white" stroke-width="50" />
-   <use href="#path-29" stroke="black" stroke-width="60" />
-   <use href="#path-29" stroke="white" stroke-width="50" />
-   <use href="#path-30" stroke="black" stroke-width="60" />
-   <use href="#path-30" stroke="white" stroke-width="50" />
-   <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="white" stroke-width="50" />
-   <use href="#path-32" stroke="black" stroke-width="60" />
-   <use href="#path-32" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-11" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-12" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-13" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-13" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-14" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-15" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-15" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-16" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-17" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-18" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-19" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-19" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-20" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-23" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-23" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-24" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-24" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-25" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-26" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-26" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-27" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-27" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-28" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-28" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-29" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-29" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-30" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-30" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-31" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-31" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-32" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-32" stroke="white" stroke-width="50" />
 </g>
 
 <g>
@@ -202,132 +204,132 @@ This version hand-coded by Richard Todd 2021</desc>
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
        vertical unit = 200 -->
-  <use href="#sephira" x="0" y="-800" /> <!-- kether   -->
-  <use href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
-  <use href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
-  <use href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
-  <use href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
-  <use href="#sephira" x="0" y="0" /> <!-- tipharet -->
-  <use href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
-  <use href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
-  <use href="#sephira" x="0" y="400" /> <!-- yesod    -->
-  <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+  <use xlink:href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use xlink:href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use xlink:href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use xlink:href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use xlink:href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use xlink:href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
 <g transform="translate(346.41,-600)" stroke="none" 
    fill="black">
    <desc>the twos</desc>
-   <use href="#mars-shape" 
+   <use xlink:href="#mars-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#venus-shape" 
+   <use xlink:href="#venus-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#moon-shape" 
+   <use xlink:href="#moon-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#jupiter-shape" 
+   <use xlink:href="#jupiter-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(-346.41,-600)" stroke="none" 
    fill="black">
    <desc>the threes</desc>
-   <use href="#sun-shape" 
+   <use xlink:href="#sun-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#mercury-shape" 
+   <use xlink:href="#mercury-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#saturn-shape" 
+   <use xlink:href="#saturn-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#mars-shape" 
+   <use xlink:href="#mars-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(346.41,-200)" stroke="none" 
    fill="black">
    <desc>the fours</desc>
-   <use href="#venus-shape" 
+   <use xlink:href="#venus-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#moon-shape" 
+   <use xlink:href="#moon-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#jupiter-shape" 
+   <use xlink:href="#jupiter-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#sun-shape" 
+   <use xlink:href="#sun-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(-346.41,-200)" stroke="none" 
    fill="black">
    <desc>the fives</desc>
-   <use href="#saturn-shape" 
+   <use xlink:href="#saturn-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#mars-shape" 
+   <use xlink:href="#mars-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#venus-shape" 
+   <use xlink:href="#venus-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#mercury-shape" 
+   <use xlink:href="#mercury-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(0,0)" stroke="none" 
    fill="black">
    <desc>the sixes</desc>
-   <use href="#jupiter-shape" 
+   <use xlink:href="#jupiter-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#sun-shape" 
+   <use xlink:href="#sun-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#mercury-shape" 
+   <use xlink:href="#mercury-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#moon-shape" 
+   <use xlink:href="#moon-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(346.41,200)" stroke="none" 
    fill="black">
    <desc>the sevens</desc>
-   <use href="#mars-shape" 
+   <use xlink:href="#mars-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#venus-shape" 
+   <use xlink:href="#venus-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#moon-shape" 
+   <use xlink:href="#moon-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#saturn-shape" 
+   <use xlink:href="#saturn-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(-346.41,200)" stroke="none" 
    fill="black">
    <desc>the eights</desc>
-   <use href="#mercury-shape" 
+   <use xlink:href="#mercury-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#saturn-shape" 
+   <use xlink:href="#saturn-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#jupiter-shape" 
+   <use xlink:href="#jupiter-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#sun-shape" 
+   <use xlink:href="#sun-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(0,400)" stroke="none" 
    fill="black">
    <desc>the nines</desc>
-   <use href="#moon-shape" 
+   <use xlink:href="#moon-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#jupiter-shape" 
+   <use xlink:href="#jupiter-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#mars-shape" 
+   <use xlink:href="#mars-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#venus-shape" 
+   <use xlink:href="#venus-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 
 <g transform="translate(0,800)" stroke="none" 
    fill="black">
    <desc>the tens</desc>
-   <use href="#saturn-shape" 
+   <use xlink:href="#saturn-shape" 
       transform="translate(48,-48) scale(2,2)" />
-   <use href="#mars-shape" 
+   <use xlink:href="#mars-shape" 
       transform="translate(-48,-48) scale(2,2)" />
-   <use href="#sun-shape" 
+   <use xlink:href="#sun-shape" 
       transform="translate(-48,50) scale(2,2)" />
-   <use href="#mercury-shape" 
+   <use xlink:href="#mercury-shape" 
       transform="translate(48,48) scale(2,2)" />
 </g>
 

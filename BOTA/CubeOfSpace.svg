@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="700" height="700"
 viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
 >
@@ -31,11 +33,11 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
    <g stroke="black" fill="none">
       <desc>the inner axes</desc>
       <circle id="uppercirc" r="50" transform="translate(0,-500) scale(1,0.4)" /> 
-      <use href="#uppercirc" transform="translate(0,1000)" />
+      <use xlink:href="#uppercirc" transform="translate(0,1000)" />
       <line x1="0" x2="0" y1="-482" y2="500" />
 
       <circle id="sidecirc" r="50" transform="translate(-500,0) scale(0.334,1)" /> 
-      <use href="#sidecirc" transform="translate(1000,0)" />
+      <use xlink:href="#sidecirc" transform="translate(1000,0)" />
       <line x1="-500" x2="482" y1="0" y2="0" />
 
       <circle cx="-167" cy="200" r="50" />
@@ -67,20 +69,20 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
           x="170" y="-310">KEY 14</text>
 
       <!-- AYIN -->
-      <text text-anchor="end" dominant-baseline="hanging"
-          x="-150" y="710">WEST-BELOW</text>
-      <text text-anchor="middle" dominant-baseline="hanging"
-          x="-90" y="710">O</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="-30" y="710">KEY 15</text>
+      <text text-anchor="end" dominant-baseline="auto"
+          x="-150" y="740">WEST-BELOW</text>
+      <text text-anchor="middle" dominant-baseline="auto"
+          x="-90" y="740">O</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="-30" y="740">KEY 15</text>
 
       <!-- CHETH -->
-      <text text-anchor="end" dominant-baseline="hanging"
-          x="60" y="310">EAST-BELOW</text>
-      <text text-anchor="middle" dominant-baseline="hanging"
-          x="110" y="310">CH</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="170" y="310">KEY 7</text>
+      <text text-anchor="end" dominant-baseline="auto"
+          x="60" y="340">EAST-BELOW</text>
+      <text text-anchor="middle" dominant-baseline="auto"
+          x="110" y="340">CH</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="170" y="340">KEY 7</text>
 
       <!-- BETH -->
       <text text-anchor="middle" dominant-baseline="auto"
@@ -89,70 +91,64 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
           x="0" y="-530">B KEY 1</text>
           
       <!-- GIMEL -->
-      <text text-anchor="middle" dominant-baseline="hanging"
-          x="0" y="520">BELOW</text>
-      <text text-anchor="middle" dominant-baseline="hanging"
-          x="0" y="560">G KEY 2</text>
+      <text text-anchor="middle" dominant-baseline="auto"
+          x="0" y="550">BELOW</text>
+      <text text-anchor="middle" dominant-baseline="auto"
+          x="0" y="590">G KEY 2</text>
 
       <!-- DALETH -->
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="150" y="-150">EAST</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="150" y="-110">D KEY 3</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="150" y="-120">EAST</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="150" y="-80">D KEY 3</text>
           
       <!-- KAPH -->
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="-320" y="210">WEST</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="-320" y="250">K KEY 10</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="-320" y="240">WEST</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="-320" y="280">K KEY 10</text>
 
       <!-- TAV -->
       <line x1="30" y1="35" x2="7" y2="7" stroke-width="4" />
       <polyline points="7,24 8,8 24,7" stroke-width="4" />
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="30" y="10">CENTER</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="30" y="50">TH</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          x="95" y="50">KEY 21</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="30" y="40">CENTER</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="30" y="80">TH</text>
+      <text text-anchor="start" dominant-baseline="auto"
+          x="95" y="80">KEY 21</text>
 
       <g stroke-width="2.5">
          <desc>angled text has slightly more stroke width</desc>
          <!-- PEH -->
-         <text text-anchor="middle" dominant-baseline="hanging"
-             transform="translate(-500,60) scale(0.6,1) skewY(-35.5)">
-             NORTH</text>
-         <text text-anchor="middle" dominant-baseline="hanging"
-             transform="translate(-500,100) scale(0.6,1) skewY(-35.5)">
-             P KEY 16</text>
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(-500,90) scale(0.6,1) skewY(-35.5)">NORTH</text>
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(-500,130) scale(0.6,1) skewY(-35.5)">P KEY 16</text>
 
          <!-- RESH -->
-         <text text-anchor="middle" dominant-baseline="hanging"
-             transform="translate(500,60) scale(0.6,1) skewY(-35.5)">
-             SOUTH</text>
-         <text text-anchor="middle" dominant-baseline="hanging"
-             transform="translate(500,100) scale(0.6,1) skewY(-35.5)">
-             R KEY 19</text>
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(500,90) scale(0.6,1) skewY(-35.5)">SOUTH</text>
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(500,130) scale(0.6,1) skewY(-35.5)">R KEY 19</text>
 
          <!-- TZADDI -->
          <text text-anchor="middle" dominant-baseline="auto"
-             transform="translate(500,-510) scale(0.6,1) skewY(-35.5)">
-             SOUTH-ABOVE TZ KEY 17</text>
+             transform="translate(500,-510) scale(0.6,1) skewY(-35.5)">SOUTH-ABOVE TZ KEY 17</text>
 
          <!-- TETH/TAYT -->
          <text text-anchor="middle" dominant-baseline="auto"
-             transform="translate(-500,-510) scale(0.6,1) skewY(-35.5)">
-             NORTH-ABOVE T KEY 8</text>
+             transform="translate(-500,-510) scale(0.6,1) skewY(-35.5)">NORTH-ABOVE T KEY 8</text>
 
          <!-- YOD -->
-         <text text-anchor="middle" dominant-baseline="hanging"
-             transform="translate(-500,510) scale(0.6,1) skewY(-35.5)"
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(-500,540) scale(0.6,1) skewY(-35.5)"
              style="white-space:pre"
              >NORTH-BELOW  I  KEY 9</text>
 
          <!-- QOF -->
-         <text text-anchor="middle" dominant-baseline="hanging"
-             transform="translate(500,510) scale(0.6,1) skewY(-35.5)"
+         <text text-anchor="middle" dominant-baseline="auto"
+             transform="translate(500,540) scale(0.6,1) skewY(-35.5)"
              style="white-space:pre"
              >SOUTH-BELOW  Q  KEY 18</text>
 
@@ -186,25 +182,25 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
       >KEY 5</text>
 
       <!-- HE -->
-      <text text-anchor="start" dominant-baseline="hanging"
-          transform="translate(-340,-600) rotate(90)"
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(-370,-600) rotate(90)"
       >NORTH-EAST</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          transform="translate(-340,-280) rotate(90)"
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(-370,-280) rotate(90)"
       >H</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          transform="translate(-340,-200) rotate(90)"
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(-370,-200) rotate(90)"
       >KEY 4</text>
 
-      <!-- HE -->
-      <text text-anchor="start" dominant-baseline="hanging"
-          transform="translate(-680,-290) rotate(90)"
+      <!-- LAMED -->
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(-700,-290) rotate(90)"
       >NORTH-WEST</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          transform="translate(-680,20) rotate(90)"
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(-700,20) rotate(90)"
       >L</text>
-      <text text-anchor="start" dominant-baseline="hanging"
-          transform="translate(-680,100) rotate(90)"
+      <text text-anchor="start" dominant-baseline="auto"
+          transform="translate(-700,100) rotate(90)"
       >KEY 11</text>
 
       <!-- ALEPH -->
@@ -227,8 +223,6 @@ viewBox="-770 -800 1540 1600" preserveAspectRatio="xMinYMin meet"
           x="100" y="-10">SH</text>
       <text text-anchor="start" dominant-baseline="auto"
           x="180" y="-10">KEY 20</text>
-
-
    </g>
 </g>
 <!-- vim: expandtab:sw=3

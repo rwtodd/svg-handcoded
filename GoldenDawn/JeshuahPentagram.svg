@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="500" height="500"
 viewBox="-400 -450 800 850" preserveAspectRatio="xMinYMin meet"
 >
@@ -23,11 +25,11 @@ in 2021.</desc>
 
 <g id="pattern" fill="none" stroke="black" stroke-width="1">
    <desc>the pentacle</desc>
-   <use href="#pentacle-arm" fill="white" />
-   <use href="#pentacle-arm" fill="#f5e04e" transform="rotate(-72)" />
-   <use href="#pentacle-arm" fill="#4e9fe5" transform="rotate(72)" />
-   <use href="#pentacle-arm" fill="#e54e54" transform="rotate(144)" />
-   <use href="#pentacle-arm" fill="black" transform="rotate(216)" />
+   <use xlink:href="#pentacle-arm" fill="white" />
+   <use xlink:href="#pentacle-arm" fill="#f5e04e" transform="rotate(-72)" />
+   <use xlink:href="#pentacle-arm" fill="#4e9fe5" transform="rotate(72)" />
+   <use xlink:href="#pentacle-arm" fill="#e54e54" transform="rotate(144)" />
+   <use xlink:href="#pentacle-arm" fill="black" transform="rotate(216)" />
 </g>
 
 <g fill="none" stroke="black" stroke-width="4">
@@ -37,18 +39,18 @@ in 2021.</desc>
       <desc>quintessence</desc>
       <circle cx="0" cy="0" r="25" />
       <line id="quintLine" x1="-25" x2="25" y1="0" y2="0" />
-      <use href="#quintLine" transform="rotate(90)" />
-      <use href="#quintLine" transform="rotate(45)" />
-      <use href="#quintLine" transform="rotate(-45)" />
+      <use xlink:href="#quintLine" transform="rotate(90)" />
+      <use xlink:href="#quintLine" transform="rotate(45)" />
+      <use xlink:href="#quintLine" transform="rotate(-45)" />
    </g>
-   <use href="#alchTriangle" x="150" y="200" />
-   <use href="#alchTriangle" 
+   <use xlink:href="#alchTriangle" x="150" y="200" />
+   <use xlink:href="#alchTriangle" 
       transform="translate(240,-80) scale(1,-1)" />
-   <use href="#alchTriangle" x="-240" y="-80" />
-   <use href="#alchCross" x="-240" y="-80" />
-   <use href="#alchTriangle" stroke="white"
+   <use xlink:href="#alchTriangle" x="-240" y="-80" />
+   <use xlink:href="#alchCross" x="-240" y="-80" />
+   <use xlink:href="#alchTriangle" stroke="white"
       transform="translate(-150,200) scale(1,-1)" />
-   <use href="#alchCross" stroke="white"
+   <use xlink:href="#alchCross" stroke="white"
       transform="translate(-150,200) scale(1,-1)" />
 </g>
 

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
@@ -54,28 +56,28 @@ of Wisdom. This drawing hand-coded by Richard Todd 2021</desc>
 
 <g>
    <desc>The black backing for the paths (outlines)</desc>
-   <use href="#path-11" stroke="black" stroke-width="60" />
-   <use href="#path-12" stroke="black" stroke-width="60" />
-   <use href="#path-13" stroke="black" stroke-width="60" />
-   <use href="#path-14" stroke="black" stroke-width="60" />
-   <use href="#path-15" stroke="black" stroke-width="60" />
-   <use href="#path-16" stroke="black" stroke-width="60" />
-   <use href="#path-17" stroke="black" stroke-width="60" />
-   <use href="#path-18" stroke="black" stroke-width="60" />
-   <use href="#path-19" stroke="black" stroke-width="60" />
-   <use href="#path-20" stroke="black" stroke-width="60" />
-   <use href="#path-21" stroke="black" stroke-width="60" />
-   <use href="#path-22" stroke="black" stroke-width="60" />
-   <use href="#path-23" stroke="black" stroke-width="60" />
-   <use href="#path-24" stroke="black" stroke-width="60" />
-   <use href="#path-25" stroke="black" stroke-width="60" />
-   <use href="#path-26" stroke="black" stroke-width="60" />
-   <use href="#path-27" stroke="black" stroke-width="60" />
-   <use href="#path-28" stroke="black" stroke-width="60" />
-   <use href="#path-29" stroke="black" stroke-width="60" />
-   <use href="#path-30" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-32" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-11" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-12" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-13" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-14" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-15" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-16" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-18" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-19" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-20" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-21" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-22" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-23" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-24" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-25" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-26" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-27" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-28" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-29" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-30" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-31" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-32" stroke="black" stroke-width="60" />
 </g>
 
 <g stroke="black" fill="white" stroke-width="5">
@@ -83,70 +85,70 @@ of Wisdom. This drawing hand-coded by Richard Todd 2021</desc>
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
        vertical unit = 200 -->
-  <use href="#sephira" x="0" y="-800" /> <!-- kether   -->
-  <use href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
-  <use href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
-  <use href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
-  <use href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
-  <use href="#sephira" x="0" y="0" /> <!-- tipharet -->
-  <use href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
-  <use href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
-  <use href="#sephira" x="0" y="400" /> <!-- yesod    -->
-  <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+  <use xlink:href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use xlink:href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use xlink:href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use xlink:href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use xlink:href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use xlink:href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
 <g>
    <desc>the white parts of the paths</desc>
-   <use href="#path-11" stroke="white" stroke-width="50" />
-   <use href="#path-12" stroke="white" stroke-width="50" />
-   <use href="#path-13" stroke="white" stroke-width="50" />
-   <use href="#path-14" stroke="white" stroke-width="50" />
-   <use href="#path-15" stroke="white" stroke-width="50" />
-   <use href="#path-16" stroke="white" stroke-width="50" />
-   <use href="#path-17" stroke="white" stroke-width="50" />
-   <use href="#path-18" stroke="white" stroke-width="50" />
-   <use href="#path-19" stroke="white" stroke-width="50" />
-   <use href="#path-20" stroke="white" stroke-width="50" />
-   <use href="#path-21" stroke="white" stroke-width="50" />
-   <use href="#path-22" stroke="white" stroke-width="50" />
-   <use href="#path-23" stroke="white" stroke-width="50" />
-   <use href="#path-24" stroke="white" stroke-width="50" />
-   <use href="#path-25" stroke="white" stroke-width="50" />
-   <use href="#path-26" stroke="white" stroke-width="50" />
-   <use href="#path-27" stroke="white" stroke-width="50" />
-   <use href="#path-28" stroke="white" stroke-width="50" />
-   <use href="#path-29" stroke="white" stroke-width="50" />
-   <use href="#path-30" stroke="white" stroke-width="50" />
-   <use href="#path-31" stroke="white" stroke-width="50" />
-   <use href="#path-32" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-13" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-15" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-17" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-19" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-23" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-24" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-26" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-27" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-28" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-29" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-30" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-31" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-32" stroke="white" stroke-width="50" />
 </g>
 
 <g class="midtext" fill="black" stroke="black" 
    stroke-width="1" font-weight="bold"
    font-size="35" font-family="verdana, sans-serif"
 >
-  <text dx="90"><textPath href="#path-11">Scintillating</textPath></text>
-  <text dx="80"><textPath href="#path-12">Transparency</textPath></text>
-  <text dx="300"><textPath href="#path-13">Uniting</textPath></text>
-  <text dx="260"><textPath href="#path-14">Luminous</textPath></text>
-  <text dx="300"><textPath href="#path-15">Constituting</textPath></text>
-  <text dx="110"><textPath href="#path-16">Triumphal</textPath></text>
-  <text dx="190"><textPath href="#path-17">Disposing</textPath></text>
-  <text dx="115"><textPath href="#path-18">Influence</textPath></text>
-  <text dx="260"><textPath href="#path-19">Activities</textPath></text>
-  <text dx="160"><textPath href="#path-20">Will</textPath></text>
-  <text dx="100"><textPath href="#path-21">Concilliation</textPath></text>
-  <text dx="125"><textPath href="#path-22">Faithful</textPath></text>
-  <text dx="130"><textPath href="#path-23">Stable</textPath></text>
-  <text dx="90"><textPath href="#path-24">Imaginative</textPath></text>
-  <text dx="100"><textPath href="#path-25">Probation</textPath></text>
-  <text dx="90"><textPath href="#path-26">Renovating</textPath></text>
-  <text dx="130"><textPath href="#path-27">Exciting</textPath></text>
-  <text dx="130"><textPath href="#path-28">Natural</textPath></text>
-  <text dx="250"><textPath href="#path-29">Corporeal</textPath></text>
-  <text dx="100"><textPath href="#path-30">Collecting</textPath></text>
-  <text dx="250"><textPath href="#path-31">Perpetual</textPath></text>
-  <text dx="80"><textPath href="#path-32">Administrative</textPath></text>
+  <text dx="90"><textPath xlink:href="#path-11">Scintillating</textPath></text>
+  <text dx="80"><textPath xlink:href="#path-12">Transparency</textPath></text>
+  <text dx="300"><textPath xlink:href="#path-13">Uniting</textPath></text>
+  <text dx="260"><textPath xlink:href="#path-14">Luminous</textPath></text>
+  <text dx="300"><textPath xlink:href="#path-15">Constituting</textPath></text>
+  <text dx="110"><textPath xlink:href="#path-16">Triumphal</textPath></text>
+  <text dx="190"><textPath xlink:href="#path-17">Disposing</textPath></text>
+  <text dx="115"><textPath xlink:href="#path-18">Influence</textPath></text>
+  <text dx="260"><textPath xlink:href="#path-19">Activities</textPath></text>
+  <text dx="160"><textPath xlink:href="#path-20">Will</textPath></text>
+  <text dx="100"><textPath xlink:href="#path-21">Concilliation</textPath></text>
+  <text dx="125"><textPath xlink:href="#path-22">Faithful</textPath></text>
+  <text dx="130"><textPath xlink:href="#path-23">Stable</textPath></text>
+  <text dx="90"><textPath xlink:href="#path-24">Imaginative</textPath></text>
+  <text dx="100"><textPath xlink:href="#path-25">Probation</textPath></text>
+  <text dx="90"><textPath xlink:href="#path-26">Renovating</textPath></text>
+  <text dx="130"><textPath xlink:href="#path-27">Exciting</textPath></text>
+  <text dx="130"><textPath xlink:href="#path-28">Natural</textPath></text>
+  <text dx="250"><textPath xlink:href="#path-29">Corporeal</textPath></text>
+  <text dx="100"><textPath xlink:href="#path-30">Collecting</textPath></text>
+  <text dx="250"><textPath xlink:href="#path-31">Perpetual</textPath></text>
+  <text dx="80"><textPath xlink:href="#path-32">Administrative</textPath></text>
 
    <!-- The sephiroth also have attributions -->
    <text x="0" y="-850">Admirable</text>

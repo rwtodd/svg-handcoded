@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="400" height="600"
 viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
 >
@@ -54,7 +56,7 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
       <desc>This is the hole we want to cut out of the 
       central circle</desc>
       <rect x="-100" y="-100" width="200" height="200" fill="white" />
-      <use href="#unitHex" transform="scale(53,53)" fill="black" />
+      <use xlink:href="#unitHex" transform="scale(53,53)" fill="black" />
    </mask>
 
 </defs>
@@ -67,9 +69,9 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
       <circle cx="0" cy="0" r="70" fill="white" />
       <circle cx="0" cy="0" r="55" mask="url(#hexMask)" fill="black" />
       <line id="ltrdivider" x1="0" x2="0" y1="55" y2="70" transform="rotate(45)" />
-      <use href="#ltrdivider" transform="rotate(90)" />
-      <use href="#ltrdivider" transform="rotate(-90)" />
-      <use href="#ltrdivider" transform="rotate(180)" />
+      <use xlink:href="#ltrdivider" transform="rotate(90)" />
+      <use xlink:href="#ltrdivider" transform="rotate(-90)" />
+      <use xlink:href="#ltrdivider" transform="rotate(180)" />
 
       <polygon points="0,0 0,53 45.89935,26.5 45.89935,-26.5"
          stroke="black" fill="red" />
@@ -122,59 +124,59 @@ viewBox="-174 -250 348 500" preserveAspectRatio="xMinYMin meet"
 
    <g stroke="white" clip-path="url(#radiantClip)" stroke-width="3">
       <desc>the radiating lines</desc>
-      <use href="#lline" />
-      <use href="#lline" transform="rotate(30)" />
-      <use href="#lline" transform="rotate(60)" />
-      <use href="#lline" transform="rotate(90)" />
-      <use href="#lline" transform="rotate(-30)" />
-      <use href="#lline" transform="rotate(-60)" />
-      <use href="#lline" transform="rotate(-90)" />
-      <use href="#lline" transform="rotate(-120)" />
-      <use href="#lline" transform="rotate(-150)" />
-      <use href="#lline" transform="rotate(180)" />
-      <use href="#lline" transform="rotate(120)" />
-      <use href="#lline" transform="rotate(150)" />
+      <use xlink:href="#lline" />
+      <use xlink:href="#lline" transform="rotate(30)" />
+      <use xlink:href="#lline" transform="rotate(60)" />
+      <use xlink:href="#lline" transform="rotate(90)" />
+      <use xlink:href="#lline" transform="rotate(-30)" />
+      <use xlink:href="#lline" transform="rotate(-60)" />
+      <use xlink:href="#lline" transform="rotate(-90)" />
+      <use xlink:href="#lline" transform="rotate(-120)" />
+      <use xlink:href="#lline" transform="rotate(-150)" />
+      <use xlink:href="#lline" transform="rotate(180)" />
+      <use xlink:href="#lline" transform="rotate(120)" />
+      <use xlink:href="#lline" transform="rotate(150)" />
       <g transform="rotate(15)">
-         <use href="#mline" />
-         <use href="#mline" transform="rotate(30)" />
-         <use href="#mline" transform="rotate(60)" />
-         <use href="#mline" transform="rotate(90)" />
-         <use href="#mline" transform="rotate(-30)" />
-         <use href="#mline" transform="rotate(-60)" />
-         <use href="#mline" transform="rotate(-90)" />
-         <use href="#mline" transform="rotate(-120)" />
-         <use href="#mline" transform="rotate(-150)" />
-         <use href="#mline" transform="rotate(180)" />
-         <use href="#mline" transform="rotate(120)" />
-         <use href="#mline" transform="rotate(150)" />
+         <use xlink:href="#mline" />
+         <use xlink:href="#mline" transform="rotate(30)" />
+         <use xlink:href="#mline" transform="rotate(60)" />
+         <use xlink:href="#mline" transform="rotate(90)" />
+         <use xlink:href="#mline" transform="rotate(-30)" />
+         <use xlink:href="#mline" transform="rotate(-60)" />
+         <use xlink:href="#mline" transform="rotate(-90)" />
+         <use xlink:href="#mline" transform="rotate(-120)" />
+         <use xlink:href="#mline" transform="rotate(-150)" />
+         <use xlink:href="#mline" transform="rotate(180)" />
+         <use xlink:href="#mline" transform="rotate(120)" />
+         <use xlink:href="#mline" transform="rotate(150)" />
       </g>
       <g transform="rotate(7.5)">
-         <use href="#sline" />
-         <use href="#sline" transform="rotate(30)" />
-         <use href="#sline" transform="rotate(60)" />
-         <use href="#sline" transform="rotate(90)" />
-         <use href="#sline" transform="rotate(-30)" />
-         <use href="#sline" transform="rotate(-60)" />
-         <use href="#sline" transform="rotate(-90)" />
-         <use href="#sline" transform="rotate(-120)" />
-         <use href="#sline" transform="rotate(-150)" />
-         <use href="#sline" transform="rotate(180)" />
-         <use href="#sline" transform="rotate(120)" />
-         <use href="#sline" transform="rotate(150)" />
+         <use xlink:href="#sline" />
+         <use xlink:href="#sline" transform="rotate(30)" />
+         <use xlink:href="#sline" transform="rotate(60)" />
+         <use xlink:href="#sline" transform="rotate(90)" />
+         <use xlink:href="#sline" transform="rotate(-30)" />
+         <use xlink:href="#sline" transform="rotate(-60)" />
+         <use xlink:href="#sline" transform="rotate(-90)" />
+         <use xlink:href="#sline" transform="rotate(-120)" />
+         <use xlink:href="#sline" transform="rotate(-150)" />
+         <use xlink:href="#sline" transform="rotate(180)" />
+         <use xlink:href="#sline" transform="rotate(120)" />
+         <use xlink:href="#sline" transform="rotate(150)" />
       </g>
       <g transform="rotate(22.5)">
-         <use href="#sline" />
-         <use href="#sline" transform="rotate(30)" />
-         <use href="#sline" transform="rotate(60)" />
-         <use href="#sline" transform="rotate(90)" />
-         <use href="#sline" transform="rotate(-30)" />
-         <use href="#sline" transform="rotate(-60)" />
-         <use href="#sline" transform="rotate(-90)" />
-         <use href="#sline" transform="rotate(-120)" />
-         <use href="#sline" transform="rotate(-150)" />
-         <use href="#sline" transform="rotate(180)" />
-         <use href="#sline" transform="rotate(120)" />
-         <use href="#sline" transform="rotate(150)" />
+         <use xlink:href="#sline" />
+         <use xlink:href="#sline" transform="rotate(30)" />
+         <use xlink:href="#sline" transform="rotate(60)" />
+         <use xlink:href="#sline" transform="rotate(90)" />
+         <use xlink:href="#sline" transform="rotate(-30)" />
+         <use xlink:href="#sline" transform="rotate(-60)" />
+         <use xlink:href="#sline" transform="rotate(-90)" />
+         <use xlink:href="#sline" transform="rotate(-120)" />
+         <use xlink:href="#sline" transform="rotate(-150)" />
+         <use xlink:href="#sline" transform="rotate(180)" />
+         <use xlink:href="#sline" transform="rotate(120)" />
+         <use xlink:href="#sline" transform="rotate(150)" />
       </g>
    </g>
 

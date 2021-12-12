@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
-width="600" height="600"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.1"
+width="600" height="700"
 viewBox="-30 -35 60 70" preserveAspectRatio="xMinYMin meet"
 >
 <title>Key of the Cosmos and Numbers</title>
@@ -16,9 +18,9 @@ viewBox="-30 -35 60 70" preserveAspectRatio="xMinYMin meet"
    <g stroke-dasharray="1 0.5" 
       stroke="#111111" fill="none">
       <desc>the dashed circles</desc>
-      <use href="#circs" x="0" y="-20" />
-      <use href="#circs" x="0" y="0" />
-      <use href="#circs" x="0" y="20" />
+      <use xlink:href="#circs" x="0" y="-20" />
+      <use xlink:href="#circs" x="0" y="0" />
+      <use xlink:href="#circs" x="0" y="20" />
 
       <!-- let's find the center of the upper-right circle. 
         distance from center to two nearest dashed circles c1,c2
@@ -30,16 +32,16 @@ viewBox="-30 -35 60 70" preserveAspectRatio="xMinYMin meet"
            x^2 + 100 = 400
            x = Sqrt(300) = 17.3205081
       -->
-      <use href="#circs" x="17.3205081" y="-10" />
-      <use href="#circs" x="17.3205081" y="10" />
-      <use href="#circs" x="-17.3205081" y="-10" />
-      <use href="#circs" x="-17.3205081" y="10" />
+      <use xlink:href="#circs" x="17.3205081" y="-10" />
+      <use xlink:href="#circs" x="17.3205081" y="10" />
+      <use xlink:href="#circs" x="-17.3205081" y="-10" />
+      <use xlink:href="#circs" x="-17.3205081" y="10" />
    </g>
 
    <g stroke="black" fill="none">
       <desc>central lined circles</desc>
-      <use href="#circs" x="0" y="-10" />
-      <use href="#circs" x="0" y="10" />
+      <use xlink:href="#circs" x="0" y="-10" />
+      <use xlink:href="#circs" x="0" y="10" />
    </g>
 
    <ellipse cx="0" cy="0" ry="20" rx="13.3" 
@@ -61,7 +63,7 @@ viewBox="-30 -35 60 70" preserveAspectRatio="xMinYMin meet"
       -->
       <polygon id="dashtri" 
          points="0,-30  25.9807621,15  -25.9807621,15" />
-      <use href="#dashtri" transform="scale(1,-1)" />
+      <use xlink:href="#dashtri" transform="scale(1,-1)" />
    </g>
 
    <g stroke="black" fill="none">

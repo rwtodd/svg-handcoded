@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="500" height="500"
 viewBox="-500 -500 1000 1000" preserveAspectRatio="xMinYMin meet"
 >
@@ -33,20 +35,20 @@ in 2021.</desc>
    <line id="upline" x1="0" x2="0" y1="0" y2="-300" />
    <g id="lineBundle" fill="none" stroke="black" stroke-width="4">
       <desc>the bundles of spreading lines</desc>
-      <use href="#upline" transform="rotate(-7.5)" />
-      <use href="#upline" transform="rotate(-5)" />
-      <use href="#upline" transform="rotate(-2.5)" />
-      <use href="#upline" transform="rotate(0)" />
-      <use href="#upline" transform="rotate(2.5)" />
-      <use href="#upline" transform="rotate(5)" />
-      <use href="#upline" transform="rotate(7.5)" /> 
+      <use xlink:href="#upline" transform="rotate(-5)" />
+      <use xlink:href="#upline" transform="rotate(-7.5)" />
+      <use xlink:href="#upline" transform="rotate(-2.5)" />
+      <use xlink:href="#upline" transform="rotate(0)" />
+      <use xlink:href="#upline" transform="rotate(2.5)" />
+      <use xlink:href="#upline" transform="rotate(5)" />
+      <use xlink:href="#upline" transform="rotate(7.5)" /> 
    </g>
 
    <mask id="innerTriMask">
       <desc>the mask stopping the line bundles</desc>
       <rect x="-210" y="-239" width="420" height="480"
             fill="black" stroke="none" />
-      <use href="#innerTri" stroke="white" fill="white" />
+      <use xlink:href="#innerTri" stroke="white" fill="white" />
    </mask>
 
 </defs>
@@ -76,20 +78,20 @@ in 2021.</desc>
 
 <g fill="none" stroke="black" stroke-width="8">
    <desc>the stars around</desc>
-   <use href="#bigstar" transform="translate(0,360)" />
-   <use href="#bigstar" transform="rotate(-120) translate(0,360) rotate(120)" />
-   <use href="#bigstar" transform="rotate(120) translate(0,360) rotate(-120)" />
+   <use xlink:href="#bigstar" transform="translate(0,360)" />
+   <use xlink:href="#bigstar" transform="rotate(-120) translate(0,360) rotate(120)" />
+   <use xlink:href="#bigstar" transform="rotate(120) translate(0,360) rotate(-120)" />
 </g>
 
 <g mask="url(#innerTriMask)">
    <desc>the line bundles</desc>
-   <use href="#lineBundle" /> 
-   <use href="#lineBundle" transform="rotate(30)" />
-   <use href="#lineBundle" transform="rotate(-30)" />
-   <use href="#lineBundle" transform="rotate(-120)" />
-   <use href="#lineBundle" transform="rotate(120)" />
-   <use href="#lineBundle" transform="rotate(-150)" />
-   <use href="#lineBundle" transform="rotate(150)" />
+   <use xlink:href="#lineBundle" /> 
+   <use xlink:href="#lineBundle" transform="rotate(30)" />
+   <use xlink:href="#lineBundle" transform="rotate(-30)" />
+   <use xlink:href="#lineBundle" transform="rotate(-120)" />
+   <use xlink:href="#lineBundle" transform="rotate(120)" />
+   <use xlink:href="#lineBundle" transform="rotate(-150)" />
+   <use xlink:href="#lineBundle" transform="rotate(150)" />
 </g>
 
 
