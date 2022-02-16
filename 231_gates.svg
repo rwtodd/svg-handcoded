@@ -50,7 +50,7 @@ elisp for putting the letters around the circle
 
 <defs>
 </defs>
-<path stroke="black" d="
+<path stroke="black" stroke-width="1" d="
 M0.000000,-300.000000L-84.519767,-287.847892
 M0.000000,-300.000000L-162.192245,-252.376060
 M0.000000,-300.000000L-226.724872,-196.458220
