@@ -6,7 +6,7 @@
      viewBox="-350 -350 700 700" preserveAspectRatio="xMinYMin meet"
      >
 <title>1225 Gates</title>
-<desc>50 nodes fully connected in 1225 gates.</desc>
+<desc>50 nodes fully connected in 1225 gates, with mesmerizing animation.</desc>
 <!--
 elisp for a path for all n lines...
 (let* ((radius 300.0)
@@ -43,7 +43,7 @@ elisp for the outside guidelines...
 
 <defs>
   <mask id="centermask">
-    <rect x="-350" y="-350" width="700" height="700" fill="white" />
+    <rect x="-500" y="-500" width="1000" height="1000" fill="white" />
     <circle cx="0" cy="0" r="305" fill="black" />
   </mask>
 </defs>
@@ -76,7 +76,15 @@ M-184.062276,464.888243L184.062276,-464.888243
 M-124.344944,484.291581L124.344944,-484.291581
 M-62.666617,496.057351L62.666617,-496.057351
 "
-/>
+>
+  <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="360"
+                          to="0"
+                          dur="40s"
+                          repeatCount="indefinite"/>
+</path>
 <path stroke="black" stroke-width="1" d=
 "M0.000000,-300.000000L-37.599970,-297.634410
 M0.000000,-300.000000L-74.606966,-290.574948
@@ -1303,5 +1311,13 @@ M144.526102,-262.892004L37.599970,-297.634410
 M110.437366,-278.932946L74.606966,-290.574948
 M110.437366,-278.932946L37.599970,-297.634410
 M74.606966,-290.574948L37.599970,-297.634410
-" />
+">   <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0"
+                          to="360"
+                          dur="60s"
+                          repeatCount="indefinite"/>
+
+</path>
 </svg>
