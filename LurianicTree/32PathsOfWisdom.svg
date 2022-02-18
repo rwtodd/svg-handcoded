@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
@@ -95,50 +97,50 @@ This drawing hand-coded by Richard Todd 2021</desc>
     (note: for "open" sephiroth, draw the black paths, then
     the circles, then the white paths)
    </desc>
-   <use href="#path-2" stroke="black" stroke-width="60" />
-   <use href="#path-2" stroke="white" stroke-width="50" />
-   <use href="#path-4" stroke="black" stroke-width="60" />
-   <use href="#path-4" stroke="white" stroke-width="50" />
-   <use href="#path-5" stroke="black" stroke-width="60" />
-   <use href="#path-5" stroke="white" stroke-width="50" />
-   <use href="#path-11" stroke="black" stroke-width="60" />
-   <use href="#path-11" stroke="white" stroke-width="50" />
-   <use href="#path-28" stroke="black" stroke-width="60" />
-   <use href="#path-28" stroke="white" stroke-width="50" />
-   <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="white" stroke-width="50" />
-   <use href="#path-6" stroke="black" stroke-width="60" />
-   <use href="#path-6" stroke="white" stroke-width="50" />
-   <use href="#path-14" stroke="black" stroke-width="60" />
-   <use href="#path-14" stroke="white" stroke-width="50" />
-   <use href="#path-8" stroke="black" stroke-width="60" />
-   <use href="#path-8" stroke="white" stroke-width="50" />
-   <use href="#path-24" stroke="black" stroke-width="60" />
-   <use href="#path-24" stroke="white" stroke-width="50" />
-   <use href="#path-12" stroke="black" stroke-width="60" />
-   <use href="#path-12" stroke="white" stroke-width="50" />
-   <use href="#path-18" stroke="black" stroke-width="60" />
-   <use href="#path-18" stroke="white" stroke-width="50" />
-   <use href="#path-21" stroke="black" stroke-width="60" />
-   <use href="#path-21" stroke="white" stroke-width="50" />
-   <use href="#path-25" stroke="black" stroke-width="60" />
-   <use href="#path-17" stroke="black" stroke-width="60" />
-   <use href="#path-17" stroke="white" stroke-width="50" />
-   <use href="#path-20" stroke="black" stroke-width="60" />
-   <use href="#path-20" stroke="white" stroke-width="50" />
-   <use href="#path-22" stroke="black" stroke-width="60" />
-   <use href="#path-22" stroke="white" stroke-width="50" />
-   <use href="#path-27" stroke="black" stroke-width="60" />
-   <use href="#path-27" stroke="white" stroke-width="50" />
-   <use href="#path-9" stroke="black" stroke-width="60" />
-   <use href="#path-9" stroke="white" stroke-width="50" />
-   <use href="#path-29" stroke="black" stroke-width="60" />
-   <use href="#path-29" stroke="white" stroke-width="50" />
-   <use href="#path-16" stroke="black" stroke-width="60" />
-   <use href="#path-16" stroke="white" stroke-width="50" />
-   <use href="#path-32" stroke="black" stroke-width="60" />
-   <use href="#path-32" stroke="white" stroke-width="50" />
-   <use href="#path-25" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-2" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-2" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-4" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-4" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-5" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-5" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-11" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-28" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-28" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-31" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-31" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-6" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-6" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-14" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-8" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-8" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-24" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-24" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-12" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-18" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-20" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-27" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-27" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-9" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-9" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-29" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-29" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-16" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-32" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-32" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="white" stroke-width="50" />
 </g>
 
 <g stroke="black" fill="white" stroke-width="5">
@@ -146,17 +148,19 @@ This drawing hand-coded by Richard Todd 2021</desc>
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
        vertical unit = 200 -->
-  <use href="#sephira" x="0" y="-800" /> <!-- path 1 kether   -->
-  <use href="#sephira" x="346.41" y="-600" /> <!-- path 3 chockmah -->
-  <use href="#sephira" x="-346.41" y="-600" /> <!-- path 7 binah    -->
-<!--  <use href="#sephira" x="0" y="-400" fill="none" stroke-dasharray="10 5" /> --> <!-- daath    -->
-  <use href="#sephira" x="346.41" y="-200" /> <!-- path 10 chesed   -->
-  <use href="#sephira" x="-346.41" y="-200" /> <!-- path 13 geburah  -->
-  <use href="#sephira" x="0" y="0" /> <!-- path 15 tipharet -->
-  <use href="#sephira" x="346.41" y="200" /> <!-- path 19 netzach  -->
-  <use href="#sephira" x="-346.41" y="200" /> <!-- path 23 hod      -->
-  <use href="#sephira" x="0" y="400" /> <!-- path 26 yesod    -->
-  <use href="#sephira" x="0" y="800" /> <!-- path 30 malkuth  -->
+  <use xlink:href="#sephira" x="0" y="-800" /> <!-- path 1 kether   -->
+  <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- path 3 chockmah -->
+  <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- path 7 binah    -->
+<!--  <use xlink:href="#sephira" x="0" y="-400" fill="none" stroke-dasharray="10 5" /> --> <!-- daath    -->
+  <use xlink:href="#sephira" x="346.41" y="-200" /> <!-- path 10 chesed   -->
+  <use xlink:href="#sephira" x="-346.41" y="-200" /> <!-- path 13 geburah  -->
+  <use xlink:href="#sephira" x="0" y="0" /> <!-- path 15 tipharet -->
+  <use xlink:href="#sephira" x="346.41" y="200" /> <!-- path 19 netzach  -->
+  <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- path 23 hod      -->
+  <use xlink:href="#sephira" x="0" y="400" /> <!-- path 26 yesod    -->
+  <use xlink:href="#sephira" x="0" y="800" /> <!-- path 30 malkuth  -->
+  <use xlink:href="#path-32" stroke="white" stroke-width="50" />
+  <use xlink:href="#path-22" stroke="white" stroke-width="50" />
 </g>
 
 <g class="midtext" fill="black" stroke="black" 
@@ -164,40 +168,40 @@ This drawing hand-coded by Richard Todd 2021</desc>
    font-size="35" font-family="verdana, sans-serif"
 >
    <text x="0" y="-800">Mystical</text><!--Path 1 -->
-   <text dx="127"><textPath href="#path-2">Radiant</textPath></text>
+   <text dx="127"><textPath xlink:href="#path-2">Radiant</textPath></text>
    <text x="346.41" y="-600">Sanctifying</text><!-- Path 3 -->
-   <text dx="130"><textPath href="#path-4">Settled</textPath></text>
-   <text dx="130"><textPath href="#path-5">Rooted</textPath></text>
-   <text dx="150"><textPath href="#path-6">Trancend.</textPath></text>
-   <text dx="470"><textPath href="#path-6">Influx</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-4">Settled</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-5">Rooted</textPath></text>
+   <text dx="150"><textPath xlink:href="#path-6">Trancend.</textPath></text>
+   <text dx="470"><textPath xlink:href="#path-6">Influx</textPath></text>
    <text x="-346.41" y="-600">Hidden</text><!-- Path 7 -->
-   <text dx="270"><textPath href="#path-8">Perfect</textPath></text>
-   <text dx="150"><textPath href="#path-9">Pure</textPath></text>
+   <text dx="270"><textPath xlink:href="#path-8">Perfect</textPath></text>
+   <text dx="150"><textPath xlink:href="#path-9">Pure</textPath></text>
    <text x="346.41" y="-200">Scintillating</text> <!-- Path 10 -->
-   <text dx="390"><textPath href="#path-11">Glaring</textPath></text>
-   <text dx="150"><textPath href="#path-12">Glow.</textPath></text>
+   <text dx="390"><textPath xlink:href="#path-11">Glaring</textPath></text>
+   <text dx="150"><textPath xlink:href="#path-12">Glow.</textPath></text>
    <text x="-346.41" y="-225">Unity</text> <!-- Path 13 -->
    <text x="-346.41" y="-175">Directing</text> <!-- Path 13 -->
-   <text dx="260"><textPath href="#path-14">Illuminating</textPath></text>
+   <text dx="260"><textPath xlink:href="#path-14">Illuminating</textPath></text>
    <text x="0" y="0">Stabilizing</text> <!-- Path 15 -->
-   <text dx="130"><textPath href="#path-16">Enduring</textPath></text>
-   <text dx="130"><textPath href="#path-17">Senses</textPath></text>
-   <text dx="140"><textPath href="#path-18">Influx</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-16">Enduring</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-17">Senses</textPath></text>
+   <text dx="140"><textPath xlink:href="#path-18">Influx</textPath></text>
    <text x="346.41" y="175">Mystery of</text> <!-- Path 19 -->
    <text x="346.41" y="225">Spiritual</text> <!-- Path 19 -->
-   <text dx="150"><textPath href="#path-20">Will</textPath></text>
-   <text dx="130"><textPath href="#path-21">Sought</textPath></text>
-   <text dx="126"><textPath href="#path-22">Faithful</textPath></text>
+   <text dx="150"><textPath xlink:href="#path-20">Will</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-21">Sought</textPath></text>
+   <text dx="126"><textPath xlink:href="#path-22">Faithful</textPath></text>
    <text x="-346.41" y="200">Sustaining</text> <!-- Path 23 -->
-   <text dx="250"><textPath href="#path-24">Apparative</textPath></text>
-   <text dx="130"><textPath href="#path-25">Testing</textPath></text>
+   <text dx="250"><textPath xlink:href="#path-24">Apparative</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-25">Testing</textPath></text>
    <text x="0" y="400">Renewing</text> <!-- Path 26 -->
-   <text dx="150"><textPath href="#path-27">Palp.</textPath></text>
-   <text dx="130"><textPath href="#path-28">Natural</textPath></text>
-   <text dx="126"><textPath href="#path-29">Physic.</textPath></text>
+   <text dx="150"><textPath xlink:href="#path-27">Palp.</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-28">Natural</textPath></text>
+   <text dx="126"><textPath xlink:href="#path-29">Physic.</textPath></text>
    <text x="0" y="800">General</text><!-- Path 30 -->
-   <text dx="130"><textPath href="#path-31">Continuous</textPath></text>
-   <text dx="123"><textPath href="#path-32">Worship</textPath></text>
+   <text dx="130"><textPath xlink:href="#path-31">Continuous</textPath></text>
+   <text dx="123"><textPath xlink:href="#path-32">Worship</textPath></text>
 
 </g>
 <!-- vim: expandtab:sw=3
