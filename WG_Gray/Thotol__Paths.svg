@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
@@ -56,50 +58,50 @@ by William G. Gray.  Hand-coded by Richard Todd 2021</desc>
     (note: for "open" sephiroth, draw the black paths, then
     the circles, then the white paths)
    </desc>
-   <use href="#path-11" stroke="black" stroke-width="60" />
-   <use href="#path-11" stroke="white" stroke-width="50" />
-   <use href="#path-12" stroke="black" stroke-width="60" />
-   <use href="#path-12" stroke="white" stroke-width="50" />
-   <use href="#path-13" stroke="black" stroke-width="60" />
-   <use href="#path-13" stroke="white" stroke-width="50" />
-   <use href="#path-14" stroke="black" stroke-width="60" />
-   <use href="#path-14" stroke="white" stroke-width="50" />
-   <use href="#path-15" stroke="black" stroke-width="60" />
-   <use href="#path-15" stroke="white" stroke-width="50" />
-   <use href="#path-16" stroke="black" stroke-width="60" />
-   <use href="#path-16" stroke="white" stroke-width="50" />
-   <use href="#path-17" stroke="black" stroke-width="60" />
-   <use href="#path-17" stroke="white" stroke-width="50" />
-   <use href="#path-18" stroke="black" stroke-width="60" />
-   <use href="#path-18" stroke="white" stroke-width="50" />
-   <use href="#path-19" stroke="black" stroke-width="60" />
-   <use href="#path-19" stroke="white" stroke-width="50" />
-   <use href="#path-20" stroke="black" stroke-width="60" />
-   <use href="#path-20" stroke="white" stroke-width="50" />
-   <use href="#path-21" stroke="black" stroke-width="60" />
-   <use href="#path-21" stroke="white" stroke-width="50" />
-   <use href="#path-22" stroke="black" stroke-width="60" />
-   <use href="#path-22" stroke="white" stroke-width="50" />
-   <use href="#path-23" stroke="black" stroke-width="60" />
-   <use href="#path-23" stroke="white" stroke-width="50" />
-   <use href="#path-24" stroke="black" stroke-width="60" />
-   <use href="#path-24" stroke="white" stroke-width="50" />
-   <use href="#path-25" stroke="black" stroke-width="60" />
-   <use href="#path-25" stroke="white" stroke-width="50" />
-   <use href="#path-26" stroke="black" stroke-width="60" />
-   <use href="#path-26" stroke="white" stroke-width="50" />
-   <use href="#path-27" stroke="black" stroke-width="60" />
-   <use href="#path-27" stroke="white" stroke-width="50" />
-   <use href="#path-28" stroke="black" stroke-width="60" />
-   <use href="#path-28" stroke="white" stroke-width="50" />
-   <use href="#path-29" stroke="black" stroke-width="60" />
-   <use href="#path-29" stroke="white" stroke-width="50" />
-   <use href="#path-30" stroke="black" stroke-width="60" />
-   <use href="#path-30" stroke="white" stroke-width="50" />
-   <use href="#path-31" stroke="black" stroke-width="60" />
-   <use href="#path-31" stroke="white" stroke-width="50" />
-   <use href="#path-32" stroke="black" stroke-width="60" />
-   <use href="#path-32" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-11" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-12" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-13" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-13" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-14" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-15" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-15" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-16" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-17" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-18" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-19" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-19" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-20" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-23" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-23" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-24" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-24" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-25" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-26" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-26" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-27" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-27" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-28" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-28" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-29" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-29" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-30" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-30" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-31" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-31" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-32" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-32" stroke="white" stroke-width="50" />
 </g>
 
 <g stroke="black" fill="white" stroke-width="5">
@@ -107,47 +109,47 @@ by William G. Gray.  Hand-coded by Richard Todd 2021</desc>
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
        vertical unit = 200 -->
-  <use href="#sephira" x="0" y="-800" /> <!-- kether   -->
-  <use href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
-  <use href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
-  <use href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
-  <use href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
-  <use href="#sephira" x="0" y="0" /> <!-- tipharet -->
-  <use href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
-  <use href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
-  <use href="#sephira" x="0" y="400" /> <!-- yesod    -->
-  <use href="#sephira" x="0" y="800" /> <!-- malkuth  -->
-</g>
-
-<g class="midtext" stroke="black" fill="black" stroke-width="1" 
-   font-family="Times New Roman, Times, serif" font-size="44">
-   <text dx="160"><textPath href="#path-11">11 B</textPath></text> 
-   <text dx="160"><textPath href="#path-12">12 C</textPath></text> 
-   <text dx="350"><textPath href="#path-13">13 D</textPath></text> 
-   <text dx="320"><textPath href="#path-14">14 F</textPath></text> 
-   <text dx="160"><textPath href="#path-15">15 G</textPath></text> 
-   <text dx="360"><textPath href="#path-16">16 H</textPath></text> 
-   <text dx="160"><textPath href="#path-17">17 J</textPath></text> 
-   <text dx="260"><textPath href="#path-18">18 K</textPath></text> 
-   <text dx="320"><textPath href="#path-19">19 L</textPath></text> 
-   <text dx="160"><textPath href="#path-20">20 M</textPath></text> 
-   <text dx="160"><textPath href="#path-21">21 N</textPath></text> 
-   <text dx="160"><textPath href="#path-22">22 P</textPath></text> 
-   <text dx="160"><textPath href="#path-23">23 Q</textPath></text> 
-   <text dx="160"><textPath href="#path-24">24 R</textPath></text> 
-   <text dx="160"><textPath href="#path-25">26 S</textPath></text> 
-   <line x1="0" x2="61" y1="145" y2="145" />
-   <text style="text-anchor: start" x="64" y="145">26 T</text> 
-   <text dx="320"><textPath href="#path-27">27 V</textPath></text> 
-   <text dx="160"><textPath href="#path-28">28 W</textPath></text> 
-   <text dx="360"><textPath href="#path-29">29 X</textPath></text> 
-   <text dx="160"><textPath href="#path-30">30 Y</textPath></text> 
-   <text dx="260"><textPath href="#path-31">31 Z</textPath></text> 
-   <text dx="150"><textPath href="#path-32">32 Th</textPath></text> 
+  <use xlink:href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use xlink:href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use xlink:href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use xlink:href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use xlink:href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use xlink:href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
 <g class="midtext" stroke="black" fill="black" stroke-width="2" 
-   font-family="Times New Roman, Times, serif" font-size="65">
+   font-family="Verdana, sans-serif" font-size="44">
+   <text dx="150"><textPath xlink:href="#path-11">11 B</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-12">12 C</textPath></text> 
+   <text dx="350"><textPath xlink:href="#path-13">13 D</textPath></text> 
+   <text dx="300"><textPath xlink:href="#path-14">14 F</textPath></text> 
+   <text dx="160"><textPath xlink:href="#path-15">15 G</textPath></text> 
+   <text dx="350"><textPath xlink:href="#path-16">16 H</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-17">17 J</textPath></text> 
+   <text dx="240"><textPath xlink:href="#path-18">18 K</textPath></text> 
+   <text dx="300"><textPath xlink:href="#path-19">19 L</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-20">20 M</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-21">21 N</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-22">22 P</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-23">23 Q</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-24">24 R</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-25">25 S</textPath></text> 
+   <line x1="0" x2="61" y1="145" y2="145" />
+   <text style="text-anchor: start" x="55" y="145">26 T</text> 
+   <text dx="300"><textPath xlink:href="#path-27">27 V</textPath></text> 
+   <text dx="145"><textPath xlink:href="#path-28">28 W</textPath></text> 
+   <text dx="350"><textPath xlink:href="#path-29">29 X</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-30">30 Y</textPath></text> 
+   <text dx="240"><textPath xlink:href="#path-31">31 Z</textPath></text> 
+   <text dx="145"><textPath xlink:href="#path-32">32 Th</textPath></text> 
+</g>
+
+<g class="midtext" stroke="black" fill="black" stroke-width="2" 
+   font-family="Verdana, sans-serif" font-size="65">
   <text x="0" y="-800">1</text> <!-- kether   -->
   <text x="346.41" y="-600">2</text> <!-- chockmah -->
   <text x="-346.41" y="-600">3</text><!-- binah    -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="600" height="600"
+     viewBox="-300 -300 600 600" preserveAspectRatio="xMinYMin meet"
+>
+<title>Spiral Pentagram</title>
+<desc>Saw it in a Phil Hine book.</desc>
+
+<style type="text/css">
+<![CDATA[
+    #my-rect { fill: blue; }
+]]>
+</style>
+
+<!-- python for arcs
+import math
+radius = 350
+prads = [math.radians(90.0 + p*72.0) 
+         for p in [4,1,3,0,2,4]]
+
+for rad in prads:
+  x,y = 300*math.cos(rad), -300*math.sin(rad)
+  print(f'A {radius} {radius} 0 0 1 {x} {y}')
+-->
+
+<g stroke="black" stroke-width="5" fill="none" transform="translate(0,30)">
+  <path id="onearc"
+	d="M285.31695488854604 -92.70509831248422 
+	   A 350 350 0 0 1 -285.31695488854604 -92.70509831248422
+	   A 350 350 0 0 1 176.33557568774188 242.70509831248427
+	   A 350 350 0 0 1 0 -300.0
+	   A 350 350 0 0 1 -176.33557568774197 242.7050983124842
+	   A 350 350 0 0 1 285.3169548885461 -92.70509831248415 Z" />
+</g>
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
