@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="720" height="720"
+     viewBox="-360 -360 720 720" preserveAspectRatio="xMinYMin meet"
+>
+<title>Sangreal Trump Cycle (modified)</title>
+<desc>This is from WG Gray's Sangreal Tarot book, but I've changed
+the arms of the central cross to match my personal preference for the
+order of the elements. Hand-coded by Richard Todd</desc>
+
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath { 
+      text-anchor: start; 
+      dominant-baseline: middle; 
+   }
+]]>
+</style>
+
+<defs>
+  <filter x="0" y="0" width="1" height="1" id="solid-bg">
+    <feFlood flood-color="white" result="bg" />
+      <feMerge>
+        <feMergeNode in="bg"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+  </filter>
+
+  <!-- for circular text -->
+  <path id="upoutcirc" d="M0,-294.1 A 294.1 294.1 0 0 1 90.881898 -279.705721" />
+  <path id="upinncirc" d="M0,-273.7 A 273.7 273.7 0 0 1 84.577851 -260.3041685" />
+  <path id="dnoutcirc" d="M0,294.1 A 294.1 294.1 0 0 0 90.881898 279.705721" />
+  <path id="dninncirc" d="M0,273.7 A 273.7 273.7 0 0 0 84.577851 260.3041685" />
+  <path id="upquad" d="M0,-325 A 325 325 0 0 1 325 0" />
+  <path id="dnquad" d="M0,325 A 325 325 0 0 0 325 0" />
+</defs>
+
+<path fill="white" d="M-360 -360 h720 v720 h-720 z" />
+
+<!-- python
+import math
+fsize = 17 # font size
+for idx in range(15):
+  radius = 1.5*fsize + idx*fsize
+  print(f'<circle cx="0" cy="0" r="{radius}" />')
+
+for idx in range(1,3):
+  radius = 15.5*fsize + idx*(fsize*1.2)
+  print(f'<circle cx="0" cy="0" r="{radius}" />')
+-->
+<g stroke="black" stroke-width="2" fill="white" transform="translate(0,50)">
+  <desc>the circular area</desc>
+
+<path transform="rotate(13.5)" fill="none" d="M-141.6450359 -277.994 A 312 312 0 0 1 0 -312 l-5,-5 M0 -312 l-5,5" />
+<circle cx="0" cy="0" r="304.3" />
+<circle cx="0" cy="0" r="283.9" />
+<circle cx="0" cy="0" r="263.5" stroke-width="5" />
+<circle cx="0" cy="0" r="246.5" />
+<circle cx="0" cy="0" r="229.5" />
+<circle cx="0" cy="0" r="212.5" />
+<circle cx="0" cy="0" r="195.5" />
+<circle cx="0" cy="0" r="178.5" />
+<circle cx="0" cy="0" r="161.5" />
+<circle cx="0" cy="0" r="144.5" />
+<circle cx="0" cy="0" r="127.5" />
+<circle cx="0" cy="0" r="110.5" />
+<circle cx="0" cy="0" r="93.5" />
+<circle cx="0" cy="0" r="76.5" />
+<circle cx="0" cy="0" r="59.5" />
+<circle cx="0" cy="0" r="42.5" />
+<circle cx="0" cy="0" r="25.5" />
+
+<g stroke="none" fill="white" fill-opacity="0.8">
+  <desc>the cross arms</desc>
+  <rect x="-25.5" y="-260" width="51" height="520" />
+  <rect x="-260" y="-25.5" width="520" height="51" />
+</g>
+
+<g class="midtext" font-family="verdana, sans-serif" font-size="14" stroke="black" stroke-width="1" fill="black">
+  <text filter="url(#solid-bg)" x="0" y="-15">STRENGTH</text>
+  <text filter="url(#solid-bg)" x="0" y="0">U</text>
+  <text filter="url(#solid-bg)" x="0" y="15">M</text>
+
+  <text filter="url(#solid-bg)" x="-160" y="-10">SWORDS</text>
+  <text filter="url(#solid-bg)" x="160" y="-10">RODS</text>
+  <text filter="url(#solid-bg)" x="-160" y="-10" transform="rotate(90)">SHIELDS</text>
+  <text filter="url(#solid-bg)" x="160" y="-10" transform="rotate(90)">CUPS</text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="10" stroke-width="1" stroke="black" fill="black">
+  <!-- cards -->
+  <text filter="url(#solid-bg)" x="32" y="10">1</text>
+  <text filter="url(#solid-bg)" x="48" y="10">2</text>
+  <text filter="url(#solid-bg)" x="65" y="10">3</text>
+  <text filter="url(#solid-bg)" x="81" y="10">4</text>
+  <text filter="url(#solid-bg)" x="100" y="10">5</text>
+  <text filter="url(#solid-bg)" x="117" y="10">6</text>
+  <text filter="url(#solid-bg)" x="134" y="10">7</text>
+  <text filter="url(#solid-bg)" x="151" y="10">8</text>
+  <text filter="url(#solid-bg)" x="168" y="10">9</text>
+  <text filter="url(#solid-bg)" x="185" y="10">10</text>
+  <text filter="url(#solid-bg)" x="204" y="10">Pg</text>  
+  <text filter="url(#solid-bg)" x="221" y="10">Kn</text>
+  <text filter="url(#solid-bg)" x="238" y="10">Q</text>
+  <text filter="url(#solid-bg)" x="253" y="10">K</text>
+
+  <text filter="url(#solid-bg)" x="-32" y="10">1</text>
+  <text filter="url(#solid-bg)" x="-48" y="10">2</text>
+  <text filter="url(#solid-bg)" x="-65" y="10">3</text>
+  <text filter="url(#solid-bg)" x="-81" y="10">4</text>
+  <text filter="url(#solid-bg)" x="-100" y="10">5</text>
+  <text filter="url(#solid-bg)" x="-117" y="10">6</text>
+  <text filter="url(#solid-bg)" x="-134" y="10">7</text>
+  <text filter="url(#solid-bg)" x="-151" y="10">8</text>
+  <text filter="url(#solid-bg)" x="-168" y="10">9</text>
+  <text filter="url(#solid-bg)" x="-185" y="10">10</text>
+  <text filter="url(#solid-bg)" x="-204" y="10">Pg</text>  
+  <text filter="url(#solid-bg)" x="-221" y="10">Kn</text>
+  <text filter="url(#solid-bg)" x="-238" y="10">Q</text>
+  <text filter="url(#solid-bg)" x="-253" y="10">K</text>
+
+  <text filter="url(#solid-bg)" y="-32"  x="-10">1</text>
+  <text filter="url(#solid-bg)" y="-48"  x="-10">2</text>
+  <text filter="url(#solid-bg)" y="-65"  x="-10">3</text>
+  <text filter="url(#solid-bg)" y="-81"  x="-10">4</text>
+  <text filter="url(#solid-bg)" y="-100" x="-10">5</text>
+  <text filter="url(#solid-bg)" y="-117" x="-10">6</text>
+  <text filter="url(#solid-bg)" y="-134" x="-10">7</text>
+  <text filter="url(#solid-bg)" y="-151" x="-10">8</text>
+  <text filter="url(#solid-bg)" y="-168" x="-10">9</text>
+  <text filter="url(#solid-bg)" y="-185" x="-10">10</text>
+  <text filter="url(#solid-bg)" y="-204" x="-10">Pg</text>  
+  <text filter="url(#solid-bg)" y="-221" x="-10">Kn</text>
+  <text filter="url(#solid-bg)" y="-238" x="-10">Q</text>
+  <text filter="url(#solid-bg)" y="-253" x="-10">K</text>
+
+  <text filter="url(#solid-bg)" y="32"  x="-10">1</text>
+  <text filter="url(#solid-bg)" y="48"  x="-10">2</text>
+  <text filter="url(#solid-bg)" y="65"  x="-10">3</text>
+  <text filter="url(#solid-bg)" y="81"  x="-10">4</text>
+  <text filter="url(#solid-bg)" y="100" x="-10">5</text>
+  <text filter="url(#solid-bg)" y="117" x="-10">6</text>
+  <text filter="url(#solid-bg)" y="134" x="-10">7</text>
+  <text filter="url(#solid-bg)" y="151" x="-10">8</text>
+  <text filter="url(#solid-bg)" y="168" x="-10">9</text>
+  <text filter="url(#solid-bg)" y="185" x="-10">10</text>
+  <text filter="url(#solid-bg)" y="204" x="-10">Pg</text>  
+  <text filter="url(#solid-bg)" y="221" x="-10">Kn</text>
+  <text filter="url(#solid-bg)" y="238" x="-10">Q</text>
+  <text filter="url(#solid-bg)" y="253" x="-10">K</text>
+</g>
+
+<!-- the cross outline -->
+  <path fill="none" stroke="black" stroke-width="2" d="M-25.5 -260 v233.5 h-16 v18 h16 v268 
+m51 0 v-268 h16 v-18 h-16 v-233.5
+M-260 -25.5 h 520 m 0 51 h-520" />
+
+  <g stroke="black" stroke-width="2">
+    <desc>the dividing lines for the trumps</desc>
+    <path id="trumpdiv" d="M0,-263.5 V-304.3 M0,263.5 V304.3 M-263.5,0 H-304.3 M263.5,0 H304.3" />
+    <use xlink:href="#trumpdiv" transform="rotate(18)" />
+    <use xlink:href="#trumpdiv" transform="rotate(36)" />
+    <use xlink:href="#trumpdiv" transform="rotate(54)" />
+    <use xlink:href="#trumpdiv" transform="rotate(72)" />
+  </g>
+
+  <g font-size="13" font-family="verdana, sans-serif" stroke="black" stroke-width="1" fill="black">
+    <desc>the trump text</desc>
+    <text>
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">STAR</textPath>
+    </text>
+    <text>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">D</textPath>
+    </text>
+    <text>
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">PRIESTESS</textPath>
+    </text>
+    <text>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">W</textPath>
+    </text>
+    <text transform="rotate(18)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">SUN</textPath>
+    </text>
+    <text transform="rotate(18)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">T</textPath>
+    </text>
+    <text transform="rotate(18)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">MAGICIAN</textPath>
+    </text>
+    <text transform="rotate(18)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Y</textPath>
+    </text>
+    <text transform="rotate(36)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">MOON</textPath>
+    </text>
+    <text transform="rotate(36)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Th</textPath>
+    </text>
+    <text transform="rotate(36)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">WHEEL</textPath>
+    </text>
+    <text transform="rotate(36)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">V</textPath>
+    </text>
+    <text transform="rotate(54)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">LOVERS</textPath>
+    </text>
+    <text transform="rotate(54)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">R</textPath>
+    </text>
+    <text transform="rotate(54)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">JUSTICE</textPath>
+    </text>
+    <text transform="rotate(54)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">L</textPath>
+    </text>
+    <text transform="rotate(72)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">WORLD</textPath>
+    </text>
+    <text transform="rotate(72)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">X</textPath>
+    </text>
+    <text transform="rotate(72)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">JUDGMENT</textPath>
+    </text>
+    <text transform="rotate(72)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">F</textPath>
+    </text>
+    <text transform="rotate(-18)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">TEMPERANCE</textPath>
+    </text>
+    <text transform="rotate(-18)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">H</textPath>
+    </text>
+    <text transform="rotate(-18)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">HIEROPHANT</textPath>
+    </text>
+    <text transform="rotate(-18)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">B</textPath>
+    </text>
+    <text transform="rotate(-36)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">HERMIT</textPath>
+    </text>
+    <text transform="rotate(-36)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">C</textPath>
+    </text>
+    <text transform="rotate(-36)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">EMPRESS</textPath>
+    </text>
+    <text transform="rotate(-36)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">N</textPath>
+    </text>
+    <text transform="rotate(-54)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">DEATH</textPath>
+    </text>
+    <text transform="rotate(-54)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">J</textPath>
+    </text>
+    <text transform="rotate(-54)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">EMPEROR</textPath>
+    </text>
+    <text transform="rotate(-54)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">G</textPath>
+    </text>
+    <text transform="rotate(-72)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">HANGED MAN</textPath>
+    </text>
+    <text transform="rotate(-72)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">K</textPath>
+    </text>
+    <text transform="rotate(-72)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">CHARIOT</textPath>
+    </text>
+    <text transform="rotate(-72)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">S</textPath>
+    </text>
+    <text transform="rotate(-90)">
+      <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">TOWER</textPath>
+    </text>
+    <text transform="rotate(-90)">
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">P</textPath>
+    </text>
+    <text transform="rotate(90)">
+      <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">DEVIL</textPath>
+    </text>
+    <text transform="rotate(90)">
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Q</textPath>
+    </text>
+  </g>
+  <g font-size="15" font-family="verdana, sans-serif" stroke="black" stroke-width="1" fill="black">
+    <desc>the trump text</desc>
+    <text>
+      <textPath xlink:href="#upquad" startOffset="50%" dominant-baseline="middle" text-anchor="middle">PHASE 1: ENTERING EARTH</textPath>
+    </text>
+    <text>
+      <textPath xlink:href="#dnquad" startOffset="50%" dominant-baseline="middle" text-anchor="middle">PHASE 2: LEARNING LIFE</textPath>
+    </text>
+    <text transform="rotate(-90)">
+      <textPath xlink:href="#upquad" startOffset="50%" dominant-baseline="middle" text-anchor="middle">PHASE 4: AGONIZING ADVENTURE</textPath>
+    </text>
+    <text transform="rotate(90)">
+      <textPath xlink:href="#dnquad" startOffset="50%" dominant-baseline="middle" text-anchor="middle">PHASE 3: OVERCOMING OBSTACLES</textPath>
+    </text>
+    </g>
+
+</g>
+
+
+<g stroke="black" stroke-width="2" fill="white">
+  <desc>fool box</desc>
+  <rect x="-25" y="-340" width="50" height="68" />
+</g>
+
+<g class="midtext" font-family="verdana, sans-serif" stroke="black" font-size="14" stroke-width="1" fill="black">
+  <desc>fool text</desc>
+  <text filter="url(#solid-bg)" x="0" y="-327">THE</text>
+  <text filter="url(#solid-bg)" x="0" y="-311">FOOL</text>
+  <text filter="url(#solid-bg)" x="0" y="-296">U</text>
+  <text filter="url(#solid-bg)" x="0" y="-281">Z</text>
+</g>
+
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
