@@ -14,27 +14,24 @@
 ]]>
 </style>
 
-<!-- python for arcs
-import math
-radius = 350
-prads = [math.radians(90.0 + p*72.0) 
-         for p in [4,1,3,0,2,4]]
-
-for rad in prads:
-  x,y = 300*math.cos(rad), -300*math.sin(rad)
-  print(f'A {radius} {radius} 0 0 1 {x} {y}')
+<!-- elisp for arcs 
+(let ((radius 350.0)
+      (prads (mapcar #'(lambda (p) (degrees-to-radians (+ 90.0 (* p 72.0))))
+		     '(4 1 3 0 2 4))))
+  (dolist (rad prads)
+    (insert (format "A  %d %d 0 0 1 %0.4f %0.4f\n"
+		    radius
+		    radius
+		    (* 300 (cos rad))
+		    (* -300 (sin rad))))))
 -->
-
 <g stroke="black" stroke-width="5" fill="none" transform="translate(0,30)">
-  <path id="onearc"
-	d="M285.31695488854604 -92.70509831248422 
-	   A 350 350 0 0 1 -285.31695488854604 -92.70509831248422
-	   A 350 350 0 0 1 176.33557568774188 242.70509831248427
-	   A 350 350 0 0 1 0 -300.0
-	   A 350 350 0 0 1 -176.33557568774197 242.7050983124842
-	   A 350 350 0 0 1 285.3169548885461 -92.70509831248415 Z" />
+  <path d="M285.3170 -92.7051
+	   A  350 350 0 0 1 -285.3170 -92.7051
+	   A  350 350 0 0 1 176.3356 242.7051
+	   A  350 350 0 0 1 0.0000 -300.0000
+	   A  350 350 0 0 1 -176.3356 242.7051
+	   A  350 350 0 0 1 285.3170 -92.7051 Z" />
 </g>
 
-<!-- vim: expandtab:sw=3
--->
 </svg>

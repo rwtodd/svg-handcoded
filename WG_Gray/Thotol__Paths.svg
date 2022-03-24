@@ -127,7 +127,7 @@ by William G. Gray.  Hand-coded by Richard Todd 2021</desc>
    <text dx="150"><textPath xlink:href="#path-12">12 C</textPath></text> 
    <text dx="350"><textPath xlink:href="#path-13">13 D</textPath></text> 
    <text dx="300"><textPath xlink:href="#path-14">14 F</textPath></text> 
-   <text dx="160"><textPath xlink:href="#path-15">15 G</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-15">15 G</textPath></text> 
    <text dx="350"><textPath xlink:href="#path-16">16 H</textPath></text> 
    <text dx="150"><textPath xlink:href="#path-17">17 J</textPath></text> 
    <text dx="240"><textPath xlink:href="#path-18">18 K</textPath></text> 
@@ -145,21 +145,21 @@ by William G. Gray.  Hand-coded by Richard Todd 2021</desc>
    <text dx="350"><textPath xlink:href="#path-29">29 X</textPath></text> 
    <text dx="150"><textPath xlink:href="#path-30">30 Y</textPath></text> 
    <text dx="240"><textPath xlink:href="#path-31">31 Z</textPath></text> 
-   <text dx="145"><textPath xlink:href="#path-32">32 Th</textPath></text> 
+   <text dx="140"><textPath xlink:href="#path-32">32 Th</textPath></text> 
 </g>
 
 <g class="midtext" stroke="black" fill="black" stroke-width="2" 
    font-family="Verdana, sans-serif" font-size="65">
-  <text x="0" y="-800">1</text> <!-- kether   -->
-  <text x="346.41" y="-600">2</text> <!-- chockmah -->
-  <text x="-346.41" y="-600">3</text><!-- binah    -->
-  <text x="346.41" y="-200">4</text> <!-- chesed   -->
+  <text x="0" y="-800">1</text>       <!-- kether   -->
+  <text x="346.41" y="-600">2</text>  <!-- chockmah -->
+  <text x="-346.41" y="-600">3</text> <!-- binah    -->
+  <text x="346.41" y="-200">4</text>  <!-- chesed   -->
   <text x="-346.41" y="-200">5</text> <!-- geburah  -->
-  <text x="0" y="0">6</text> <!-- tipharet -->
-  <text x="346.41" y="200">7</text> <!-- netzach  -->
-  <text x="-346.41" y="200">8</text> <!-- hod      -->
-  <text x="0" y="400">9</text> <!-- yesod    -->
-  <text x="0" y="800">10</text> <!-- malkuth  -->
+  <text x="0" y="0">6</text>          <!-- tipharet -->
+  <text x="346.41" y="200">7</text>   <!-- netzach  -->
+  <text x="-346.41" y="200">8</text>  <!-- hod      -->
+  <text x="0" y="400">9</text>        <!-- yesod    -->
+  <text x="0" y="800">10</text>       <!-- malkuth  -->
 </g>
 
 <!-- vim: expandtab:sw=3
