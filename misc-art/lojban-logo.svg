@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="300" height="195"
+     viewBox="-500 -325 1000 650" preserveAspectRatio="xMinYMin meet"
+>
+<!-- dimensions multiple of 100x65 -->
+<title>Lojban Logo</title>
+<desc>Logo for a constructed language</desc>
+
+<defs>
+  <circle id="circs" r="220" stroke="blue" stroke-width="35" fill="none" />
+  <path id="arrow" fill="red" stroke="none" 
+     d="M0,0 -50,20 0,-60 50,20z" />
+</defs>
+
+<use xlink:href="#circs" x="-150" />
+<use xlink:href="#circs" x="150" />
+<path stroke="red" stroke-width="35" fill="none" d="M0,-260v520 M-430,0h860" />
+<use xlink:href="#arrow" x="0" y="-260" />
+<use xlink:href="#arrow" transform="translate(430,0)rotate(90)" />
+<use xlink:href="#arrow" transform="translate(-430,0)rotate(-90)" />
+<use xlink:href="#arrow" transform="translate(0,260),scale(1,-1)" />
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
