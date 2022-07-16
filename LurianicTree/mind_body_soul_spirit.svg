@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
+width="504" height="720"
+viewBox="-700 -1000 1400 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>Mind-Body-Soul-Spirit</title>
+<desc>The Ficino/medieval concepts of mind/body/soul/spirit 
+merge pretty well with the Tree Of Life with 
+Chockmah/Binah(Mind) Malkuth(Body) ZeirAnpin(Soul) and the
+paths/surround (Spirit).
+Hand-coded by Richard Todd 2022</desc>
+
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath { 
+      text-anchor: start; 
+      dominant-baseline: middle; 
+   }
+]]>
+</style>
+
+<defs>
+   <circle id="sephira" r="122.407">
+      <desc>A sephira circle</desc>
+   </circle>
+   <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <!-- path 1 Kether -->
+   <!-- path 2 Heh 1-2 -->
+   <path id="path-2" fill="none" d="M0,-800 L346.41,-600" />
+   <!-- path 3 Chokmah -->
+   <!-- path 4 Bet 2-4 -->
+   <path id="path-4" fill="none" d="M346.41,-600 v400" />
+   <!-- path 5 Vav 1-3 -->
+   <path id="path-5" fill="none" d="M-346.41,-600 L0,-800" />
+   <!-- path 6 Zayin 2-5 -->
+   <path id="path-6" fill="none" d="M-346.41,-200 L346.41,-600" />
+   <!-- path 7 Bina -->
+   <!-- path 8 Alef 4-5 -->
+   <path id="path-8" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <!-- path 9 Chet 4-6 -->
+   <path id="path-9" fill="none" d="M0,0 L346.41,-200" />
+   <!-- path 10 Chesed -->
+   <!-- path 11 Tet 2-6 -->
+   <path id="path-11" fill="none" d="M0,0 L346.41,-600" />
+   <!-- path 12 Gimel 3-5 -->
+   <path id="path-12" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <!-- path 13 Gevurah -->
+   <!-- path 14 Dalet 1-6 -->
+   <path id="path-14" fill="none" d="M0,-800 L0,0" />
+   <!-- path 15 Tiferet -->
+   <!-- path 16 Mem 7-8 -->
+   <path id="path-16" fill="none" d="M-346.41,200 L346.41,200" />
+   <!-- path 17 Yud 6-7 -->
+   <path id="path-17" fill="none" d="M0,0 L346.41,200" />
+   <!-- path 18 Kaf 4-7 -->
+   <path id="path-18" fill="none" d="M346.41,-200 v400" />
+   <!-- path 19 Netzach -->
+   <!-- path 20 Lamed 8-9 -->
+   <path id="path-20" fill="none" d="M-346.41,200 L0,400" />
+   <!-- path 21 Peh 5-8 -->
+   <path id="path-21" fill="none" d="M-346.41,-200 v400" />
+   <!-- path 22 Nun 7-9 -->
+   <path id="path-22" fill="none" d="M0,400 L346.41,200" />
+   <!-- path 23 Hod -->
+   <!-- path 24 Shin 2-3 -->
+   <path id="path-24" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <!-- path 25 Resh 6-9 -->
+   <path id="path-25" fill="none" d="M0,0 v400" />
+   <!-- path 26 Yesod -->
+   <!-- path 27 Samekh 6-8 -->
+   <path id="path-27" fill="none" d="M-346.41,200 L0,0" />
+   <!-- path 28 Eyin 3-6 -->
+   <path id="path-28" fill="none" d="M-346.41,-600 L0,0" />
+   <!-- path 29 Tzadi 5-6 -->
+   <path id="path-29" fill="none" d="M-346.41,-200 L0,0" />
+   <!-- path 30 Malchut -->
+   <!-- path 31 Kuf 3-4 -->
+   <path id="path-31" fill="none" d="M-346.41,-600 L346.41,-200" />
+   <!-- path 32 Tav 9-10 -->
+   <path id="path-32" fill="none" d="M0,400 v400" />
+</defs>
+
+<g class="midtext" fill="black" stroke="none" 
+   stroke-width="1" font-weight="bold"
+   font-size="75" font-family="Times New Roman, serif"
+>
+   <desc>put down background circles of the mind/body/soul</desc>
+   <g fill-opacity="60%">
+    <ellipse fill="#cccccc" rx="680" ry="1000" />
+    <circle fill="#ffff55"  r="650"  cx="0"   cy="0" />
+    <ellipse fill="#ff5555" rx="650" ry="450" cx="0" cy="-850" />
+    <ellipse fill="#5555ff" rx="650" ry="450" cx="0" cy="1000" />
+   </g>
+   <text x="500" y="-850">Mind</text>
+   <text x="500" y="0">Soul</text>
+   <text x="500" y="850">Body</text>
+   <text x="450" y="590">Spirit</text>
+</g>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use xlink:href="#path-2" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-2" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-4" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-4" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-5" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-5" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-11" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-28" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-28" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-31" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-31" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-6" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-6" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-14" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-8" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-8" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-24" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-24" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-12" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-18" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-25" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-17" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-20" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-27" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-27" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-9" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-9" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-29" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-29" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-16" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-32" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-32" stroke="white" stroke-width="50" />
+</g>
+
+<g stroke="black" fill="white" stroke-width="5">
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+  <use xlink:href="#sephira" x="0" y="-800" /> <!-- path 1 kether   -->
+  <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- path 3 chockmah -->
+  <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- path 7 binah    -->
+<!--  <use xlink:href="#sephira" x="0" y="-400" fill-opacity="0.7" stroke-dasharray="10 5" /> --> <!-- daath    -->
+  <use xlink:href="#sephira" x="346.41" y="-200" /> <!-- path 10 chesed   -->
+  <use xlink:href="#sephira" x="-346.41" y="-200" /> <!-- path 13 geburah  -->
+  <use xlink:href="#sephira" x="0" y="0" /> <!-- path 15 tipharet -->
+  <use xlink:href="#sephira" x="346.41" y="200" /> <!-- path 19 netzach  -->
+  <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- path 23 hod      -->
+  <use xlink:href="#sephira" x="0" y="400" /> <!-- path 26 yesod    -->
+  <use xlink:href="#sephira" x="0" y="800" /> <!-- path 30 malkuth  -->
+</g>
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
