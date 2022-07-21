@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="600" height="600"
+     viewBox="-100 -100 200 200" preserveAspectRatio="xMinYMin meet"
+>
+<title>Zohar Sephirot Colors</title>
+<desc>The colors of the partzufim/sephirot according
+to the Zohar (as given in Laitman's Introduction to the Zohar).
+The unusual arrangement of the spheres is mine, though.</desc>
+
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath { 
+      text-anchor: start; 
+      dominant-baseline: middle; 
+   }
+]]>
+</style>
+
+
+<defs>
+ <path id="sepharc" d="M-25,0 A 25 25 0 0 0 25 0" />
+ <path id="sephuparc" d="M-25,0 A 25 25 0 0 1 25 0" />
+ <circle id="sephira" r="30" stroke-width="1" />
+ <radialGradient id="ktr">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="3%" style="stop-color:rgb(255,0,0);stop-opacity:0.2" />
+    <stop offset="6%" style="stop-color:rgb(0,255,0);stop-opacity:0.2" />
+    <stop offset="9%" style="stop-color:rgb(0,0,0);stop-opacity:0.2" />
+    <stop offset="12%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="30%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="60%" style="stop-color:rgb(255,255,255);stop-opacity:0.5" />
+    <stop offset="75%" style="stop-color:rgb(255,255,255);stop-opacity:0.1" />
+    <stop offset="99%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+ </radialGradient>
+</defs>
+
+<g> <desc>zeir anpin</desc>
+   <circle r="50" stroke="black" stroke-width="1" fill="#00ff00"/>
+</g>
+<g> <desc>the four main sephirot</desc>
+   <use xlink:href="#sephira" x="0" y="-55" fill="url(#ktr)" />
+   <use xlink:href="#sephira" stroke="black" x="0" y="55" fill="#000000" />
+   <use xlink:href="#sephira" stroke="black" x="55" y="0" fill="#ffffff" fill-opacity="90%"/>
+   <use xlink:href="#sephira" stroke="black" x="-55" y="0" fill="#ff0000" fill-opacity="95%" />
+</g>
+  <g font-size="10" font-family="Times New Roman, serif" stroke="none" stroke-width="1" fill="black">
+    <text x="0" y="0" dominant-baseline="middle" text-anchor="middle"
+     >זעיר אנפין</text>
+
+    <text transform="translate(0,-55)">
+      <textPath xlink:href="#sephuparc" startOffset="50%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >כתר</textPath></text>
+    <text transform="translate(0,55)">
+      <textPath xlink:href="#sepharc" startOffset="50%" 
+             dominant-baseline="middle" text-anchor="middle"
+             fill="white"
+             >מלכות</textPath></text>
+    <text transform="translate(55,0)">
+      <textPath xlink:href="#sepharc" startOffset="65%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >חכמה</textPath></text>
+    <text transform="translate(-55,0)">
+      <textPath xlink:href="#sepharc" startOffset="35%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >בינה</textPath></text>
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
