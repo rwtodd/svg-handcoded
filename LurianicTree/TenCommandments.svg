@@ -150,11 +150,11 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
        vertical unit = 200 -->
   <use xlink:href="#yes-sephira" transform="translate(0 -800)" /> <!--  1 kether   -->
   <use xlink:href="#no-sephira" transform="translate(346.41,-600)" /> <!-- path 3 chockmah -->
-  <use xlink:href="#no-sephira" transform="translate(-346.41,-600)" /> <!-- path 7 binah    -->
-  <use xlink:href="#yes-sephira" transform="translate(346.41,-200)" /> <!-- path 10 chesed   -->
-  <use xlink:href="#yes-sephira" transform="translate(-346.41,-200)" /> <!-- path 13 geburah  -->
+  <use xlink:href="#yes-sephira" transform="translate(-346.41,-600)" /> <!-- path 7 binah    -->
+  <use xlink:href="#no-sephira" transform="translate(346.41,-200)" /> <!-- path 10 chesed   -->
+  <use xlink:href="#no-sephira" transform="translate(-346.41,-200)" /> <!-- path 13 geburah  -->
   <use xlink:href="#no-sephira" transform="translate(0,0)" /> <!-- path 15 tipharet -->
-  <use xlink:href="#no-sephira" transform="translate(346.41,200)" /> <!-- path 19 netzach  -->
+  <use xlink:href="#yes-sephira" transform="translate(346.41,200)" /> <!-- path 19 netzach  -->
   <use xlink:href="#no-sephira" transform="translate(-346.41,200)" /> <!-- path 23 hod      -->
   <use xlink:href="#no-sephira" transform="translate(0,400)" /> <!-- path 26 yesod    -->
   <use xlink:href="#no-sephira" transform="translate(0,800)" /> <!-- path 30 malkuth  --> 
@@ -164,29 +164,40 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
    stroke-width="1" font-weight="bold"
    font-size="40" font-family="verdana, sans-serif"
 >
-   <text x="0" y="-825">I AM</text><!--Path 1 -->
-   <text x="0" y="-775">GOD</text><!--Path 1 -->
+   <text x="0" y="-875">1</text>
+   <text x="0" y="-825">I AM</text>
+   <text x="0" y="-775">GOD</text>
 
-   <text x="346.41" y="-625">OTHER</text><!--Path 3 -->
-   <text x="346.41" y="-575">GODS</text><!--Path 3 -->
+   <text x="0" y="725">2</text>
+   <text x="0" y="775">OTHER</text>
+   <text x="0" y="825">GODS</text>
 
-   <text x="-346.41" y="-625">NAME</text><!--Path 7 -->
-   <text x="-346.41" y="-575">IN VAIN</text><!--Path 7 -->
+   <text x="346.41" y="-675">3</text>
+   <text x="346.41" y="-625">NAME</text>
+   <text x="346.41" y="-575">IN VAIN</text>
 
-   <text x="346.41" y="-225">KEEP</text><!--Path 10 -->
-   <text x="346.41" y="-175">SABBATH</text><!--Path 10 -->
-   
-   <text x="-346.41" y="-225">HONOR</text><!--Path 13 -->
-   <text x="-346.41" y="-175">PARENTS</text><!--Path 13 -->
+   <text x="-346.41" y="-675">4</text>
+   <text x="-346.41" y="-625">KEEP</text>
+   <text x="-346.41" y="-575">SABBATH</text>
 
-   <text x="0" y="0">MURDER</text><!--Path 15 -->
-   <text x="346.41" y="200">ADULTERY</text><!--Path 19 -->
-   <text x="-346.41" y="200">STEAL</text><!--Path 23 -->
+   <text x="346.41" y="125">5</text>
+   <text x="346.41" y="175">HONOR</text>
+   <text x="346.41" y="225">PARENTS</text>
 
-   <text x="0" y="375">FALSE</text><!--Path 26 -->
-   <text x="0" y="425">WITNESS</text><!--Path 26 -->
+   <text x="-346.41" y="-275">6</text>
+   <text x="-346.41" y="-200">MURDER</text>
 
-   <text x="0" y="800">COVET</text><!--Path 26 -->
-   
+   <text x="0" y="325">7</text>
+   <text x="0" y="400">ADULTERY</text>
+
+   <text x="-346.41" y="125">8</text>
+   <text x="-346.41" y="200">STEAL</text>
+
+   <text x="0" y="-75">9</text>
+   <text x="0" y="-25">FALSE</text>
+   <text x="0" y="25">WITNESS</text>
+
+   <text x="346.41" y="-275">10</text>
+   <text x="346.41" y="-200">COVET</text>
 </g>
 </svg>
