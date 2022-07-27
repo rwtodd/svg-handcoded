@@ -5,10 +5,9 @@
      width="720" height="720"
      viewBox="-360 -360 720 720" preserveAspectRatio="xMinYMin meet"
 >
-<title>Sangreal Trump Cycle (modified)</title>
-<desc>This is from WG Gray's Sangreal Tarot book, but I've changed
-the arms of the central cross to match my personal preference for the
-order of the elements. Hand-coded by Richard Todd</desc>
+<title>Sangreal Trump Cycle</title>
+<desc>This is from WG Gray's Sangreal Tarot book.
+Hand-coded by Richard Todd</desc>
 
 <style type="text/css">
 <![CDATA[
@@ -87,10 +86,10 @@ for idx in range(1,3):
   <text filter="url(#solid-bg)" x="0" y="0">U</text>
   <text filter="url(#solid-bg)" x="0" y="15">M</text>
 
-  <text filter="url(#solid-bg)" x="-160" y="-10">SWORDS</text>
-  <text filter="url(#solid-bg)" x="160" y="-10">RODS</text>
-  <text filter="url(#solid-bg)" x="-160" y="-10" transform="rotate(90)">SHIELDS</text>
-  <text filter="url(#solid-bg)" x="160" y="-10" transform="rotate(90)">CUPS</text>
+  <text filter="url(#solid-bg)" x="-160" y="-10">SWORDS (E)</text>
+  <text filter="url(#solid-bg)" x="160" y="-10">SHIELDS (A)</text>
+  <text filter="url(#solid-bg)" x="-160" y="-10" transform="rotate(90)">CUPS (O)</text>
+  <text filter="url(#solid-bg)" x="160" y="-10" transform="rotate(90)">RODS (I)</text>
 </g>
 <g class="midtext" font-family="verdana, sans-serif" font-size="10" stroke-width="1" stroke="black" fill="black">
   <!-- cards -->
