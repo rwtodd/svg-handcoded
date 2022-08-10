@@ -121,8 +121,8 @@ hand-coded by Richard Todd 2021</desc>
   <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g class="midtext" fill="black" stroke="black" 
-   stroke-width="0" font-weight="bold"
+<g class="midtext" fill="black" stroke="none" 
+   font-weight="bold"
    font-size="65" font-family="times new roman, times, serif"
 >
    <text x="0" y="-825">כתר</text>

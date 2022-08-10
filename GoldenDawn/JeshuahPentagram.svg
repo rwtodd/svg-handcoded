@@ -54,8 +54,8 @@ in 2021.</desc>
       transform="translate(-150,200) scale(1,-1)" />
 </g>
 
-<g class="midtext" fill="black" stroke="black" stroke-width="1" 
-   font-size="30" 
+<g class="midtext" fill="black" stroke="none"
+   font-size="30" font-weight="bold"
    font-family="verdana, sans-serif">
    <desc>the alchemical unicode is 0001f701 ...  0001f704</desc>
    <text x="0" y="-400">Head</text>
@@ -65,11 +65,11 @@ in 2021.</desc>
    <text x="-230" y="360">Right Leg</text>
 </g>
 
-<g class="midtext" fill="black" stroke="black" stroke-width="1" 
-   font-size="50" 
+<g class="midtext" fill="black" stroke="none"
+   font-size="50" font-weight="bold"
    font-family="Times New Roman, Times, serif">
    <desc>the hebrew looks better in times...</desc>
-   <text x="0" y="0">יהשוהּ</text>
+   <text x="0" y="0" style="font-size: 45px">יהשוהּ</text>
    <text x="0" y="-300">ש</text>
    <text x="300" y="-80">ה</text>
    <text x="-300" y="-80">ו</text>

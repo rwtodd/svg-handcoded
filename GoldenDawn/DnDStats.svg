@@ -118,8 +118,8 @@ place.  Hand-coded by Richard Todd 2021</desc>
   <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
 
-<g class="medtext" fill="black" stroke="black" 
-   stroke-width="1" font-weight="bold"
+<g class="medtext" fill="black" stroke="none" 
+  font-weight="bold"
    font-size="35" font-family="verdana, sans-serif"
 >
   <text dx="160"><textPath xlink:href="#path-24">CON</textPath></text>
