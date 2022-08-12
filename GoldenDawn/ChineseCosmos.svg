@@ -4,10 +4,10 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
-<title>Blank Tree of Life (Kircher Pattern)</title>
-<desc>This is a blank tree to use as a basis for
-various labelled trees I might make.  This version
-hand-coded by Richard Todd 2021</desc>
+<title>Mapping to Chinese Cosmos</title>
+<desc>This is how Crowley mapped the Chinese cosmos to
+the Tree of Life, as given in the Book of Thoth.
+Hand-coded by Richard Todd 2022</desc>
 
 <style type="text/css">
 <![CDATA[
@@ -19,6 +19,10 @@ hand-coded by Richard Todd 2021</desc>
    <circle id="sephira" r="122.407">
       <desc>A sephira circle</desc>
    </circle>
+
+   <path id="yang" d="M-90,0h180" />
+   <path id="yin" d="M-90,0h75m30,0h75" />
+
    <!-- draw the individual paths so it's easy to run
         textPaths against them -->
    <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
@@ -101,7 +105,13 @@ hand-coded by Richard Todd 2021</desc>
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
        vertical unit = 200 -->
-  <use xlink:href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <g transform="translate(0,-800)scale(3.139)" stroke="none">
+    <desc>the yin/yang symbol</desc>
+    <circle r="39" fill="#000" />
+    <path fill="#fff" d="M0,38a38,38 0 0 1 0,-76a19,19 0 0 1 0,38a19,19 0 0 0 0,38"/>
+    <circle r="5" cy="19" fill="#fff" />
+    <circle r="5" cy="-19" fill="#000" />
+  </g>
   <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
   <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
   <use xlink:href="#sephira" x="0" y="-400" fill="none" stroke-dasharray="10 5" /> <!-- daath    -->
@@ -112,6 +122,51 @@ hand-coded by Richard Todd 2021</desc>
   <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
   <use xlink:href="#sephira" x="0" y="400" /> <!-- yesod    -->
   <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<g stroke="black" stroke-width="10"><desc>grams (yin/yang/ba gua)</desc>
+  <g>
+    <use xlink:href="#yang" x="0" y="-20" />
+    <use xlink:href="#yin" x="0" y="0" />
+    <use xlink:href="#yang" x="0" y="20" />
+  </g>
+  <g transform="translate(0,400)">
+      <use xlink:href="#yin" x="0" y="-20" />
+      <use xlink:href="#yang" x="0" y="0" />
+      <use xlink:href="#yin" x="0" y="20" />
+  </g>
+  <g transform="translate(0,800)">
+      <use xlink:href="#yin" x="0" y="-20" />
+      <use xlink:href="#yin" x="0" y="0" />
+      <use xlink:href="#yin" x="0" y="20" />
+  </g>
+   <g transform="translate(346.41,200)">
+      <use xlink:href="#yang" x="0" y="-20" />
+      <use xlink:href="#yin" x="0" y="0" />
+      <use xlink:href="#yin" x="0" y="20" />
+  </g>
+   <g transform="translate(-346.41,200)">
+      <use xlink:href="#yang" x="0" y="-20" />
+      <use xlink:href="#yang" x="0" y="0" />
+      <use xlink:href="#yin" x="0" y="20" />
+  </g>
+     <g transform="translate(346.41,-200)">
+      <use xlink:href="#yin" x="0" y="-20" />
+      <use xlink:href="#yang" x="0" y="0" />
+      <use xlink:href="#yang" x="0" y="20" />
+  </g>
+   <g transform="translate(-346.41,-200)">
+      <use xlink:href="#yin" x="0" y="-20" />
+      <use xlink:href="#yin" x="0" y="0" />
+      <use xlink:href="#yang" x="0" y="20" />
+  </g>
+   <g transform="translate(0,-400)">
+      <use xlink:href="#yang" x="0" y="-20" />
+      <use xlink:href="#yang" x="0" y="0" />
+      <use xlink:href="#yang" x="0" y="20" />
+  </g>
+  <use xlink:href="#yang" x="346.41" y="-600" />
+  <use xlink:href="#yin" x="-346.41" y="-600" />
 </g>
 
 <!-- vim: expandtab:sw=3
