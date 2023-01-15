@@ -119,40 +119,40 @@ instead of green).</desc>
    <text dominant-baseline="middle" text-anchor="middle" x="0" y="-68">1</text>
    <text dominant-baseline="middle" text-anchor="middle" x="0" y="-60">I Am God</text>
 
-   <text dominant-baseline="middle" text-anchor="middle" x="0" y="68">2</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="0" y="60">No Other Gods</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="0" y="68">10</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="0" y="60">Don't Covet</text>
 
-   <text dominant-baseline="middle" text-anchor="middle" x="65" y="-20">3</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="65" y="-12">No Name</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="65" y="-4">in Vain</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="65" y="-20">2</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="65" y="-12">No Other</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="65" y="-4">Gods</text>
 
-   <text dominant-baseline="middle" text-anchor="middle" x="-65" y="-20">4</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="-65" y="-12">Keep</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="-65" y="-4">Sabbath</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="-65" y="-20">3</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="-65" y="-12">No Name</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="-65" y="-4">in Vain</text>
 </g>
 
   <g font-size="6" font-family="Times New Roman, serif" stroke="none" stroke-width="1" fill="black">
-   <text dominant-baseline="middle" text-anchor="middle" x="0" y="-36">6</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="0" y="-30">Don't Murder</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="0" y="-36">4</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="0" y="-30">Keep Sabbath</text>
 
    <text dominant-baseline="middle" text-anchor="middle" x="0" y="36">8</text>
    <text dominant-baseline="middle" text-anchor="middle" x="0" y="30">Don't Steal</text>
 
-   <text dominant-baseline="middle" text-anchor="middle" x="0" y="10">5</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="0" y="0">Honor Parents</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="0" y="10">7</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="0" y="0">No Adultery</text>
 
-   <text dominant-baseline="middle" text-anchor="middle" x="-35" y="-12">10</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="-35" y="-12">6</text>
    <text dominant-baseline="middle" text-anchor="middle" x="-35" y="-6">Don't</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="-35" y="0">Covet</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="-35" y="0">Murder</text>
 
-   <text dominant-baseline="middle" text-anchor="middle" x="35" y="-12">9</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="35" y="-6">Don't</text>
-   <text dominant-baseline="middle" text-anchor="middle" x="35" y="0">Lie</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="35" y="-12">5</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="35" y="-6">Honor</text>
+   <text dominant-baseline="middle" text-anchor="middle" x="35" y="0">Parents</text>
 
     <text>
       <textPath xlink:href="#yesuparc" startOffset="25%" 
              dominant-baseline="middle" text-anchor="middle"
-             >7</textPath></text>
+             >9</textPath></text>
     <text>
       <textPath xlink:href="#yesuparc-sm" startOffset="25%" 
              dominant-baseline="middle" text-anchor="middle"
@@ -160,11 +160,11 @@ instead of green).</desc>
     <text> 
       <textPath xlink:href="#yesuparc" startOffset="75%" 
              dominant-baseline="middle" text-anchor="middle"
-             >Adult-</textPath></text>
+             >False-</textPath></text>
     <text> 
       <textPath xlink:href="#yesuparc-sm" startOffset="75%" 
              dominant-baseline="middle" text-anchor="middle"
-             >ery</textPath></text>
+             >hoods</textPath></text>
 </g>
 <!-- vim: expandtab:sw=3
 -->
