@@ -8,7 +8,8 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 <title>Yetsira Dimensions on the Tree</title>
 <desc>This is a translation of the Sepher Yetsirah dimensions,
 according to my interpretation of the text, and translated onto
-a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
+a Kircher tree of life.  Hand-coded by Richard Todd 2021. I added
+the cube-of-space directions of all the paths as well, 2023.</desc>
 
 <style type="text/css">
 <![CDATA[
@@ -17,6 +18,7 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
       dominant-baseline: middle; 
    } 
    g.midtext textPath {
+      text-anchor: start; 
       dominant-baseline: middle; 
    } 
 ]]>
@@ -78,9 +80,9 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
    <use xlink:href="#path-20" stroke="black" stroke-width="60" />
    <use xlink:href="#path-20" stroke="white" stroke-width="50" />
    <use xlink:href="#path-21" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-21" stroke="#9999ff" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
    <use xlink:href="#path-22" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-22" stroke="#ff9999" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
    <use xlink:href="#path-23" stroke="black" stroke-width="60" />
    <use xlink:href="#path-23" stroke="white" stroke-width="50" />
    <use xlink:href="#path-24" stroke="black" stroke-width="60" />
@@ -96,7 +98,7 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
    <use xlink:href="#path-29" stroke="black" stroke-width="60" />
    <use xlink:href="#path-29" stroke="white" stroke-width="50" />
    <use xlink:href="#path-30" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-30" stroke="#ffd766" stroke-width="50" />
+   <use xlink:href="#path-30" stroke="white" stroke-width="50" />
    <use xlink:href="#path-31" stroke="black" stroke-width="60" />
    <use xlink:href="#path-31" stroke="white" stroke-width="50" />
    <use xlink:href="#path-32" stroke="black" stroke-width="60" />
@@ -141,31 +143,43 @@ a Kircher tree of life.  Hand-coded by Richard Todd 2021</desc>
   <text x="0" y="25">South</text>
   <text x="0" y="375">6</text>
   <text x="0" y="425">Below</text>
-  <text x="346.41" y="175">7</text>
-  <text x="346.41" y="225">East</text>
-  <text x="-346.41" y="175">5</text>
-  <text x="-346.41" y="225">Above</text>
+  <text x="346.41" y="175">5</text>
+  <text x="346.41" y="225">Above</text>
+  <text x="-346.41" y="175">7</text>
+  <text x="-346.41" y="225">East</text>
   <text x="0" y="-425">11</text>
   <text x="0" y="-375">Center</text>
 </g>
 
 <g class="midtext" fill="black" stroke="black" 
    stroke-width="1" font-weight="bold"
-   font-size="43" 
-   font-family="times new roman, times, serif"
+   font-size="35" font-family="verdana, sans-serif"
 >
-   <desc>I've noticed that the inner axes of the cube (mother letters)
-   map onto the tree dimensions via reflections of their normal path across the tree. 
-   In other words, Aleph-Air (path 11) reflects down to Above-Below (path 30).
-   Mem-Water (path 23) reflects across to East-West (path 21).
-   Shin-Fire (path 31) reflects up to North-South (path 22).  Pretty interesting.</desc>
-   <text dx="190"><textPath xlink:href="#path-11">א</textPath></text>
-   <text dx="190"><textPath xlink:href="#path-30">א-R</textPath></text>
-   <text dx="190"><textPath xlink:href="#path-23">מ</textPath></text>
-   <text dx="190"><textPath xlink:href="#path-21">מ-R</textPath></text>
-   <text dx="320"><textPath xlink:href="#path-31">ש</textPath></text>
-   <text dx="190"><textPath xlink:href="#path-22">ש-R</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-11">A-B</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-12">E</textPath></text>
+  <text dx="140"><textPath xlink:href="#path-13">B</textPath></text>
+  <text dx="330"><textPath xlink:href="#path-14">A</textPath></text>
+  <text dx="400"><textPath xlink:href="#path-15">NE</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-16">SE</textPath></text>
+  <text dx="250"><textPath xlink:href="#path-17">EA</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-18">EB</textPath></text>
+  <text dx="320"><textPath xlink:href="#path-19">NA</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-20">NB</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-21">W</textPath></text>
+  <text dx="160"><textPath xlink:href="#path-22">NW</textPath></text>
+  <text dx="160"><textPath xlink:href="#path-23">E-W</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-24">SW</textPath></text>
+  <text dx="120"><textPath xlink:href="#path-25">W-</textPath></text>
+  <text dx="230"><textPath xlink:href="#path-25">-A</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-26">WB</textPath></text>
+  <text dx="330"><textPath xlink:href="#path-27">N</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-28">SA</textPath></text>
+  <text dx="350"><textPath xlink:href="#path-29">SB</textPath></text>
+  <text dx="190"><textPath xlink:href="#path-30">S</textPath></text>
+  <text dx="250"><textPath xlink:href="#path-31">N-S</textPath></text>
+  <text dx="130"><textPath xlink:href="#path-32">Center</textPath></text>
 </g>
+
 <!-- vim: expandtab:sw=3
 -->
 </svg>
