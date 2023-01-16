@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="600" height="600"
+     viewBox="-100 -100 200 200" preserveAspectRatio="xMinYMin meet"
+>
+<title>Fractal Sephirot</title>
+<desc>The infinite recursion of Netzach, This is kindof
+like what I see in Laitman's material (kabbalahinfo).
+The sefirot are colored by Queen's Scale.</desc>
+
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath { 
+      text-anchor: start; 
+      dominant-baseline: middle; 
+   }
+]]>
+</style>
+
+
+<defs>
+ <path id="yesarc" d="M-45,0 A 45 45 0 0 0 45 0" />
+ <path id="sepharc" d="M-25,0 A 25 25 0 0 0 25 0" />
+ <path id="sepharc-sm" d="M-15,0 A 15 15 0 0 0 15 0" />
+ <path id="sephuparc" d="M-25,0 A 25 25 0 0 1 25 0" />
+ <path id="sephuparc-sm" d="M-15,0 A 15 15 0 0 1 15 0" />
+ <circle id="sephira" r="30" stroke="black" stroke-width="1" />
+ <circle id="za" r="20" stroke="black" stroke-width="1" />
+ <path id="netz" 
+    d="M 0 -21 A 9 9 0 0 0 -9 -12 A 9 9 0 0 0 -8.3346354 -8.6217448 A 12 12
+0 0 0 -8.6171875 -8.3391927 A 9 9 0 0 0 -12 -9 A 9 9 0 0 0 -21 0 A 9 9 0 0 0
+-12 9 A 9 9 0 0 0 -8.6217448 8.3346354 A 12 12 0 0 0 -8.3346354 8.6217448 A 9 9
+0 0 0 -9 12 A 9 9 0 0 0 0 21 A 9 9 0 0 0 9 12 A 9 9 0 0 0 8.3391927 8.6171875 A
+12 12 0 0 0 8.6217448 8.3346354 A 9 9 0 0 0 12 9 A 9 9 0 0 0 21 0 A 9 9 0 0 0
+12 -9 A 9 9 0 0 0 8.6295573 -8.3378906 A 12 12 0 0 0 8.3378906 -8.6295573 A 9 9
+0 0 0 9 -12 A 9 9 0 0 0 0 -21 z" />
+ <clipPath id="sephClip">
+      <desc>for drawing Malkuth...</desc>
+      <use xlink:href="#sephira" />
+   </clipPath>
+</defs>
+
+<g> <desc>yesod</desc>
+   <circle r="50" stroke="black" stroke-width="2" fill="#330066"/>
+   <circle r="35" stroke="black" stroke-width="2" fill="#ffffff"/>
+</g>
+<g> <desc>the four main sephirot</desc>
+   <use xlink:href="#sephira" x="0" y="-55" fill="#ffffff" /> <!-- kether -->
+   <use xlink:href="#sephira" x="55" y="0" fill="#8989A9" /> <!-- chokmah  -->
+   <use xlink:href="#sephira" x="-55" y="0" fill="#3d2022" /> <!-- bina -->
+  <g transform="translate(0,55) rotate(45)">
+     <rect stroke="none" fill="#E5C560" x="-30" y="-30" 
+        width="30" height="30" clip-path="url(#sephClip)" />
+     <rect stroke="none" fill="#006A6E" x="0" y="-30" 
+        width="30" height="30" clip-path="url(#sephClip)" />
+     <rect stroke="none" fill="#663029" x="-30" y="0" 
+        width="30" height="30" clip-path="url(#sephClip)" />
+     <rect stroke="none" fill="#000000" x="0" y="0" 
+        width="30" height="30" clip-path="url(#sephClip)" />
+     <use xlink:href="#sephira" fill="none"  /> <!-- malkuth  -->
+   </g>
+</g>
+
+<g> <desc>inner yesods</desc>
+   <circle r="25" stroke="black" stroke-width="1" fill="#330066"/>
+   <circle r="18" stroke="black" stroke-width="1" fill="#ffffff"/>
+   <circle r="15" stroke="black" stroke-width="1" fill="#330066"/>
+   <circle r="5" stroke="black" stroke-width="1" fill="#ffffff"/>
+</g>
+<g><desc>the inner sephirot</desc>
+   <use xlink:href="#za" x="0" y="-30" fill="#0000ff" /> <!-- chesed -->
+   <use xlink:href="#za" x="0" y="30" fill="#EC5800" />  <!-- hod -->
+   <use xlink:href="#za" x="30" y="0" fill="#ff0000" /> <!-- geburah -->
+   <use xlink:href="#za" x="-30" y="0" fill="#FBF38A" /> <!-- tipharet -->
+</g>
+<g> <desc>netzach</desc>
+   <use xlink:href="#netz" fill="#034B03" stroke="black" stroke-width="1" />
+   <use xlink:href="#netz" fill="#99ff99" stroke="black" stroke-width="1" 
+        transform="rotate(45)scale(0.5,0.5)" />
+   <use xlink:href="#netz" fill="#ddddff" stroke="black" stroke-width="1" 
+        transform="scale(0.25,0.25)" />
+   <use xlink:href="#netz" fill="#eeeeee" stroke="black" stroke-width="1" 
+        transform="rotate(45)scale(0.125,0.125)" />
+   <use xlink:href="#netz" fill="#ffffff" stroke="black" stroke-width="1" 
+        transform="scale(0.0625,0.0625)" />
+</g>
+
+  <g font-size="10" font-family="Times New Roman, serif" stroke="none" stroke-width="1" fill="black">
+    <text transform="translate(0,-55)">
+      <textPath xlink:href="#sephuparc" startOffset="50%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >כתר</textPath></text>
+    <text transform="translate(0,-30)">
+      <textPath xlink:href="#sephuparc-sm" fill="#eee" startOffset="50%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >חסד</textPath></text>
+    <text transform="translate(0,55)">
+      <textPath xlink:href="#sepharc" fill="#eee" startOffset="50%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >מלכות</textPath></text>
+    <text transform="translate(0,30)">
+      <textPath xlink:href="#sepharc-sm" startOffset="50%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >הוד</textPath></text>
+    <text transform="translate(55,0)">
+      <textPath xlink:href="#sepharc" startOffset="65%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >חכמה</textPath></text>
+    <text transform="translate(30,0)">
+      <textPath xlink:href="#sepharc-sm" startOffset="65%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >גבורה</textPath></text>
+    <text transform="translate(-55,0)">
+      <textPath xlink:href="#sepharc" fill="#eee" startOffset="35%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >בינה</textPath></text>
+    <text transform="translate(-30,0)">
+      <textPath xlink:href="#sepharc-sm" startOffset="35%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >תפארת</textPath></text>
+    <text transform="translate(0,0)">
+      <textPath xlink:href="#yesarc" fill="#eee" startOffset="75%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >יס</textPath></text>
+    <text transform="translate(0,0)">
+      <textPath xlink:href="#yesarc" fill="#eee" startOffset="25%" 
+             dominant-baseline="middle" text-anchor="middle"
+             >וד</textPath></text>
+    <text font-size="7" fill="#eee" text-anchor="middle" transform="translate(0,18)"
+             >נצח</text> 
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
