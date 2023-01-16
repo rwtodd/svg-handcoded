@@ -44,7 +44,7 @@
       <text class="midtext" fill="#000" y="-250">&#x05D4;</text>
    </g>
    <g transform="rotate(30)">
-      <use xlink:href="#singles" fill="#CC3399" />
+      <use xlink:href="#singles" fill="#EC1F69" />
       <text class="midtext" fill="#000" y="-250">&#x05E7;</text>
    </g>
    <g transform="rotate(60)">
@@ -84,7 +84,7 @@
       <text class="midtext" fill="#000" y="-250">&#x05D6;</text>
    </g>
    <g transform="rotate(330)">
-      <use xlink:href="#singles" fill="#FF3300" />
+      <use xlink:href="#singles" fill="#FF5000" />
       <text class="midtext" fill="#000" y="-250">&#x05D5;</text>
    </g>
 </g>
@@ -114,7 +114,7 @@
       <text class="midtext" fill="#000" y="-190">&#x05E8;</text>
    </g>
    <g transform="rotate(334.7143)">
-      <use xlink:href="#doubles" fill="#FE4d18" />
+      <use xlink:href="#doubles" fill="#FE2d18" />
       <text class="midtext" fill="#000" y="-190">&#x05E4;</text>
    </g>
 </g>

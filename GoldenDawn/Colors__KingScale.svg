@@ -8,8 +8,9 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 <title>King Scale -- Golden Dawn</title>
 <desc>This is a blank tree colored in the Golden-Dawn
 King Scale.  
-Color codes from:
+I got some Color codes from:
 https://sites.google.com/site/dairiel23/colour-scales-and-hex-codes/etz-chaim-colour-key
+but now I'm focused on the Zalewski Tarot book's updated color descriptions. (page 39)
 This version hand-coded by Richard Todd 2021</desc>
 
 <style type="text/css">
@@ -54,49 +55,49 @@ This version hand-coded by Richard Todd 2021</desc>
     the circles, then the white paths)
    </desc>
    <use xlink:href="#path-11" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-11" stroke="#ffff66" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="#ffffa7" stroke-width="50" />  <!-- pale yellow -->
    <use xlink:href="#path-12" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-12" stroke="#ffff00" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="#FFFF00" stroke-width="50" /> <!-- primrose yellow  -->
    <use xlink:href="#path-13" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-13" stroke="#0000ff" stroke-width="50" />
+   <use xlink:href="#path-13" stroke="#9EADD7" stroke-width="50" /> <!-- pale silvery blue -->
    <use xlink:href="#path-14" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-14" stroke="#00ff00" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="#316834" stroke-width="50" /> <!-- emerald green -->
    <use xlink:href="#path-15" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-15" stroke="#ff0000" stroke-width="50" />
+   <use xlink:href="#path-15" stroke="#ff0d1c" stroke-width="50" /> <!-- lake red -->
    <use xlink:href="#path-16" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-16" stroke="#ff3300" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="#ff5500" stroke-width="50" /> <!-- scarlet flame -->
    <use xlink:href="#path-17" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-17" stroke="#ff9900" stroke-width="50" />
+   <use xlink:href="#path-17" stroke="#FF9900" stroke-width="50" /> <!-- marigold -->
    <use xlink:href="#path-18" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-18" stroke="#ffcc00" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="#FFCC00" stroke-width="50" /> <!-- carrot red -->
    <use xlink:href="#path-19" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-19" stroke="#ccff33" stroke-width="50" />
+   <use xlink:href="#path-19" stroke="#ffe71c" stroke-width="50" /> <!-- sun yellow -->
    <use xlink:href="#path-20" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-20" stroke="#ccff66" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="#B0DD16" stroke-width="50" /> <!-- yellowish green -->
    <use xlink:href="#path-21" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-21" stroke="#cc33ff" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="#ee82ee" stroke-width="50" /> <!-- violet -->
    <use xlink:href="#path-22" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-22" stroke="#339900" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="#507d2a" stroke-width="50" /> <!-- sap green -->
    <use xlink:href="#path-23" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-23" stroke="#000066" stroke-width="50" />
+   <use xlink:href="#path-23" stroke="#003153" stroke-width="50" />  <!-- prussian blue -->
    <use xlink:href="#path-24" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-24" stroke="#009999" stroke-width="50" />
+   <use xlink:href="#path-24" stroke="#10A674" stroke-width="50" /> <!-- bluish green -->
    <use xlink:href="#path-25" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-25" stroke="#0000cc" stroke-width="50" />
+   <use xlink:href="#path-25" stroke="#1000ff" stroke-width="50" /> <!-- deep blue with hidden red -->
    <use xlink:href="#path-26" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-26" stroke="#330099" stroke-width="50" />
+   <use xlink:href="#path-26" stroke="#330099" stroke-width="50" /> <!-- indigo blue-green -->
    <use xlink:href="#path-27" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-27" stroke="#ff3333" stroke-width="50" />
+   <use xlink:href="#path-27" stroke="#DC343B" stroke-width="50" /> <!-- poppy red -->
    <use xlink:href="#path-28" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-28" stroke="#cc33ff" stroke-width="50" />
+   <use xlink:href="#path-28" stroke="#cc33ff" stroke-width="50" /> <!-- true purple -->
    <use xlink:href="#path-29" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-29" stroke="#cc0000" stroke-width="50" />
+   <use xlink:href="#path-29" stroke="#ED1F69" stroke-width="50" /> <!-- deep crimson -->
    <use xlink:href="#path-30" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-30" stroke="#ff6600" stroke-width="50" />
+   <use xlink:href="#path-30" stroke="#FCBF8D" stroke-width="50" /> <!-- clear orange -->
    <use xlink:href="#path-31" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-31" stroke="#ff0000" stroke-width="50" />
+   <use xlink:href="#path-31" stroke="#A91A17" stroke-width="50" /> <!-- orange red -->
    <use xlink:href="#path-32" stroke="black" stroke-width="60" />
-   <use xlink:href="#path-32" stroke="#330099" stroke-width="50" />
+   <use xlink:href="#path-32" stroke="#2A0D5D" stroke-width="50" /> <!-- dark indigo -->
 </g>
 
 <g stroke="black" stroke-width="5">
@@ -105,16 +106,16 @@ This version hand-coded by Richard Todd 2021</desc>
        horizontal unit = 346.41
        vertical unit = 200 -->
   <use xlink:href="#sephira" fill="#ffffff" x="0" y="-800" /> <!-- kether   -->
-  <use xlink:href="#sephira" fill="#66ccff" x="346.41" y="-600" /> <!-- chockmah -->
-  <use xlink:href="#sephira" fill="#cc0033" x="-346.41" y="-600" /> <!-- binah    -->
+  <use xlink:href="#sephira" fill="#D8DEEC" x="346.41" y="-600" /> <!-- chockmah  bluish white -->
+  <use xlink:href="#sephira" fill="#cc0033" x="-346.41" y="-600" /> <!-- binah crimson   -->
   <use xlink:href="#sephira" fill="#cc99ff" fill-opacity="0.8" x="0" y="-400" stroke-dasharray="10 5" /> <!-- daath    -->
-  <use xlink:href="#sephira" fill="#993399" x="346.41" y="-200" /> <!-- chesed   -->
-  <use xlink:href="#sephira" fill="#ff6600" x="-346.41" y="-200" /> <!-- geburah  -->
-  <use xlink:href="#sephira" fill="#ff66cc" x="0" y="0" /> <!-- tipharet -->
-  <use xlink:href="#sephira" fill="#ff9900" x="346.41" y="200" /> <!-- netzach  -->
-  <use xlink:href="#sephira" fill="#660066" x="-346.41" y="200" /> <!-- hod      -->
-  <use xlink:href="#sephira" fill="#000066" x="0" y="400" /> <!-- yesod    -->
-  <use xlink:href="#sephira" fill="#ffff00" x="0" y="800" /> <!-- malkuth  -->
+  <use xlink:href="#sephira" fill="#330066" x="346.41" y="-200" /> <!-- chesed deep violet  -->
+  <use xlink:href="#sephira" fill="#DD6E0F" x="-346.41" y="-200" /> <!-- geburah deep orange -->
+  <use xlink:href="#sephira" fill="#ffb3e6" x="0" y="0" /> <!-- tipharet rose pinkish white -->
+  <use xlink:href="#sephira" fill="#FAB75A" x="346.41" y="200" /> <!-- netzach amber yellow -->
+  <use xlink:href="#sephira" fill="#542c52" x="-346.41" y="200" /> <!-- hod  deep violet purple -->
+  <use xlink:href="#sephira" fill="#2A0D5D" x="0" y="400" /> <!-- yesod  dark indigo blue  -->
+  <use xlink:href="#sephira" fill="#ffff00" x="0" y="800" /> <!-- malkuth vivid yellow -->
 </g>
 
 <!-- vim: expandtab:sw=3
