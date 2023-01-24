@@ -5,9 +5,9 @@ version="1.2"
 width="360" height="600"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
-<title>Path Functions</title>
-<desc>Golden-Dawn attributions here, for the single and double
-letters.  Hand-coded by Richard Todd 2021</desc>
+<title>Zodiacal Body Parts</title>
+<desc>The zones of the body mapped to the Tree of Life via the
+Zodiacal attributions.  Hand-coded by Richard Todd 2023</desc>
 
 <style type="text/css">
 <![CDATA[
@@ -104,7 +104,7 @@ letters.  Hand-coded by Richard Todd 2021</desc>
    <use xlink:href="#path-32" stroke="#2A0D5D" stroke-width="50" /> <!-- dark indigo -->
 </g>
 
-<g stroke="black" fill="white" stroke-width="5">
+<g stroke="black" stroke-width="5">
   <desc>The sephiroth</desc>
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
@@ -112,7 +112,7 @@ letters.  Hand-coded by Richard Todd 2021</desc>
   <use xlink:href="#sephira" fill="#ffffff" x="0" y="-800" /> <!-- kether   -->
   <use xlink:href="#sephira" fill="#8989A9" x="346.41" y="-600" /> <!-- chockmah -->
   <use xlink:href="#sephira" fill="#3d2022" x="-346.41" y="-600" /> <!-- binah    -->
-<!--  <use xlink:href="#sephira" fill="#cccccc" fill-opacity="0.8" x="0" y="-400" stroke-dasharray="10 5" /> --> <!-- daath    -->
+  <use xlink:href="#sephira" fill="#cccccc" fill-opacity="0.8" x="0" y="-400" stroke-dasharray="10 5" /> <!-- daath    -->
   <use xlink:href="#sephira" fill="#0000ff" x="346.41" y="-200" /> <!-- chesed   -->
   <use xlink:href="#sephira" fill="#ff0000" x="-346.41" y="-200" /> <!-- geburah  -->
   <use xlink:href="#sephira" fill="#FBF38A" x="0" y="0" /> <!-- tipharet -->
@@ -137,36 +137,24 @@ letters.  Hand-coded by Richard Todd 2021</desc>
    font-size="35" 
    font-family="verdana, sans-serif"
 >
-  <text dx="360"><textPath xlink:href="#path-15">Sight</textPath></text>
-  <text dx="122"><textPath xlink:href="#path-16" stroke="#ff5500" stroke-width="10">Hearing</textPath></text>
-  <text dx="122"><textPath xlink:href="#path-16">Hearing</textPath></text>
-  <text dx="220"><textPath xlink:href="#path-17">Smell</textPath></text>
-  <text dx="130"><textPath xlink:href="#path-18">Speech</textPath></text>
-  <text dx="290"><textPath xlink:href="#path-19">Taste</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-20">Touch</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-22" fill="#fff">Work</textPath></text>
-  <text dx="135"><textPath xlink:href="#path-24">Motion</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-25" stroke="#1000ff" stroke-width="10">Anger</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-25" fill="#fff">Anger</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-26" fill="#fff">Mirth</textPath></text>
-  <text dx="90"><textPath xlink:href="#path-28" stroke="#cc33ff" stroke-width="10">Meditation</textPath></text>
-  <text dx="90"><textPath xlink:href="#path-28" fill="#fff">Meditation</textPath></text>
-  <text dx="290"><textPath xlink:href="#path-29">Sleep</textPath></text>
-
-  <text dx="160"><textPath xlink:href="#path-12">Life</textPath></text>
-  <text dx="350"><textPath xlink:href="#path-13">Peace</textPath></text>
-  <text dx="265"><textPath xlink:href="#path-14" fill="#fff">Wisdom</textPath></text>
-  <text dx="130"><textPath xlink:href="#path-21">Wealth</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-27">Grace</textPath></text>
-  <text dx="150"><textPath xlink:href="#path-30">Seed</textPath></text>
-  <text dx="90"><textPath xlink:href="#path-32" stroke="#2A0D5D" stroke-width="10">Domination</textPath></text>
-  <text dx="90"><textPath xlink:href="#path-32" fill="#fff">Domination</textPath></text>
-
-  <text dx="170"><textPath xlink:href="#path-11">Air</textPath></text>
-  <text dx="140"><textPath xlink:href="#path-23" fill="#fff">Water</textPath></text>
-  <text dx="300"><textPath xlink:href="#path-31" fill="#fff">Fire</textPath></text>
+  <text dx="360"><textPath xlink:href="#path-15">Head</textPath></text>
+  <text dx="150"><textPath xlink:href="#path-16">Neck</textPath></text>
+  <text dx="200"><textPath xlink:href="#path-17">Shoulders</textPath></text>
+  <text dx="125"><textPath xlink:href="#path-18">Breasts</textPath></text>
+  <text dx="290"><textPath xlink:href="#path-19">Heart</textPath></text>
+  <text dx="120"><textPath xlink:href="#path-20" stroke="#B0DD16" stroke-width="10">Stomach</textPath></text>
+  <text dx="120"><textPath xlink:href="#path-20">Stomach</textPath></text> 
+  <text dx="120"><textPath xlink:href="#path-22" fill="#fff">Kidneys</textPath></text>
+  <text dx="125"><textPath xlink:href="#path-24" stroke="#10A674" stroke-width="10">Genitals</textPath></text>
+  <text dx="125"><textPath xlink:href="#path-24">Genitals</textPath></text>
+  <text dx="150"><textPath xlink:href="#path-25" stroke="#1000ff" stroke-width="10">Hips</textPath></text>
+  <text dx="150"><textPath xlink:href="#path-25" fill="#fff">Hips</textPath></text>
+  <text dx="130"><textPath xlink:href="#path-26" fill="#fff">Bones</textPath></text>
+  <text dx="140"><textPath xlink:href="#path-28">Shins</textPath></text>
+  <text dx="290"><textPath xlink:href="#path-29">Feet</textPath></text>
 
 </g>
+
 
 <!-- vim: expandtab:sw=3
 -->
