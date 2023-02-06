@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+version="1.2"
+width="360" height="600"
+viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
+>
+<title>Merlin Paths</title>
+<desc>This is a tree of life decorated with paths as assigned
+by William G. Gray, and the Trump Numbers by RJ Stewart.  Hand-coded by Richard Todd 2023</desc>
+<!-- note to self:  coloration on page 250 of Qabalistic Concepts -->
+
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext textPath { 
+      text-anchor: start; 
+      dominant-baseline: middle; 
+   }
+]]>
+</style>
+
+<defs>
+   <circle id="sephira" r="122.407">
+      <desc>A sephira circle</desc>
+   </circle>
+   <!-- draw the individual paths so it's easy to run
+        textPaths against them -->
+   <path id="path-15" fill="none" d="M0,-800 L 346.41,-600" />
+   <path id="path-14" fill="none" d="M-346.41,-600 L0,-800" />
+   <path id="path-03" fill="none" d="M0,-800 L 0,0" />
+   <path id="path-06" fill="none" d="M-346.41,-600 L346.41,-600" />
+   <path id="path-17" fill="none" d="M346.41,-600 L346.41,-200" />
+   <path id="path-16" fill="none" d="M0,0 L346.41,-600" />
+   <path id="path-12" fill="none" d="M-346.41,-600 L-346.41,-200" />
+   <path id="path-13" fill="none" d="M-346.41,-600 L0,0" />
+   <path id="path-05" fill="none" d="M-346.41,-200 L346.41,-200" />
+   <path id="path-18" fill="none" d="M0,0 L346.41,-200" />
+   <path id="path-19" fill="none" d="M346.41,-200 L346.41,200" />
+   <path id="path-11" fill="none" d="M-346.41,-200 L0,0" />
+   <path id="path-10" fill="none" d="M-346.41,-200 L-346.41,200" />
+   <path id="path-20" fill="none" d="M0,0 L346.41,200" />
+   <path id="path-09" fill="none" d="M-346.41,200 L0,0" />
+   <path id="path-02" fill="none" d="M0,0 L0,400" />
+   <path id="path-04" fill="none" d="M-346.41,200 L346.41,200" />
+   <path id="path-21" fill="none" d="M0,400 L346.41,200" />
+   <path id="path-22" fill="none" d="M0,800 L346.41,200" />
+   <path id="path-08" fill="none" d="M-346.41,200 L0,400" />
+   <path id="path-07" fill="none" d="M-346.41,200 L0,800" />
+   <path id="path-01" fill="none" d="M0,400 L0,800" />
+</defs>
+
+<g>
+   <desc>the paths
+    (note: for "open" sephiroth, draw the black paths, then
+    the circles, then the white paths)
+   </desc>
+   <use xlink:href="#path-15" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-15" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-14" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-14" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-03" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-03" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-06" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-06" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-17" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-17" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-16" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-16" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-12" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-12" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-13" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-13" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-05" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-05" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-18" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-18" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-19" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-19" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-11" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-11" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-10" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-10" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-20" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-20" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-09" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-09" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-02" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-02" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-04" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-04" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-21" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-21" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-22" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-22" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-08" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-08" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-07" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-07" stroke="white" stroke-width="50" />
+   <use xlink:href="#path-01" stroke="black" stroke-width="60" />
+   <use xlink:href="#path-01" stroke="white" stroke-width="50" />
+</g>
+
+<g stroke="black" fill="white" stroke-width="5">
+  <desc>The sephiroth</desc>
+  <!-- sephira radius == 122.407
+       horizontal unit = 346.41
+       vertical unit = 200 -->
+  <use xlink:href="#sephira" x="0" y="-800" /> <!-- kether   -->
+  <use xlink:href="#sephira" x="346.41" y="-600" /> <!-- chockmah -->
+  <use xlink:href="#sephira" x="-346.41" y="-600" /> <!-- binah    -->
+  <use xlink:href="#sephira" x="346.41" y="-200" /> <!-- chesed   -->
+  <use xlink:href="#sephira" x="-346.41" y="-200" /> <!-- geburah  -->
+  <use xlink:href="#sephira" x="0" y="0" /> <!-- tipharet -->
+  <use xlink:href="#sephira" x="346.41" y="200" /> <!-- netzach  -->
+  <use xlink:href="#sephira" x="-346.41" y="200" /> <!-- hod      -->
+  <use xlink:href="#sephira" x="0" y="400" /> <!-- yesod    -->
+  <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
+</g>
+
+<g class="midtext" stroke="none" fill="black" 
+   font-family="Verdana, sans-serif" font-size="44">
+   <text dx="160"><textPath xlink:href="#path-01">1 B</textPath></text> 
+   <line stroke="black" stroke-width="2" x1="0" x2="61" y1="145" y2="145" />
+   <text style="text-anchor: start" x="55" y="145">2 C</text> 
+   <text dx="350"><textPath xlink:href="#path-03">3 D</textPath></text> 
+   <text dx="310"><textPath xlink:href="#path-04">4 F</textPath></text> 
+   <text dx="310"><textPath xlink:href="#path-05">5 G</textPath></text> 
+   <text dx="310"><textPath xlink:href="#path-06">6 H</textPath></text> 
+   <text dx="270"><textPath xlink:href="#path-07">7 J</textPath></text> 
+   <text dx="160"><textPath xlink:href="#path-08">8 K</textPath></text> 
+   <text dx="160"><textPath xlink:href="#path-09">9 L</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-10">10 M</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-11">11 N</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-12">12 P</textPath></text> 
+   <text dx="235"><textPath xlink:href="#path-13">13 Q</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-14">14 R</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-15">15 S</textPath></text> 
+   <text dx="350"><textPath xlink:href="#path-16">16 T</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-17">17 V</textPath></text> 
+   <text dx="140"><textPath xlink:href="#path-18">18 W</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-19">19 X</textPath></text> 
+   <text dx="150"><textPath xlink:href="#path-20">20 Y</textPath></text> 
+   <text dx="145"><textPath xlink:href="#path-21">21 Z</textPath></text> 
+   <text dx="330"><textPath xlink:href="#path-22">22 Th</textPath></text> 
+</g>
+
+<g class="midtext" stroke="none" fill="black" 
+   font-family="Verdana, sans-serif" font-weight="bold" font-size="65">
+  <text x="0" y="-800">1</text>       <!-- kether   -->
+  <text x="346.41" y="-600">2</text>  <!-- chockmah -->
+  <text x="-346.41" y="-600">3</text> <!-- binah    -->
+  <text x="346.41" y="-200">4</text>  <!-- chesed   -->
+  <text x="-346.41" y="-200">5</text> <!-- geburah  -->
+  <text x="0" y="0">6</text>          <!-- tipharet -->
+  <text x="346.41" y="200">7</text>   <!-- netzach  -->
+  <text x="-346.41" y="200">8</text>  <!-- hod      -->
+  <text x="0" y="400">9</text>        <!-- yesod    -->
+  <text x="0" y="800">10</text>       <!-- malkuth  -->
+</g>
+
+<g class="midtext" stroke="none" fill="black" 
+   font-family="Verdana, sans-serif" font-size="44">
+  <text x="0" y="860">A E I O</text> <!-- malkuth vowels -->
+  <text x="0" y="-740">U</text> <!-- kether vowels -->
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
