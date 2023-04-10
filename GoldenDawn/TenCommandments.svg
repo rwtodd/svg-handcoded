@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 version="1.2"
-width="360" height="600"
+width="600" height="1000"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
 <title>Ten Commandments (Catholic)</title>
@@ -31,7 +31,7 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
   <g id="no-sephira">
       <desc>A sephira circle</desc>
       <circle r="112.407" stroke="#ff8888" stroke-width="20" fill="white" />
-      <path stroke="#ff8888" stroke-width="20" d="M-86,86L86,-86)" /> 
+      <path stroke="#ff8888" stroke-width="20" d="M-86,86L86,-86" /> 
       <circle r="122.407" stroke="black" stroke-width="1" fill="none" />
   </g>
    <path id="path-11" fill="none" d="M0,-800 L 346.41,-600" />
@@ -114,12 +114,12 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
   <!-- sephira radius == 122.407
        horizontal unit = 346.41
        vertical unit = 200 -->
-  <use xlink:href="#yes-sephira" transform="translate(0 -800)" /> <!--  1 kether   -->
+  <use xlink:href="#no-sephira" transform="translate(0 -800)" /> <!--  1 kether   -->
   <use xlink:href="#no-sephira" transform="translate(346.41,-600)" /> <!-- path 2 chockmah -->
-  <use xlink:href="#yes-sephira" transform="translate(-346.41,-600)" /> <!-- path 3 binah    -->
+  <use xlink:href="#no-sephira" transform="translate(-346.41,-600)" /> <!-- path 3 binah    -->
   <use xlink:href="#yes-sephira" transform="translate(346.41,-200)" /> <!-- path 4 chesed   -->
   <use xlink:href="#no-sephira" transform="translate(-346.41,-200)" /> <!-- path 5 geburah  -->
-  <use xlink:href="#no-sephira" transform="translate(0,0)" /> <!-- path 6 tipharet -->
+  <use xlink:href="#yes-sephira" transform="translate(0,0)" /> <!-- path 6 tipharet -->
   <use xlink:href="#no-sephira" transform="translate(346.41,200)" /> <!-- path 7 netzach  -->
   <use xlink:href="#no-sephira" transform="translate(-346.41,200)" /> <!-- path 8 hod      -->
   <use xlink:href="#no-sephira" transform="translate(0,400)" /> <!-- path 9 yesod    -->
@@ -130,30 +130,31 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
    stroke-width="1" font-weight="bold"
    font-size="40" font-family="verdana, sans-serif"
 >
-   <text x="0" y="-825">I AM</text><!-- 1 -->
-   <text x="0" y="-775">GOD</text><!-- 1 -->
+   <text x="0" y="-825">OTHER</text><!-- 1 -->
+   <text x="0" y="-775">GODS</text><!-- 1 -->
 
-   <text x="346.41" y="-625">NAME</text><!-- 2 -->
-   <text x="346.41" y="-575">IN VAIN</text><!-- 2 -->
+   <text x="346.41" y="-625">GRAVEN</text><!-- 2 -->
+   <text x="346.41" y="-575">IMAGES</text><!-- 2 -->
 
-   <text x="-346.41" y="-625">KEEP</text><!-- 3 -->
-   <text x="-346.41" y="-575">SABBATH</text><!-- 3 -->
+   <text x="-346.41" y="-625">NAME</text><!-- 3 -->
+   <text x="-346.41" y="-575">IN VAIN</text><!-- 3 -->
 
    <text x="346.41" y="-225">HONOR</text><!-- 4 -->
    <text x="346.41" y="-175">PARENTS</text><!-- 4 -->
    
    <text x="-346.41" y="-200">KILL</text><!-- 5 -->
 
-   <text x="0" y="0">ADULTERY</text><!-- 6 -->
+   <text x="0" y="-25">KEEP</text><!-- 6 -->
+   <text x="0" y="25">SABBATH</text><!-- 6 -->
+
    <text x="346.41" y="200">STEAL</text><!-- 7 -->
    <text x="-346.41" y="175">FALSE</text><!-- 8 -->
    <text x="-346.41" y="225">WITNESS</text><!-- 8 -->
 
-   <text x="0" y="375">NEIGHBOR</text><!-- 9 -->
-   <text x="0" y="425">WIFE</text><!-- 9 -->
+   <text x="0" y="400">ADULTERY</text><!-- 9 -->
 
    <text x="0" y="775">NEIGHBOR</text><!-- 10 -->
-   <text x="0" y="825">GOODS</text><!-- 10 -->
+   <text x="0" y="825">STUFF</text><!-- 10 -->
    
 </g>
 </svg>
