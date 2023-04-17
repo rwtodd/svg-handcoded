@@ -6,7 +6,7 @@
      viewBox="-360 -360 720 720" preserveAspectRatio="xMinYMin meet"
 >
 <title>Sangreal Trump Cycle</title>
-<desc>This is from WG Gray's Sangreal Tarot book, with Trump letters adapated to my own system.
+<desc>This is from WG Gray's Sangreal Tarot book.
 Hand-coded by Richard Todd</desc>
 
 <style type="text/css">
@@ -84,7 +84,7 @@ for idx in range(1,3):
 <g class="midtext" font-family="verdana, sans-serif" font-size="14" stroke="black" stroke-width="1" fill="black">
   <text filter="url(#solid-bg)" x="0" y="-15">STRENGTH</text>
   <text filter="url(#solid-bg)" x="0" y="0">U</text>
-  <text filter="url(#solid-bg)" x="0" y="15">W</text>
+  <text filter="url(#solid-bg)" x="0" y="15">M</text>
 
   <text filter="url(#solid-bg)" x="-160" y="-10">SWORDS (E)</text>
   <text filter="url(#solid-bg)" x="160" y="-10">SHIELDS (A)</text>
@@ -180,115 +180,115 @@ M-260 -25.5 h 520 m 0 51 h-520" />
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">PRIESTESS</textPath>
     </text>
     <text>
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Z</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">W</textPath>
     </text>
     <text transform="rotate(18)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">SUN</textPath>
     </text>
     <text transform="rotate(18)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">C</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">T</textPath>
     </text>
     <text transform="rotate(18)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">MAGICIAN</textPath>
     </text>
     <text transform="rotate(18)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">K</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Y</textPath>
     </text>
     <text transform="rotate(36)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">MOON</textPath>
     </text>
     <text transform="rotate(36)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">B</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Th</textPath>
     </text>
     <text transform="rotate(36)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">WHEEL</textPath>
     </text>
     <text transform="rotate(36)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">F</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">V</textPath>
     </text>
     <text transform="rotate(54)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">LOVERS</textPath>
     </text>
     <text transform="rotate(54)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Y</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">R</textPath>
     </text>
     <text transform="rotate(54)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">JUSTICE</textPath>
     </text>
     <text transform="rotate(54)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">G</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">L</textPath>
     </text>
     <text transform="rotate(72)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">WORLD</textPath>
     </text>
     <text transform="rotate(72)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Th</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">X</textPath>
     </text>
     <text transform="rotate(72)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">JUDGMENT</textPath>
     </text>
     <text transform="rotate(72)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">H</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">F</textPath>
     </text>
     <text transform="rotate(-18)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">TEMPERANCE</textPath>
     </text>
     <text transform="rotate(-18)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">T</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">H</textPath>
     </text>
     <text transform="rotate(-18)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">HIEROPHANT</textPath>
     </text>
     <text transform="rotate(-18)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">S</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">B</textPath>
     </text>
     <text transform="rotate(-36)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">HERMIT</textPath>
     </text>
     <text transform="rotate(-36)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">R</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">C</textPath>
     </text>
     <text transform="rotate(-36)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">EMPRESS</textPath>
     </text>
     <text transform="rotate(-36)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">X</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">N</textPath>
     </text>
     <text transform="rotate(-54)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">DEATH</textPath>
     </text>
     <text transform="rotate(-54)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">P</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">J</textPath>
     </text>
     <text transform="rotate(-54)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">EMPEROR</textPath>
     </text>
     <text transform="rotate(-54)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">V</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">G</textPath>
     </text>
     <text transform="rotate(-72)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">HANGED MAN</textPath>
     </text>
     <text transform="rotate(-72)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Q</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">K</textPath>
     </text>
     <text transform="rotate(-72)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">CHARIOT</textPath>
     </text>
     <text transform="rotate(-72)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">L</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">S</textPath>
     </text>
     <text transform="rotate(-90)">
       <textPath xlink:href="#upoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">TOWER</textPath>
     </text>
     <text transform="rotate(-90)">
-      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">N</textPath>
+      <textPath xlink:href="#upinncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">P</textPath>
     </text>
     <text transform="rotate(90)">
       <textPath xlink:href="#dnoutcirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">DEVIL</textPath>
     </text>
     <text transform="rotate(90)">
-      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">M</textPath>
+      <textPath xlink:href="#dninncirc" startOffset="50%" dominant-baseline="middle" text-anchor="middle">Q</textPath>
     </text>
   </g>
   <g font-size="15" font-family="verdana, sans-serif" stroke="black" stroke-width="1" fill="black">
@@ -320,7 +320,7 @@ M-260 -25.5 h 520 m 0 51 h-520" />
   <text filter="url(#solid-bg)" x="0" y="-327">THE</text>
   <text filter="url(#solid-bg)" x="0" y="-311">FOOL</text>
   <text filter="url(#solid-bg)" x="0" y="-296">U</text>
-  <text filter="url(#solid-bg)" x="0" y="-281">J</text>
+  <text filter="url(#solid-bg)" x="0" y="-281">Z</text>
 </g>
 
 
