@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="600" height="600"
+     viewBox="-370 -370 740 740" preserveAspectRatio="xMinYMin meet"
+     >
+<title>Universal Harmony</title>
+<desc>This figure is from a series of articles called "The Science of Universal Harmony" from
+the Theosophical magazine "The World" from 1904-1918.  https://gnosticstudies.org/index.php/gnostic-kabalah/the-kabalah-explained-by-theosophical-symbolism/</desc>
+<!--
+-->
+<style type="text/css">
+<![CDATA[
+   g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+]]>
+</style>
+
+<defs>
+  <line id="ray100" x1="0" y1="-26" x2="0" y2="-50" />
+  <line id="ray75" x1="0" y1="-26" x2="0" y2="-44" />
+  <line id="ray50" x1="0" y1="-26" x2="0" y2="-38" />
+  <line id="ray25" x1="0" y1="-26" x2="0" y2="-32" />
+  <clipPath id="radial_line_clip">
+    <desc>the lines from the center to the outside must be clipped to the visible grid segments</desc>
+    <path d="M78.7502089703349,78.7502089703349 v-157.50041794067 h-157.50041794067 v157.50041794067 z
+    M-315,-315 h 630 v 630 h -630 z" />
+  </clipPath>
+  <circle id="outer_circ" r="14.29" />
+  <circle id="inner_circ" r="5" />
+  <g id="grid_section" fill="none" stroke="black">
+    <desc>one segment of the grid, which should scale</desc>
+    <!-- outer square at -1 to 1, and circle with matching radius -->
+    <rect x="-1" y="-1" width="2" height="2" stroke-width="3" vector-effect="non-scaling-stroke" />
+    <circle r="1" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <!-- now six squares inside: foreach (1..6) { $x = 1 - $_*(1-sqrt(2)/2)/7; $wh=$x*2; say qq(<rect x="-$x" y="-$x" width="$wh" height="$wh" stroke-width="2" vector-effect="non-scaling-stroke" />) }  -->
+    <rect x="-0.958158111598078" y="-0.958158111598078" width="1.91631622319616" height="1.91631622319616" stroke-width="2" vector-effect="non-scaling-stroke" />
+<rect x="-0.916316223196156" y="-0.916316223196156" width="1.83263244639231" height="1.83263244639231" stroke-width="2" vector-effect="non-scaling-stroke" />
+<rect x="-0.874474334794235" y="-0.874474334794235" width="1.74894866958847" height="1.74894866958847" stroke-width="2" vector-effect="non-scaling-stroke" />
+<rect x="-0.832632446392313" y="-0.832632446392313" width="1.66526489278463" height="1.66526489278463" stroke-width="2" vector-effect="non-scaling-stroke" />
+<rect x="-0.790790557990391" y="-0.790790557990391" width="1.58158111598078" height="1.58158111598078" stroke-width="2" vector-effect="non-scaling-stroke" />
+<rect x="-0.748948669588469" y="-0.748948669588469" width="1.49789733917694" height="1.49789733917694" stroke-width="2" vector-effect="non-scaling-stroke" />
+  </g>
+  <!-- dashed, rotated inner box sqrt(1+1) * 0.5 -->
+  <rect id="dashed_sq" x="-0.707106781186548" y="-0.707106781186548" 
+      width="1.4142135623731" height="1.4142135623731"  fill="none" stroke="black"
+      stroke-dasharray="15 4" stroke-width="2" transform="rotate(45)" vector-effect="non-scaling-stroke" />
+</defs>
+
+<g><desc>outer circles</desc>
+  <g id="ocirc_row" fill="none" stroke="black" stroke-width="3">
+    <use xlink:href="#outer_circ" x="-350" y="-350" />
+    <use xlink:href="#outer_circ" x="-250" y="-350" />
+    <use xlink:href="#outer_circ" x="-150" y="-350" />
+    <use xlink:href="#outer_circ" x="-50" y="-350" />
+    <use xlink:href="#outer_circ" x="250" y="-350" />
+    <use xlink:href="#outer_circ" x="150" y="-350" />
+    <use xlink:href="#outer_circ" x="50" y="-350" />
+  </g>
+  <use xlink:href="#ocirc_row" transform="rotate(90)" />
+  <use xlink:href="#ocirc_row" transform="rotate(180)" />
+  <use xlink:href="#ocirc_row" transform="rotate(270)" />
+</g>
+
+<g><desc>the scaled grid</desc>
+  <!-- $rad = 315: foreach (1..7) { say $rad; $rad = $rad * cos(3.14159/4) } -->
+  <use xlink:href="#grid_section" transform="scale(315)" />
+  <use xlink:href="#dashed_sq" transform="scale(315)" />
+  <use xlink:href="#grid_section" transform="scale(222.738783837956)" />
+  <use xlink:href="#dashed_sq" transform="scale(222.738783837956)" />
+  <use xlink:href="#grid_section" transform="scale(157.500208970196)" />
+  <use xlink:href="#dashed_sq" transform="scale(157.500208970196)" />
+  <use xlink:href="#grid_section" transform="scale(111.369539683319)" />
+  <rect x="-78.7502089703349" y="-78.7502089703349" width="157.50041794067" height="157.50041794067"
+     stroke-width="3" stroke="black" fill="none" />
+
+  <!-- radial lines -->
+  <g id="radial_lines" clip-path="url(#radial_line_clip)">
+    <desc>the lines from the center square outward</desc>
+    <g id="line-row" stroke="black" stroke-width="2">
+      <line x1="0" y1="0" x2="-350" y2="-350" stroke-width="3" />
+      <line x1="0" y1="0" x2="-250" y2="-350" />
+      <line x1="0" y1="0" x2="-150" y2="-350" />
+      <line x1="0" y1="0" x2="-50" y2="-350" />
+      <line x1="0" y1="0" x2="250" y2="-350" />
+      <line x1="0" y1="0" x2="150" y2="-350" />
+      <line x1="0" y1="0" x2="50" y2="-350" />
+    </g>
+    <use xlink:href="#line-row" transform="rotate(90)" />
+    <use xlink:href="#line-row" transform="rotate(180)" />
+    <use xlink:href="#line-row" transform="rotate(270)" />
+  </g>
+</g>
+
+<g><desc>Interior of the central square</desc>
+  <rect x="-55.6848437239279" y="-55.6848437239279"
+    width="111.369687447856" height="111.369687447856"
+    stroke-width="7" fill="none" stroke="black" />
+  <g id="icirc_row" fill="black" stroke="black" stroke-width="1">
+   <!-- say (-61 + ($_*61*2/6)) for (0..6) -->
+   <use xlink:href="#inner_circ" x="-61" y="-71.5" />
+   <use xlink:href="#inner_circ" x="-40.6666666666667" y="-71.5" />
+   <use xlink:href="#inner_circ" x="-20.3333333333333" y="-71.5" />
+   <use xlink:href="#inner_circ" x="0" y="-71.5" />
+   <use xlink:href="#inner_circ" x="20.3333333333333" y="-71.5" />
+   <use xlink:href="#inner_circ" x="40.6666666666667" y="-71.5" />
+   <use xlink:href="#inner_circ" x="61" y="-71.5" />
+  </g>
+  <use xlink:href="#icirc_row" transform="rotate(90)" />
+  <use xlink:href="#icirc_row" transform="rotate(180)" />
+  <use xlink:href="#icirc_row" transform="rotate(270)" />
+  <circle r="26" fill="none" stroke="black" stroke-width="2" />
+  <path d="M0,-20 L-17.3205390341534,9.99994637817472 H17.3205390341534 z" stroke="black" fill="none" stroke-width="3" />
+  <g id="raysect" stroke="black" stroke-width="2">
+    <!-- say (45*$_ / 8) for (0..7) -->
+    <use xlink:href="#ray100" />
+    <use xlink:href="#ray25" transform="rotate(5.625)"  />
+    <use xlink:href="#ray50" transform="rotate(11.25)"  />
+    <use xlink:href="#ray25" transform="rotate(16.875)" />
+    <use xlink:href="#ray75" transform="rotate(22.5)"   />
+    <use xlink:href="#ray25" transform="rotate(28.125)" />
+    <use xlink:href="#ray50" transform="rotate(33.75)"  />
+    <use xlink:href="#ray25" transform="rotate(39.375)" />
+  </g>
+  <use xlink:href="#raysect" transform="rotate(45)" />
+  <use xlink:href="#raysect" transform="rotate(-45)" />
+  <use xlink:href="#raysect" transform="rotate(90)" />
+  <use xlink:href="#raysect" transform="rotate(-90)" />
+  <use xlink:href="#raysect" transform="rotate(135)" />
+  <use xlink:href="#raysect" transform="rotate(-135)" />
+  <use xlink:href="#raysect" transform="rotate(180)" />
+</g>
+
+<g class="midtext" fill="black" stroke="black" 
+   stroke-width="1" font-weight="normal"
+   font-size="35" font-family="times new roman, times, serif"
+>
+  <text x="0" y="4">י</text>
+</g>
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
