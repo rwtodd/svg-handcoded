@@ -5,8 +5,6 @@
      width="600" height="600"
      viewBox="-370 -370 740 740" preserveAspectRatio="xMinYMin meet"
      >
-<!-- viewBox="-370 -370 740 740" preserveAspectRatio="xMinYMin meet" -->
-<!--viewBox="-370 -370 100 100" preserveAspectRatio="xMinYMin meet" -->
 <title>Universal Harmony</title>
 <desc>This figure is from a series of articles called "The Science of Universal Harmony" from
 the Theosophical magazine "The World" from 1904-1918.  https://gnosticstudies.org/index.php/gnostic-kabalah/the-kabalah-explained-by-theosophical-symbolism/</desc>
@@ -152,11 +150,18 @@ the Theosophical magazine "The World" from 1904-1918.  https://gnosticstudies.or
 </g>
 
 <g transform="translate(-327,325)"><desc>leo</desc>
-  <rect fill="none" stroke="green" stroke-width="1" x="-15" y="-15" width="30" height="30" />
+  <path fill="none" stroke="black" stroke-width="3" 
+   d="M -12,5 Q -7,15 -3,7 Q -2,3 -5,-5 T 0,-13
+      T 5,-5 Q 2,3 3,7 Q 7,15 12,5"
+   />
 </g>
 
-<g transform="translate(327,325)"><desc>scorpio</desc>
-  <rect fill="none" stroke="green" stroke-width="1" x="-15" y="-15" width="30" height="30" />
+<g transform="translate(329,327)"><desc>scorpio</desc>
+  <path fill="none" stroke="black" stroke-width="2.5" 
+   d="M -14,-10 Q -10,-13 -10,-11 v 23
+   Q -4,-29 -4,3 v9 Q 2,-29 2,4 C 2,16 -2,25  11,5
+   M 6,6 L 12,5 L 11,9
+   " /> 
 </g>
 <!-- vim: expandtab:sw=3
 -->
