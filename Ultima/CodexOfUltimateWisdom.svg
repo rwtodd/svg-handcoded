@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="800" height="800"
+     viewBox="-400 -400 800 800" preserveAspectRatio="xMinYMin meet"
+>
+<title>Codex of Ultimate Wisdom</title>
+<desc>This is an artifact in the Ultima series of CRPGs.</desc>
+
+<defs>
+<linearGradient id="bgGradient" x1="0" x2="1" y1="0.75" y2="0.25">
+      <stop offset="10%" stop-color="#ffd" />
+      <stop offset="50%" stop-color="#ddd" />
+      <stop offset="90%" stop-color="#ddf" />
+    </linearGradient>
+</defs>
+
+<circle stroke="none" fill="url(#bgGradient)" r="370" />
+<g fill="none" stroke-width="10">
+  <desc>inner circles</desc>
+  <circle cx="85.859" cy="-49.571" r="85.859" stroke="yellow"/>
+  <circle cx="-0.000" cy="99.141" r="85.859" stroke="red"/>
+  <circle cx="-85.859" cy="-49.571" r="85.859" stroke="blue"/>
+</g>
+
+<g fill="none" stroke-width="10">
+  <desc>innermost circle</desc>
+  <circle r="13.282" stroke="white" />
+</g>
+
+<g stroke-width="10">
+<desc> big triangle </desc>
+  <line x1="0.000" y1="-370.000" x2="320.429" y2="185.000" stroke="yellow"/>
+  <line x1="320.429" y1="185.000" x2="-320.429" y2="185.000" stroke="red"/>
+  <line x1="-320.429" y1="185.000" x2="0.000" y2="-370.000" stroke="blue"/>
+</g>
+
+<g stroke-width="10">
+  <desc> little triangle </desc>
+  <!-- endpoints 262.024 and 37.976 -->
+  <line x1="-51.339" y1="366.421" x2="291.661" y2="-227.671" stroke="orange"/>
+  <!-- endpoints 22.024 and 157.976 -->
+  <line x1="342.999" y1="-138.750" x2="-342.999" y2="-138.750" stroke="#80f350"/>
+  <!-- endpoints 142.024 and 277.976 -->
+  <line x1="-291.661" y1="-227.671" x2="51.339" y2="366.421" stroke="magenta"/>
+</g>
+
+<circle r="370" stroke="black" stroke-width="12" fill="none" />
+
+<!-- vim: expandtab:sw=3
+-->
+</svg>
