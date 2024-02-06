@@ -17,26 +17,26 @@
 </defs>
 
 <circle stroke="none" fill="url(#bgGradient)" r="370" />
-<g fill="none" stroke-width="10">
+<g fill="none" stroke-width="17">
   <desc>inner circles</desc>
-  <circle cx="85.859" cy="-49.571" r="85.859" stroke="yellow"/>
-  <circle cx="-0.000" cy="99.141" r="85.859" stroke="red"/>
-  <circle cx="-85.859" cy="-49.571" r="85.859" stroke="blue"/>
+  <circle cx="85.859" cy="-49.571" r="77.359" stroke="yellow"/>
+  <circle cx="-0.000" cy="99.141" r="77.359" stroke="red"/>
+  <circle cx="-85.859" cy="-49.571" r="77.359" stroke="blue"/>
 </g>
 
 <g fill="none" stroke-width="10">
   <desc>innermost circle</desc>
-  <circle r="13.282" stroke="white" />
+  <circle r="8.282" stroke="white" />
 </g>
 
-<g stroke-width="10">
+<g stroke-width="17">
 <desc> big triangle </desc>
   <line x1="0.000" y1="-370.000" x2="320.429" y2="185.000" stroke="yellow"/>
   <line x1="320.429" y1="185.000" x2="-320.429" y2="185.000" stroke="red"/>
   <line x1="-320.429" y1="185.000" x2="0.000" y2="-370.000" stroke="blue"/>
 </g>
 
-<g stroke-width="10">
+<g stroke-width="17">
   <desc> little triangle </desc>
   <!-- endpoints 262.024 and 37.976 -->
   <line x1="-51.339" y1="366.421" x2="291.661" y2="-227.671" stroke="orange"/>
@@ -46,7 +46,7 @@
   <line x1="-291.661" y1="-227.671" x2="51.339" y2="366.421" stroke="magenta"/>
 </g>
 
-<circle r="370" stroke="black" stroke-width="12" fill="none" />
+<circle r="370" stroke="black" stroke-width="17" fill="none" />
 
 <!-- vim: expandtab:sw=3
 -->
