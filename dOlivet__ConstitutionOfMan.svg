@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="800" height="800"
+     viewBox="-400 -400 800 800" preserveAspectRatio="xMinYMin meet"
+>
+<title>Constitution of Man</title>
+<desc>Diagram based on the works of Fabre d'Olivet. Hand-coded in SVG by Richard Todd 2024</desc>
+
+<style type="text/css">
+<![CDATA[
+   g.midtext > text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   } 
+   g.midtext > text > textPath { 
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+   }
+]]>
+</style>
+
+<defs>
+  <filter id="txtFilter">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="2" /> 
+  </filter>
+  <circle id="dcrc" r="350" fill="none" stroke-dasharray="4 4" vector-effect="non-scaling-stroke" />
+  <path id="tri" d="M0,-350 L303.109,175 L-303.109,175 Z" fill="none" 
+     vector-effect="non-scaling-stroke" />
+  <path id="revtri" d="M0,-350 L-303.109,175 L303.109,175 Z" fill="none" 
+     vector-effect="non-scaling-stroke" />
+  <path id="dtri" d="M0,-350 L303.109,175 L-303.109,175 Z" fill="none"
+     stroke-dasharray="4 4" vector-effect="non-scaling-stroke" />
+  <g id="star">
+    <use xlink:href="#tri" />
+    <use xlink:href="#tri" transform="rotate(180)" />
+  </g>
+  <path id="upper" d="M-350.000,0.000 A350.000,350.000 0 0 1 350.000 0.000" />
+  <path id="lower" d="M-350.000,0.000 A350.000,350.000 0 0 0 350.000 0.000" />
+</defs>
+
+<g fill="none" stroke="#00a" stroke-width="2">
+  <use xlink:href="#dcrc" />
+  <use xlink:href="#star" />
+  <use xlink:href="#dcrc" transform="translate(0,-175)scale(0.5)" />
+  <use xlink:href="#dcrc" transform="scale(0.5)" />
+  <use xlink:href="#dcrc" transform="translate(0,175)scale(0.5)" />
+  <use xlink:href="#star" transform="scale(0.5)" />
+  <use xlink:href="#dtri" transform="translate(0,175)scale(0.5)" />
+  <use xlink:href="#dtri" transform="translate(0,-175)scale(0.5)rotate(180)" />
+</g>
+
+<g class="midtext" font-family="verdana, sans-serif" font-size="15" stroke="none" 
+   fill="black">
+   <desc>Volitive Determinations</desc>
+   <text x="0" y="-320" transform="rotate(90)">Volative</text>
+   <text x="0" y="-305" transform="rotate(90)">Determinations</text>
+   <text x="0" y="-320" transform="rotate(270)">Volative</text>
+   <text x="0" y="-305" transform="rotate(270)">Determinations</text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="14" stroke="none" 
+   fill="black" transform="scale(1.03)">
+   <desc>Outer Circle</desc>
+  <text>
+    <textPath xlink:href="#upper" startOffset="50%">Imagination and Creation</textPath>
+    <textPath xlink:href="#upper" startOffset="18%">Discernment and Comprehension</textPath>
+    <textPath xlink:href="#upper" startOffset="82%">Retention and Memory</textPath>
+    <textPath xlink:href="#lower" startOffset="50%">Attention and Perception</textPath>
+    <textPath xlink:href="#lower" startOffset="18%">Comparison and Judgment</textPath>
+    <textPath xlink:href="#lower" startOffset="82%">Reflection and Repetition</textPath>
+  </text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="15" stroke="none" 
+   fill="black" transform="scale(0.96)">
+   <desc>Inside Outer Circle</desc>
+  <text>
+    <textPath xlink:href="#upper" startOffset="30%">Sphere of</textPath>
+    <textPath xlink:href="#upper" startOffset="70%">Potentiality</textPath>
+    <textPath xlink:href="#lower" startOffset="30%">Sphere of</textPath>
+    <textPath xlink:href="#lower" startOffset="70%">Potentiality</textPath>
+  </text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="29" stroke="none" 
+   fill="black" transform="scale(0.47)">
+   <desc>Inside Inner Central Circle</desc>
+  <text fill="#ffffffcc" stroke="#ffffffcc" stroke-width="10">
+    <textPath xlink:href="#upper" startOffset="32%">Intelligence</textPath>
+    <textPath xlink:href="#upper" startOffset="67%">Sagacity</textPath>
+    <textPath xlink:href="#lower" startOffset="32%">Common Sense</textPath>
+    <textPath xlink:href="#lower" startOffset="67%">Instinct</textPath>
+  </text>
+  <text>
+    <textPath xlink:href="#upper" startOffset="32%">Intelligence</textPath>
+    <textPath xlink:href="#upper" startOffset="67%">Sagacity</textPath>
+    <textPath xlink:href="#lower" startOffset="32%">Common Sense</textPath>
+    <textPath xlink:href="#lower" startOffset="67%">Instinct</textPath>
+  </text>
+  <text transform="rotate(90)">
+    <textPath xlink:href="#upper" startOffset="50%">Passions</textPath>
+  </text>
+  <text transform="rotate(270)">
+    <textPath xlink:href="#upper" startOffset="50%">Passions</textPath>
+  </text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="29" stroke="none" 
+   fill="black" transform="translate(0,175) scale(0.47)">
+   <desc>Inside Inner Low Circle</desc>
+  <text fill="#ffffffaa" stroke="#ffffffaa" stroke-width="10" transform="rotate(90)">
+    <textPath xlink:href="#upper" startOffset="50%">Desires</textPath>
+  </text>
+  <text fill="#ffffffcc" stroke="#ffffffcc" stroke-width="10" transform="rotate(270)">
+    <textPath xlink:href="#upper" startOffset="50%">Desires</textPath>
+  </text>
+  <text transform="rotate(90)">
+    <textPath xlink:href="#upper" startOffset="50%">Desires</textPath>
+  </text>
+  <text transform="rotate(270)">
+    <textPath xlink:href="#upper" startOffset="50%">Desires</textPath>
+  </text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="29" stroke="none" 
+   fill="black" transform="translate(0,-175) scale(0.47)">
+   <desc>Inside Inner Top Circle</desc>
+  <text fill="#ffffffcc" stroke="#ffffffcc" stroke-width="10">
+    <textPath xlink:href="#lower" startOffset="32%">Understanding</textPath>
+    <textPath xlink:href="#lower" startOffset="67%">Reason</textPath>
+  </text>
+  <text>
+    <textPath xlink:href="#lower" startOffset="32%">Understanding</textPath>
+    <textPath xlink:href="#lower" startOffset="67%">Reason</textPath>
+  </text>
+  <text fill="#ffffffaa" stroke="#ffffffaa" stroke-width="10" transform="rotate(90)">
+    <textPath xlink:href="#upper" startOffset="50%">Inspirations</textPath>
+  </text>
+  <text fill="#ffffffcc" stroke="#ffffffcc" stroke-width="10" transform="rotate(270)">
+    <textPath xlink:href="#upper" startOffset="50%">Inspirations</textPath>
+  </text>
+  <text transform="rotate(90)">
+    <textPath xlink:href="#upper" startOffset="50%">Inspirations</textPath>
+  </text>
+  <text transform="rotate(270)">
+    <textPath xlink:href="#upper" startOffset="50%">Inspirations</textPath>
+  </text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="22" stroke="none" 
+   fill="black">
+   <desc>Circle Names</desc>
+   <text x="0" y="0" fill="#ffffffcc" stroke="#ffffffcc" stroke-width="10">SOUL</text>
+   <text x="0" y="0">SOUL</text>
+   <text x="0" y="-220">SPIRIT</text>
+   <text x="0" y="220">BODY</text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="13" stroke="none" 
+   fill="black" transform="scale(1.07)">
+   <desc>Triangle Text</desc>
+   <text fill="#ffffffcc" stroke="#ffffffcc" stroke-width="8">
+    <textPath xlink:href="#tri" startOffset="7%">Generalization</textPath>
+    <textPath xlink:href="#tri" startOffset="93%">Abstraction</textPath>
+   </text>
+   <text>
+    <textPath xlink:href="#tri" startOffset="7%">Generalization</textPath>
+    <textPath xlink:href="#tri" startOffset="27%">Decomposition</textPath>
+    <textPath xlink:href="#tri" startOffset="73%">Analogy</textPath>
+    <textPath xlink:href="#tri" startOffset="93%">Abstraction</textPath>
+    <textPath xlink:href="#revtri" startOffset="38%">Synthesis</textPath>
+    <textPath xlink:href="#revtri" startOffset="62%">Analysis</textPath>
+   </text>
+   <text fill="#ffffffcc" stroke="#ffffffcc" stroke-width="8" transform="rotate(180)">
+    <textPath xlink:href="#revtri" startOffset="7%">Numeration</textPath>
+    <textPath xlink:href="#revtri" startOffset="93%">Individualization</textPath>
+   </text>
+   <text transform="rotate(180)">
+    <textPath xlink:href="#revtri" startOffset="7%">Numeration</textPath>
+    <textPath xlink:href="#revtri" startOffset="27%">Category</textPath>
+    <textPath xlink:href="#revtri" startOffset="73%">Deduction</textPath>
+    <textPath xlink:href="#revtri" startOffset="93%">Individualization</textPath>
+    <textPath xlink:href="#tri" startOffset="38%">Induction</textPath>
+    <textPath xlink:href="#tri" startOffset="62%">Method</textPath>
+   </text>
+</g>
+<g class="midtext" font-family="verdana, sans-serif" font-size="14" stroke="none" 
+   fill="black" transform="rotate(270)">
+   <desc>vertical text</desc>
+   <text x="-300" y="0">Sensation</text> 
+   <text x="-126" y="0">Sentiment</text> 
+   <text x="130" y="0">Volition</text> 
+   <text x="300" y="0">Assent</text> 
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
