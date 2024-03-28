@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="20" height="20"
+     viewBox="-10 -10 20 20" preserveAspectRatio="xMinYMin meet"
+>
+<title>Zodiac Signs</title>
+<desc>All of the zodiac signs, in copyable defs, in a -10..10 square box.  I'm using
+https://en.wikipedia.org/wiki/Alchemical_symbol as my reference.</desc>
+
+<defs>
+   <path id="aries-sign" d="M -1.2,8.9 l 0,-11.5 C-3.9,-9.5 -12.5,-4.4 -4.5, 1.6 l 0,2 
+   C -13.5,0.4 -11,-13.4 0,-5.4 11,-13.4 13.5,0.4 4.5,3.6 l0,-2 C12.5,-4.4 3.9,-9.5 1.2,-2.6 l0,11.5 z" />
+</defs>
+<rect x="-10" y="-10" width="20" height="20" fill="#fff" />
+
+<g stroke="none" fill="black" stroke-width="0.1">
+   <use xlink:href="#aries-sign" />
+</g>
+<!-- vim: expandtab:sw=3
+-->
+</svg>
