@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
 version="1.2"
-width="360" height="600"
+width="432" height="720"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
 <title>Merlin Paths</title>
@@ -53,6 +53,7 @@ by William G. Gray, and the Trump Numbers by RJ Stewart.  Hand-coded by Richard 
    <path id="path-01" fill="none" d="M0,400 L0,800" />
 </defs>
 
+<rect x="0" y="120" width="160" height="42" rx="10" stroke="none" fill="white" />
 <g>
    <desc>the paths
     (note: for "open" sephiroth, draw the black paths, then
