@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
 xmlns:xlink="http://www.w3.org/1999/xlink"
 version="1.2"
-width="360" height="600"
+width="432" height="720"
 viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
 >
 <title>32 Paths of Wisdom (Golden Dawn Attributions)</title>
@@ -154,12 +154,12 @@ of Wisdom. This drawing hand-coded by Richard Todd 2021</desc>
    <text x="0" y="-850">Admirable</text>
    <text x="346.41" y="-600">Illuminating</text>
    <text x="-346.41" y="-600">Sanctifying</text>
-   <text x="346.41" y="-200">Receiving</text>
+   <text x="346.41" y="-200">Cohesive</text>
    <text x="-346.41" y="-200">Radical</text>
    <text x="0" y="0">Mediating</text>
-   <text x="346.41" y="200">Hidden</text>
+   <text x="346.41" y="200">Occult</text>
    <text x="-346.41" y="200">Perfect</text>
-   <text x="0" y="400">Purified</text>
+   <text x="0" y="400">Pure</text>
    <text x="0" y="800" transform="scale(0.95,1)">Resplendent</text>
 </g>
 <!-- vim: expandtab:sw=3

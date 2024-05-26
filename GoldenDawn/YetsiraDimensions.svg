@@ -156,9 +156,9 @@ the cube-of-space directions of all the paths as well, 2023.</desc>
    font-size="35" font-family="verdana, sans-serif"
 >
   <text dx="170"><textPath xlink:href="#path-11">A-B</textPath></text>
-  <text dx="170"><textPath xlink:href="#path-12">E</textPath></text>
+  <text dx="170"><textPath xlink:href="#path-12">A</textPath></text>
   <text dx="140"><textPath xlink:href="#path-13">B</textPath></text>
-  <text dx="330"><textPath xlink:href="#path-14">A</textPath></text>
+  <text dx="330"><textPath xlink:href="#path-14">E</textPath></text>
   <text dx="400"><textPath xlink:href="#path-15">NE</textPath></text>
   <text dx="170"><textPath xlink:href="#path-16">SE</textPath></text>
   <text dx="250"><textPath xlink:href="#path-17">EA</textPath></text>

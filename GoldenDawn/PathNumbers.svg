@@ -56,6 +56,8 @@ Richard Todd 2021</desc>
    <path id="path-32" fill="none" d="M0,400 L0,800" />
 </defs>
 
+<rect y="120" x="0" width="145" height="40" rx="10" fill="white" />
+
 <g>
    <desc>the paths
     (note: for "open" sephiroth, draw the black paths, then
@@ -124,7 +126,6 @@ Richard Todd 2021</desc>
   <use xlink:href="#sephira" x="0" y="400" /> <!-- yesod    -->
   <use xlink:href="#sephira" x="0" y="800" /> <!-- malkuth  -->
 </g>
-
 <g class="midtext" stroke="none" fill="black" 
    font-family="Times New Roman, Times, serif" font-weight="bold" font-size="45">
    <text dx="160"><textPath xlink:href="#path-11">11 א</textPath></text> 
