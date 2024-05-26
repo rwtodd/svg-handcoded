@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="1050" height="750"
+     viewBox="0 0 525 375" preserveAspectRatio="xMinYMin meet"
+>
+<title>Small Beach and Mountain Range</title>
+<desc>King's Quest III map from the Hint Book.  Recreated by hand by
+Richard Todd in 2024.</desc>
+
+<style type="text/css">
+<![CDATA[
+  text.title {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: bold;
+      stroke: none;
+      fill: red;
+      font-size: 20px; 
+      font-family: verdana, sans-serif;
+  }
+  g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: normal;
+      stroke: none;
+      fill: red;
+      font-size: 9px; 
+      font-family: verdana, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+  <!-- Each box is 50x50 and set 75 apart in both directions... -->
+  <rect id="box" width="50" height="50" rx="5" stroke="red" stroke-width="2" fill="white" />
+  <g id="mountainpath" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Mountain</text>
+     <text x="25" y="30">Path</text>
+   </g>
+    <g id="belowclpth" class="midtext">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Below</text>
+      <text x="25" y="25">Cliff</text>
+      <text x="25" y="35">(path)</text>
+   </g> 
+   <g id="summsnow" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Summit</text>
+     <text transform="translate(25,30)scale(0.9,1)">(Snowman)</text>
+   </g>
+
+</defs>
+
+<text class="title" x="262.5" y="50">Small Beach and Mountain Range</text>
+<g transform="translate(12.5,87.5)"><desc>the map</desc>
+  <g stroke="red" stroke-width="2" fill="none"><desc>connecting lines</desc>
+     <path d="M25,250 h75 l-75,-75 h75 v75 m0,-75v-75h75v-75h150v75h150v60" />
+  </g>
+
+  <use xlink:href="#belowclpth" x="0" y="150" />
+  <g class="midtext" transform="translate(0,225)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Beach</text>
+     <text x="25" y="30">(ship)</text>
+   </g>
+   <use xlink:href="#mountainpath" x="75" y="75" />
+   <use xlink:href="#belowclpth" x="75" y="150" />
+   <g class="midtext" transform="translate(75,225)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Beach</text>
+     <text x="25" y="30">(treasure)</text>
+   </g>
+   <use xlink:href="#summsnow" x="150" y="0" />
+   <g class="midtext" transform="translate(150,75)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Mountain</text>
+      <text x="25" y="25">Path</text>
+      <text x="25" y="35">(waterfall)</text>
+   </g>    
+    <g class="midtext" transform="translate(225,0)">
+     <use xlink:href="#box" />
+     <text x="25" y="15">Summit</text>
+     <text x="25" y="25">(cave)</text>
+     <text transform="translate(25,35)scale(0.9,1)">(Snowman)</text>
+   </g>
+   <use xlink:href="#summsnow" x="300" y="0" />
+   <g class="midtext" transform="translate(300,75)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Cliff</text>
+      <text x="25" y="25">with</text>
+      <text x="25" y="35">Caves</text>
+   </g> 
+   <use xlink:href="#mountainpath" x="375" y="75" />
+   <use xlink:href="#mountainpath" x="450" y="75" />
+   <g class="midtext" transform="translate(450,150)">
+      <text x="25" y="25">Daventry</text>
+   </g>
+</g>
+</svg>

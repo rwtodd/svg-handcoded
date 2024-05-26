@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="600" height="750"
+     viewBox="0 0 300 375" preserveAspectRatio="xMinYMin meet"
+>
+<title>Kingdom of Daventry</title>
+<desc>King's Quest III map from the Hint Book.  Recreated by hand by
+Richard Todd in 2024.</desc>
+
+<style type="text/css">
+<![CDATA[
+  text.title {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: bold;
+      stroke: none;
+      fill: red;
+      font-size: 20px; 
+      font-family: verdana, sans-serif;
+  }
+  g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: normal;
+      stroke: none;
+      fill: red;
+      font-size: 9px; 
+      font-family: verdana, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+  <!-- Each box is 50x50 and set 75 apart in both directions... -->
+  <rect id="box" width="50" height="50" rx="5" stroke="red" stroke-width="2" fill="white" />
+  <g id="cloudland" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Cloud</text>
+     <text x="25" y="30">Land</text>
+   </g>
+  <g id="stairs" class="midtext">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Stairway</text>
+      <text x="25" y="25">in</text>
+      <text x="25" y="35">Cave</text>
+   </g>
+  <g id="castle" class="midtext">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Castle</text>
+      <text x="25" y="25">of</text>
+      <text x="25" y="35">Daventry</text>
+   </g>
+</defs>
+
+<text class="title" x="150" y="50">Kingdom of Daventry</text>
+<g transform="translate(12.5,87.5)"><desc>the map</desc>
+   <path stroke="red" stroke-width="2" fill="none"
+          d="M25,25 h225 v75 l-150,150,-75,0,0,-150,75,0" />
+   <use xlink:href="#cloudland" x="0" y="0" />
+   <g class="midtext" transform="translate(75,0)">
+     <use xlink:href="#box" />
+      <text x="25" y="15">Cloud</text>
+      <text x="25" y="25">Land</text>
+      <text x="25" y="35">(dragon)</text>
+   </g>
+   <use xlink:href="#cloudland" x="150" y="0" />
+   <use xlink:href="#stairs" x="225" y="0" />
+   <use xlink:href="#stairs" x="225" y="75" />
+   <use xlink:href="#stairs" x="150" y="150" />
+    <g class="midtext" transform="translate(75,225)">
+     <use xlink:href="#box" />
+     <text x="25" y="10">Bottom</text>
+     <text x="25" y="20">of</text>
+     <text x="25" y="30">Mountain</text>
+     <text x="25" y="40">(cave)</text>
+   </g>
+   <g class="midtext" transform="translate(0,225)">
+     <use xlink:href="#box" />
+      <text x="25" y="15">Country</text>
+      <text x="25" y="25">Side</text>
+      <text x="25" y="35">(old well)</text>
+   </g>
+    <g class="midtext" transform="translate(0,150)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Gnome's</text>
+     <text x="25" y="30">House</text>
+   </g>
+    <use xlink:href="#castle" x="0" y="75" />
+    <use xlink:href="#castle" x="75" y="75" />
+</g>
+</svg>

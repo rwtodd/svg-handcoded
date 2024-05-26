@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="450" height="750"
+     viewBox="0 0 225 375" preserveAspectRatio="xMinYMin meet"
+>
+<title>Pirate Ship</title>
+<desc>King's Quest III map from the Hint Book.  Recreated by hand by
+Richard Todd in 2024.</desc>
+
+<style type="text/css">
+<![CDATA[
+  text.title {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: bold;
+      stroke: none;
+      fill: red;
+      font-size: 20px; 
+      font-family: verdana, sans-serif;
+  }
+  g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: normal;
+      stroke: none;
+      fill: red;
+      font-size: 9px; 
+      font-family: verdana, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+  <!-- Each box is 50x50 and set 75 apart in both directions... -->
+  <rect id="box" width="50" height="50" rx="5" stroke="red" stroke-width="2" fill="white" />
+  <g id="cargohold" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Cargo</text>
+     <text x="25" y="30">Hold</text>
+   </g>
+   <g id="topdeck" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Top</text>
+     <text x="25" y="30">Deck</text>
+   </g>
+</defs>
+
+<text class="title" x="112.5" y="50">Pirate Ship</text>
+<g transform="translate(12.5,87.5)"><desc>the map</desc>
+   <path stroke="red" stroke-width="2" fill="none"
+          d="M100,25 v225h75 M25,100 h150 m0,75 h-150" />
+
+  <g class="midtext" transform="translate(75,0)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Mast</text>
+      <text x="25" y="25">(crow's</text>
+      <text x="25" y="35">nest)</text>
+   </g>
+  <g class="midtext" transform="translate(0,75)">
+      <use xlink:href="#box" />
+      <text x="25" y="25">Galley</text>
+   </g>
+   <use xlink:href="#topdeck" x="75" y="75" />
+   <use xlink:href="#topdeck" x="150" y="75" />
+  <g class="midtext" transform="translate(0,150)">
+      <use xlink:href="#box" />
+     <text x="25" y="20">Stern</text>
+     <text x="25" y="30">(plank)</text>
+   </g>
+  <g class="midtext" transform="translate(75,150)">
+      <use xlink:href="#box" />
+     <text x="25" y="20">Captain's</text>
+     <text x="25" y="30">Cabin</text>
+   </g>
+  <g class="midtext" transform="translate(150,150)">
+      <use xlink:href="#box" />
+     <text x="25" y="20">Crew's</text>
+     <text x="25" y="30">Quarters</text>
+   </g>
+   <use xlink:href="#cargohold" x="75" y="225" />
+   <use xlink:href="#cargohold" x="150" y="225" />
+  
+</g>
+</svg>

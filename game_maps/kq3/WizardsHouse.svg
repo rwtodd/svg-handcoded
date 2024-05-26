@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="280" height="735"
+     viewBox="0 0 200 525" preserveAspectRatio="xMinYMin meet"
+>
+<title>Kingdom of Daventry</title>
+<desc>King's Quest III map from the Hint Book.  Recreated by hand by
+Richard Todd in 2024.</desc>
+
+<style type="text/css">
+<![CDATA[
+  text.title {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: bold;
+      stroke: none;
+      fill: red;
+      font-size: 20px; 
+      font-family: verdana, sans-serif;
+  }
+  g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: normal;
+      stroke: none;
+      fill: red;
+      font-size: 9px; 
+      font-family: verdana, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+  <!-- Each box is 50x50 and set 75 apart in both directions... -->
+  <rect id="box" width="50" height="50" rx="5" stroke="red" stroke-width="2" fill="white" />
+</defs>
+
+<text class="title" x="100" y="50">Wizard's House</text>
+<g transform="translate(37.5,87.5)"><desc>the map</desc>
+   <path stroke="red" stroke-width="2" fill="none"
+          d="M25,25 v75 l100,-85 M100,100 h-125v150h125v-75 m-75,225v-225
+             m7,0L100,340 M125,335 v75" />
+
+  <g class="midtext" transform="translate(0,0)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Wizard's</text>
+     <text x="25" y="30">Bedroom</text>
+   </g>
+   <g class="midtext" transform="translate(0,75)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Hall</text>
+      <text x="25" y="25">and</text>
+      <text x="25" y="35">Stairs</text>
+   </g>
+   <g class="midtext" transform="translate(0,150)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Wizard's</text>
+     <text x="25" y="30">Study</text>
+   </g>
+   <g class="midtext" transform="translate(0,225)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Entry</text>
+     <text x="25" y="30">Way</text>
+   </g>
+   <g class="midtext" transform="translate(0,300)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Front</text>
+     <text x="25" y="30">Yard</text>
+   </g>
+   <g class="midtext" transform="translate(0,375)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Path</text>
+      <text x="25" y="25">up</text>
+      <text x="25" y="35">Mountain</text>
+   </g>
+
+
+   <g class="midtext" transform="translate(100,-10)">
+     <use xlink:href="#box" />
+     <text x="25" y="25">Tower</text>
+   </g>
+   <g class="midtext" transform="translate(75,75)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Gwydion's</text>
+     <text x="25" y="30">Bedroom</text>
+   </g>
+   <g class="midtext" transform="translate(75,150)">
+     <use xlink:href="#box" />
+     <text x="25" y="25">Kitchen</text>
+   </g>
+   <g class="midtext" transform="translate(75,225)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Dining</text>
+     <text x="25" y="30">Room</text>
+   </g>
+   
+   <g class="midtext" transform="translate(100,310)">
+     <use xlink:href="#box" />
+      <text x="25" y="15">Steps</text>
+      <text x="25" y="25">to</text>
+      <text x="25" y="35">Lab</text>
+   </g>
+   <g class="midtext" transform="translate(100,385)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Wizard's</text>
+     <text transform="translate(25,30)scale(0.9,1)">Laboratory</text>
+   </g>
+</g>
+</svg>

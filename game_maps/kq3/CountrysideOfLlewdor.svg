@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="1050" height="750"
+     viewBox="0 0 525 375" preserveAspectRatio="xMinYMin meet"
+>
+<title>Countryside of Llewdor</title>
+<desc>King's Quest III map from the Hint Book.  Recreated by hand by
+Richard Todd in 2024.</desc>
+
+<style type="text/css">
+<![CDATA[
+  text.title {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: bold;
+      stroke: none;
+      fill: red;
+      font-size: 20px; 
+      font-family: verdana, sans-serif;
+  }
+  g.midtext text {
+      text-anchor: middle; 
+      dominant-baseline: middle; 
+      font-weight: normal;
+      stroke: none;
+      fill: red;
+      font-size: 9px; 
+      font-family: verdana, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+  <!-- Each box is 50x50 and set 75 apart in both directions... -->
+  <rect id="box" width="50" height="50" rx="5" stroke="red" stroke-width="2" fill="white" />
+  <g id="desert" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="25">Desert</text>
+   </g>
+   <g id="beach" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="25">Beach</text>
+   </g>
+  <g id="frstland" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Forest</text>
+     <text x="25" y="30">Land</text>
+   </g>
+  <g id="frststrm" class="midtext">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Forest</text>
+     <text x="25" y="30">(stream)</text>
+   </g>
+</defs>
+
+<text class="title" x="262.5" y="50">Countryside of LLewdor</text>
+<g transform="translate(12.5,87.5)"><desc>the map</desc>
+   <g stroke="red" stroke-width="2" fill="none"><desc>connecting lines</desc>
+     <path d="M25,137.5 l75,-112.5,300,0,75,112.5
+              -75,-37.5,-300,0,-75,37.5
+              75,37.5,300,0,75,-37.5
+              -75,112.5,-300,0,-75,-112.5
+              M100,25 v225 m75,0 v-225 m75,0 v225 m75,0 v-225 m75,0 v225" />
+   </g>
+
+   <g class="midtext" transform="translate(0,112.5)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Desert</text>
+     <text x="25" y="30">Maze</text>
+   </g>
+   <use xlink:href="#desert" x="75" y="0" />
+   <use xlink:href="#desert" x="75" y="75" />
+   <use xlink:href="#desert" x="75" y="150" />
+   <use xlink:href="#desert" x="75" y="225" />
+   <use xlink:href="#frstland" x="150" y="0" />
+   <use xlink:href="#frstland" x="150" y="75" />
+   <g class="midtext" transform="translate(150,150)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Oak</text>
+      <text x="25" y="25">Tree</text>
+      <text x="25" y="35">(hideout)</text>
+   </g>
+   <use xlink:href="#frstland" x="150" y="225" />
+   <use xlink:href="#frststrm" x="225" y="0" />
+   <g class="midtext" transform="translate(225,75)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Bottom</text>
+      <text x="25" y="25">of</text>
+      <text x="25" y="35">Mountain</text>
+   </g> 
+   <use xlink:href="#frstland" x="225" y="150" />
+   <g class="midtext" transform="translate(225,225)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Three</text>
+      <text x="25" y="25">Bears'</text>
+      <text x="25" y="35">House</text>
+   </g> 
+   <g class="midtext" transform="translate(300,0)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Oracle</text>
+      <text x="25" y="25">Cave</text>
+      <text x="25" y="35">(stream)</text>
+   </g> 
+   <use xlink:href="#frststrm" x="300" y="75" />
+   <g class="midtext" transform="translate(300,150)">
+      <use xlink:href="#box" />
+      <text x="25" y="15">Town</text>
+      <text x="25" y="25">(store)</text>
+      <text x="25" y="35">(tavern)</text>
+   </g> 
+   <g class="midtext" transform="translate(300,225)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Bluffs</text>
+     <text x="25" y="30">(mistletoe)</text>
+   </g>
+   <use xlink:href="#beach" x="375" y="0" />
+   <g class="midtext" transform="translate(375,75)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Beach</text>
+     <text x="25" y="30">(stream)</text>
+   </g>
+   <g class="midtext" transform="translate(375,150)">
+     <use xlink:href="#box" />
+     <text x="25" y="20">Dock</text>
+     <text x="25" y="30">(ship)</text>
+   </g>
+   <use xlink:href="#beach" x="375" y="225" />
+   <g class="midtext" transform="translate(450,112.5)">
+     <use xlink:href="#box" />
+     <text x="25" y="25">Ocean</text>
+   </g>
+</g>
+</svg>
