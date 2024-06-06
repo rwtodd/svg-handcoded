@@ -46,14 +46,14 @@ The sefirot are colored by Queen's Scale.</desc>
    </clipPath>
 </defs>
 
-<g> <desc>yesod</desc>
-   <circle r="50" stroke="black" stroke-width="2" fill="#330066"/>
-   <circle r="35" stroke="black" stroke-width="2" fill="#ffffff"/>
+<g> <desc>Severity</desc>
+   <circle r="50" stroke="black" stroke-width="2" fill="#ff0000"/>
+   <circle r="35" stroke="black" stroke-width="2" fill="#8888cc"/>
 </g>
 <g> <desc>the four main sephirot</desc>
    <use xlink:href="#sephira" x="0" y="-55" fill="#ffffff" /> <!-- kether -->
    <use xlink:href="#sephira" x="55" y="0" fill="#8989A9" /> <!-- chokmah  -->
-   <use xlink:href="#sephira" x="-55" y="0" fill="#3d2022" /> <!-- bina -->
+   <use xlink:href="#sephira" x="-55" y="0" fill="#2d0000" /> <!-- bina -->
   <g transform="translate(0,55) rotate(45)">
      <rect stroke="none" fill="#E5C560" x="-30" y="-30" 
         width="30" height="30" clip-path="url(#sephClip)" />
@@ -67,25 +67,25 @@ The sefirot are colored by Queen's Scale.</desc>
    </g>
 </g>
 
-<g> <desc>inner yesods</desc>
-   <circle r="25" stroke="black" stroke-width="1" fill="#330066"/>
-   <circle r="18" stroke="black" stroke-width="1" fill="#ffffff"/>
-   <circle r="15" stroke="black" stroke-width="1" fill="#330066"/>
-   <circle r="5" stroke="black" stroke-width="1" fill="#ffffff"/>
+<g> <desc>inner Severity</desc>
+   <circle r="25" stroke="black" stroke-width="1" fill="#ff0000"/>
+   <circle r="18" stroke="black" stroke-width="1" fill="#8888cc"/>
+   <circle r="15" stroke="black" stroke-width="1" fill="#ff0000"/>
+   <circle r="5" stroke="black" stroke-width="1" fill="#8888cc"/>
 </g>
 <g><desc>the inner sephirot</desc>
-   <use xlink:href="#za" x="0" y="-30" fill="#0000ff" /> <!-- chesed -->
-   <use xlink:href="#za" x="0" y="30" fill="#EC5800" />  <!-- hod -->
-   <use xlink:href="#za" x="30" y="0" fill="#ff0000" /> <!-- geburah -->
-   <use xlink:href="#za" x="-30" y="0" fill="#FBF38A" /> <!-- tipharet -->
+   <use xlink:href="#za" x="0" y="-30" fill="#FBF38A" /> <!-- harmony -->
+   <use xlink:href="#za" x="0" y="30" fill="#330066" /> <!-- foundation -->
+   <use xlink:href="#za" x="-30" y="0" fill="#EC5800" />  <!-- splendor -->
+   <use xlink:href="#za" x="30" y="0" fill="#034B03" /> <!-- victory -->
 </g>
-<g> <desc>netzach</desc>
-   <use xlink:href="#netz" fill="#034B03" stroke="black" stroke-width="1" />
-   <use xlink:href="#netz" fill="#99ff99" stroke="black" stroke-width="1" 
+<g> <desc>mercy</desc>
+   <use xlink:href="#netz" fill="#0000ff" stroke="black" stroke-width="1" />
+   <use xlink:href="#netz" fill="#7777ff" stroke="black" stroke-width="1" 
         transform="rotate(45)scale(0.5,0.5)" />
-   <use xlink:href="#netz" fill="#ddddff" stroke="black" stroke-width="1" 
+   <use xlink:href="#netz" fill="#ccccff" stroke="black" stroke-width="1" 
         transform="scale(0.25,0.25)" />
-   <use xlink:href="#netz" fill="#eeeeee" stroke="black" stroke-width="1" 
+   <use xlink:href="#netz" fill="#eeeeff" stroke="black" stroke-width="1" 
         transform="rotate(45)scale(0.125,0.125)" />
    <use xlink:href="#netz" fill="#ffffff" stroke="black" stroke-width="1" 
         transform="scale(0.0625,0.0625)" />
@@ -95,46 +95,44 @@ The sefirot are colored by Queen's Scale.</desc>
     <text transform="translate(0,-55)">
       <textPath xlink:href="#sephuparc" startOffset="50%" 
              dominant-baseline="middle" text-anchor="middle"
-             >כתר</textPath></text>
+             >&#x5db;&#x5ea;&#x5e8;</textPath></text>
     <text transform="translate(0,-30)">
-      <textPath xlink:href="#sephuparc-sm" fill="#eee" startOffset="50%" 
+      <textPath xlink:href="#sephuparc-sm" startOffset="50%" 
              dominant-baseline="middle" text-anchor="middle"
-             >חסד</textPath></text>
+                >&#x5ea;&#x5e4;&#x5d0;&#x5e8;&#x5ea;</textPath></text>
     <text transform="translate(0,55)">
       <textPath xlink:href="#sepharc" fill="#eee" startOffset="50%" 
              dominant-baseline="middle" text-anchor="middle"
-             >מלכות</textPath></text>
+             >&#x5de;&#x5dc;&#x5db;&#x5d5;&#x5ea;</textPath></text>
     <text transform="translate(0,30)">
-      <textPath xlink:href="#sepharc-sm" startOffset="50%" 
+      <textPath xlink:href="#sepharc-sm" fill="#eee" startOffset="50%" 
              dominant-baseline="middle" text-anchor="middle"
-             >הוד</textPath></text>
+             >&#x5d9;&#x5e1;&#x5d5;&#x5d3;</textPath></text>
     <text transform="translate(55,0)">
       <textPath xlink:href="#sepharc" startOffset="65%" 
              dominant-baseline="middle" text-anchor="middle"
-             >חכמה</textPath></text>
+             >&#x5d7;&#x5db;&#x5de;&#x5d4;</textPath></text>
     <text transform="translate(30,0)">
       <textPath xlink:href="#sepharc-sm" startOffset="65%" 
-             dominant-baseline="middle" text-anchor="middle"
-             >גבורה</textPath></text>
+             dominant-baseline="middle" fill="#eee" text-anchor="middle"
+          >&#x5e0;&#x5e6;&#x5d7;</textPath></text>
     <text transform="translate(-55,0)">
       <textPath xlink:href="#sepharc" fill="#eee" startOffset="35%" 
              dominant-baseline="middle" text-anchor="middle"
-             >בינה</textPath></text>
+             >&#x5d1;&#x5d9;&#x5e0;&#x5d4;</textPath></text>
     <text transform="translate(-30,0)">
       <textPath xlink:href="#sepharc-sm" startOffset="35%" 
              dominant-baseline="middle" text-anchor="middle"
-             >תפארת</textPath></text>
+             >&#x5d4;&#x5d5;&#x5d3;</textPath></text> 
     <text transform="translate(0,0)">
       <textPath xlink:href="#yesarc" fill="#eee" startOffset="75%" 
              dominant-baseline="middle" text-anchor="middle"
-             >יס</textPath></text>
+             >&#x5d2;&#x5d1;&#x5d5;</textPath></text>
     <text transform="translate(0,0)">
       <textPath xlink:href="#yesarc" fill="#eee" startOffset="25%" 
              dominant-baseline="middle" text-anchor="middle"
-             >וד</textPath></text>
+             >&#x5e8;&#x5d4;</textPath></text>
     <text font-size="7" fill="#eee" text-anchor="middle" transform="translate(0,18)"
-             >נצח</text> 
+             >&#x5d7;&#x5e1;&#x5d3;</text> 
 </g>
-<!-- vim: expandtab:sw=3
--->
 </svg>
