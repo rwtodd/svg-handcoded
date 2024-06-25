@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="800" height="800"
+     viewBox="-400 -400 800 800" preserveAspectRatio="xMinYMin meet"
+>
+<title>Wirth Colors</title>
+<desc>From "Tarot of the Magicians"</desc>
+
+<style type="text/css">
+<![CDATA[
+     g.midtext > text {
+      text-anchor: middle; 
+      dominant-baseline: middle;
+      font-size: 25pt;
+      font-family: Arial, Helvetica, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+   <circle id="mind" r="250" transform="rotate(-60)translate(0,-150)" />
+   <circle id="soul" r="250" transform="rotate(60)translate(0,-150)" />
+   <circle id="body" r="250" transform="translate(0,150)" />
+
+   <clipPath id="soulClip"><use xlink:href="#soul" /></clipPath>
+   <clipPath id="bodyClip"><use xlink:href="#body" /></clipPath>
+
+   <use id="sliver" clip-path="url(#soulClip)" xlink:href="#mind" />
+   <use id="central" clip-path="url(#bodyClip)" xlink:href="#sliver" /> 
+</defs>
+
+<g transform="translate(0,-35)" stroke="none">
+  <use xlink:href="#mind" fill="salmon" />
+  <use xlink:href="#soul" fill="lightblue" />
+  <use xlink:href="#body" fill="lightyellow" />
+  <use xlink:href="#sliver" fill="violet" />
+  <use xlink:href="#sliver" fill="lightgreen" transform="rotate(120)" />
+  <use xlink:href="#sliver" fill="sandybrown" transform="rotate(-120)" />
+  <use xlink:href="#central" fill="white" />
+
+  <g fill="none" stroke="black" stroke-width="4">
+    <desc>outline of the circles</desc>
+    <use xlink:href="#mind" />
+    <use xlink:href="#soul" />
+    <use xlink:href="#body" />
+  </g>
+
+  <g class="midtext">
+    <text y="-30">White</text>
+    <text y="0">Unity</text>
+    <text y="30">Synthesis</text>
+  </g>
+
+  <g class="midtext" transform="rotate(60)translate(0,170)">
+    <text y="-30">Orange</text>
+    <text y="0">Bodily</text>
+    <text y="30">Spirit</text>
+  </g>
+
+  <g class="midtext" transform="rotate(-60)translate(0,170)">
+    <text y="-30">Green</text>
+    <text y="0">Bodily</text>
+    <text y="30">Soul</text>
+  </g>
+
+  <g class="midtext" transform="translate(0,-170)">
+    <text y="-30">Violet</text>
+    <text y="0">Spiritual</text>
+    <text y="30">Soul</text>
+  </g>
+
+  <g class="midtext" transform="rotate(60)translate(0,-270)">
+    <text y="-15">Blue</text>
+    <text y="15">Soul</text>
+  </g>
+
+  <g class="midtext" transform="rotate(-60)translate(0,-270)">
+    <text y="-15">Red</text>
+    <text y="15">Spirit</text>
+  </g>
+
+  <g class="midtext" transform="translate(0,270)">
+    <text y="-15">Yellow</text>
+    <text y="15">Body</text>
+  </g>
+
+</g>
+
+</svg>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="840" height="900"
+     viewBox="-420 -450 840 900" preserveAspectRatio="xMinYMin meet"
+>
+<title>Wirth Planets Diagram</title>
+<desc>A Diagram from Oswald Wirth's Tarot of the Magicians</desc>
+
+<style type="text/css">
+<![CDATA[
+    g.midtext > text {
+      text-anchor: middle; 
+      dominant-baseline: middle;
+      font-size: 25pt;
+      font-family: Arial, Helvetica, sans-serif;
+   } 
+]]>
+</style>
+
+<defs>
+   <circle id="mind" r="250" transform="rotate(-60)translate(0,-150)" />
+   <circle id="soul" r="250" transform="rotate(60)translate(0,-150)" />
+   <circle id="body" r="250" transform="translate(0,150)" />
+
+   <clipPath id="soulClip"><use xlink:href="#soul" /></clipPath>
+   <clipPath id="bodyClip"><use xlink:href="#body" /></clipPath>
+
+   <use id="sliver" clip-path="url(#soulClip)" xlink:href="#mind" />
+   <use id="central" clip-path="url(#bodyClip)" xlink:href="#sliver" /> 
+
+   <g id="venus-shape">
+      <desc>venus shape.</desc>
+      <path d="
+        M-10,-5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+        m 2.1,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+      " />
+      <path 
+      d="M -1,4.9 v 3.1 h -4 l -2,-1.5 v 5 l 2,-1.5 h 4 
+           v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+           h 4 l2,1.5 v -5 l-2,1.5 h -4 v -3.1 z" />
+   </g>
+
+  <g id="jupiter-shape"><desc>Jupiter</desc>
+   <path 
+      d="M 1.5,4.0 l1.5,2 v 2 h -9 l -2,2 h 11 
+           v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+           h 5 l2,1.5 v -5 l-2,1.5 h -5 v -2 l1.5,-2 z" />
+   <path
+      d=" M -9.5,11.5 C 3,3 5,-13 -5,-14 
+          S -15,-8 -11,-4
+         C -15,-8 -10,-14 -5,-12
+         S 3,2 -11,10.5 z
+      " />
+   </g>
+
+   <g id="mars-shape">
+      <desc>Mars Symbol... bounding box -15,-15,30,30</desc>
+   <path d="
+     M-15,5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+     m 2.5,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+   " />
+   <path d="
+     M1.4,-2.1 l 10,-10 h -7 l -2,-2 h 12 v 12 l -2,-2 v -6 l -10,10 z 
+   " />
+  </g>
+
+  <g id="mercury-shape">
+   <desc>Mercury Symbol</desc>
+   <use xlink:href="#venus-shape" />
+   <path d="
+     M-10,-21 a 10,7 0,1,0 20,0 l -2.2,1
+       a 7.8,5 0,0,1 -15.6,0 z
+     " />
+  </g>
+
+<g id="moon-shape">
+   <desc>the moon</desc>
+   <path d="
+      M-10.6066,-10.6066 a 15,15 0,1,1 0,21.2132 
+      a 14,14 0,1,0 0,-21.2132 z
+   " />
+   <path d="
+      M-10.6066,-10.6066 a 11,15 0,1,1 0,21.2132 
+      a 10.5,14 0,1,0 0,-21.2132 z
+   " />
+</g>
+
+<g id="saturn-shape">
+   <desc>Saturn</desc>
+   <path
+      d="M-1.25,-21 h -5 l 1.5,2 v 5 h -5 l -2,-1.5 v 5
+         l 2,-1.5 h 5 v 17 l2,-4 v-13
+         h 5 l 2,1.5 v -5 l -2,1.5 h -5 v -5 z
+      "/>
+   <path
+      d="M -4.8,3.5
+         C 5,-25 20,5 7,7.5 
+         S 0,15 5,11
+         C -1,18 -7.5,9 4.5,6.5
+         S 5,-22 -4.5,5.5
+         z
+      "/>
+ </g>
+
+   <g id="sun-shape">
+     <desc>Sun Symbol</desc>
+     <path d="
+       M-15,0 a 15,15 0,1,0 30,0 a 15,15 0,1,0 -30,0
+       m 2,0 a 13,14 0,1,1 26,0 a 13,14 0,1,1 -26,0
+     " />
+   <circle r="2" />
+  </g>
+</defs>
+
+
+<g transform="translate(0,-25)" stroke="none">
+  <rect x="-120" y="-424" width="240" height="100" fill="white" />
+  <rect x="-120" y="-425" width="240" height="100" fill="white" transform="rotate(120)" />
+  <rect x="-120" y="-425" width="240" height="100" fill="white" transform="rotate(-120)" />
+
+
+  <use xlink:href="#mind" fill="salmon" />
+  <use xlink:href="#soul" fill="lightblue" />
+  <use xlink:href="#body" fill="lightyellow" />
+  <use xlink:href="#sliver" fill="violet" />
+  <use xlink:href="#sliver" fill="lightgreen" transform="rotate(120)" />
+  <use xlink:href="#sliver" fill="sandybrown" transform="rotate(-120)" />
+  <use xlink:href="#central" fill="white" />
+
+  <g fill="none" stroke="black" stroke-width="4">
+    <desc>outline of the circles</desc>
+    <use xlink:href="#mind" />
+    <use xlink:href="#soul" />
+    <use xlink:href="#body" />
+  </g>
+
+   <g class="midtext" transform="rotate(-60)translate(0,370)">
+    <text y="-15">Bodily Soul</text>
+    <text y="18">Water</text>
+  </g>
+  
+  <g class="midtext" transform="rotate(60)translate(0,370)">
+    <text y="-15">Bodily Spirit</text>
+    <text y="18">Fire</text>
+  </g>
+
+  <g class="midtext" transform="translate(0,-370)">
+    <text y="-15">Air</text>
+    <text y="18">Spiritual Soul</text>
+  </g>
+
+  <g class="midtext" transform="translate(0,430)">
+    <text>Earth</text>
+  </g>
+
+  <g class="midtext" transform="translate(0,-220)">
+  <use stroke="black" fill="black" xlink:href="#jupiter-shape" />
+   <text y="40">Bronze</text>
+   <text y="70">Jupiter</text>
+ </g>
+
+  <g class="midtext" transform="rotate(-60)translate(0,140)">
+  <use stroke="black" fill="black" xlink:href="#venus-shape" />
+   <text y="40">Copper</text>
+   <text y="70">Venus</text>
+ </g>
+
+ <g class="midtext" transform="rotate(60)translate(0,140)">
+  <use stroke="black" fill="black" xlink:href="#mars-shape" />
+   <text y="40">Iron</text>
+   <text y="70">Mars</text>
+ </g>
+
+ <g class="midtext" transform="translate(0,-30)">
+  <use stroke="black" fill="black" xlink:href="#mercury-shape" />
+   <text y="40">Quicksilver</text>
+   <text y="70">Mercury</text>
+ </g>
+
+<g class="midtext" transform="rotate(60)translate(0,-360)">
+  <text>SOUL</text>
+   <text y="120">Silver</text>
+   <text y="150">Moon</text>
+  <use stroke="black" fill="black" xlink:href="#moon-shape" y="80" />
+ </g>
+
+<g class="midtext" transform="translate(0,210)">
+   <use stroke="black" fill="black" xlink:href="#saturn-shape" />
+   <text y="40">Lead</text>
+   <text y="70">Saturn</text>
+  <text y="150">BODY</text>
+ </g>
+
+<g class="midtext" transform="rotate(-60)translate(0,-360)">
+  <text>SPIRIT</text>
+   <text y="120">Gold</text>
+   <text y="150">Sun</text>
+  <use stroke="black" fill="black" xlink:href="#sun-shape" y="80" />
+ </g>
+
+</g>
+
+</svg>

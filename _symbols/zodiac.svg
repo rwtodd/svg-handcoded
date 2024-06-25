@@ -7,11 +7,94 @@
 >
 <title>Zodiac Signs</title>
 <desc>All of the zodiac signs, in copyable defs, in a -10..10 square box.  I'm using
-https://en.wikipedia.org/wiki/Alchemical_symbol as my reference.</desc>
+https://en.wikipedia.org/wiki/Alchemical_symbol as my reference. Also, the planets
+in a -15..15 box.</desc>
 
 <defs>
    <path id="aries-sign" d="M -1.2,8.9 l 0,-11.5 C-3.9,-9.5 -12.5,-4.4 -4.5, 1.6 l 0,2 
    C -13.5,0.4 -11,-13.4 0,-5.4 11,-13.4 13.5,0.4 4.5,3.6 l0,-2 C12.5,-4.4 3.9,-9.5 1.2,-2.6 l0,11.5 z" />
+      <g id="venus-shape">
+      <desc>venus shape.</desc>
+      <path d="
+        M-10,-5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+        m 2.1,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+      " />
+      <path 
+      d="M -1,4.9 v 3.1 h -4 l -2,-1.5 v 5 l 2,-1.5 h 4 
+           v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+           h 4 l2,1.5 v -5 l-2,1.5 h -4 v -3.1 z" />
+   </g>
+
+  <g id="jupiter-shape"><desc>Jupiter</desc>
+   <path 
+      d="M 1.5,4.0 l1.5,2 v 2 h -9 l -2,2 h 11 
+           v 2.7 l -1.5,2 h 5 l -1.5,-2 v-2.7
+           h 5 l2,1.5 v -5 l-2,1.5 h -5 v -2 l1.5,-2 z" />
+   <path
+      d=" M -9.5,11.5 C 3,3 5,-13 -5,-14 
+          S -15,-8 -11,-4
+         C -15,-8 -10,-14 -5,-12
+         S 3,2 -11,10.5 z
+      " />
+   </g>
+
+   <g id="mars-shape">
+      <desc>Mars Symbol... bounding box -15,-15,30,30</desc>
+   <path d="
+     M-15,5 a 10,10 0,1,0 20,0 a 10,10 0,1,0 -20,0 
+     m 2.5,0 a 8,9 0,1,1 16,0 a 8,9 0,1,1 -16,0 
+   " />
+   <path d="
+     M1.4,-2.1 l 10,-10 h -7 l -2,-2 h 12 v 12 l -2,-2 v -6 l -10,10 z 
+   " />
+  </g>
+
+  <g id="mercury-shape">
+   <desc>Mercury Symbol</desc>
+   <use xlink:href="#venus-shape" />
+   <path d="
+     M-10,-21 a 10,7 0,1,0 20,0 l -2.2,1
+       a 7.8,5 0,0,1 -15.6,0 z
+     " />
+  </g>
+
+<g id="moon-shape">
+   <desc>the moon</desc>
+   <path d="
+      M-10.6066,-10.6066 a 15,15 0,1,1 0,21.2132 
+      a 14,14 0,1,0 0,-21.2132 z
+   " />
+   <path d="
+      M-10.6066,-10.6066 a 11,15 0,1,1 0,21.2132 
+      a 10.5,14 0,1,0 0,-21.2132 z
+   " />
+</g>
+
+<g id="saturn-shape">
+   <desc>Saturn</desc>
+   <path
+      d="M-1.25,-21 h -5 l 1.5,2 v 5 h -5 l -2,-1.5 v 5
+         l 2,-1.5 h 5 v 17 l2,-4 v-13
+         h 5 l 2,1.5 v -5 l -2,1.5 h -5 v -5 z
+      "/>
+   <path
+      d="M -4.8,3.5
+         C 5,-25 20,5 7,7.5 
+         S 0,15 5,11
+         C -1,18 -7.5,9 4.5,6.5
+         S 5,-22 -4.5,5.5
+         z
+      "/>
+ </g>
+
+   <g id="sun-shape">
+     <desc>Sun Symbol</desc>
+     <path d="
+       M-15,0 a 15,15 0,1,0 30,0 a 15,15 0,1,0 -30,0
+       m 2,0 a 13,14 0,1,1 26,0 a 13,14 0,1,1 -26,0
+     " />
+   <circle r="2" />
+  </g>
 </defs>
 <rect x="-10" y="-10" width="20" height="20" fill="#fff" />
 
