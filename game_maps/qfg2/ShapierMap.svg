@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
 xmlns:xlink="http://www.w3.org/1999/xlink"
 version="1.1"
-width="1280" height="720"
-viewBox="0 0 1280 720" preserveAspectRatio="xMinYMin meet"
+width="1280" height="760"
+viewBox="-640 -380 1280 760" preserveAspectRatio="xMinYMin meet"
 >
 <title>Quest For Glory 2: Shapier Map</title>
 <desc>This is a replica of the QfG2 Shapier map. This drawing hand-coded by Richard Todd 2025</desc>
@@ -21,10 +21,13 @@ viewBox="0 0 1280 720" preserveAspectRatio="xMinYMin meet"
       font-weight: bold;
       font-style: normal;
       fill: #371d10;
-      font-size: 10pt;
+      font-size: 12pt;
       text-anchor: middle; 
       dominant-baseline: middle; 
    } 
+   g.midtext text.larger {
+      font-size: 15pt;
+   }
    g.midtext textPath { 
       text-anchor: start; 
       dominant-baseline: middle; 
@@ -34,7 +37,7 @@ viewBox="0 0 1280 720" preserveAspectRatio="xMinYMin meet"
     <filter id='roughpaper' x='0%' y='0%' width='100%' height="100%">
         <feTurbulence type="fractalNoise" baseFrequency='0.015' result='noise' numOctaves="5" seed="15" />
         <feTurbulence type="fractalNoise" baseFrequency='0.1' result='line-noise' numOctaves="5" seed="15" />
-        <feDiffuseLighting in='noise' lighting-color='#faf6df' surfaceScale='3' result="diffused">
+        <feDiffuseLighting in='noise' lighting-color='#f1eed8' surfaceScale='3' result="diffused">
             <feDistantLight azimuth='45' elevation='60' />
         </feDiffuseLighting>
         <feDisplacementMap in="SourceGraphic" in2="line-noise" scale="3" result="displaced"/>
@@ -57,17 +60,65 @@ viewBox="0 0 1280 720" preserveAspectRatio="xMinYMin meet"
         <stop offset="80%" stop-color="purple" stop-opacity="1"/>
         <stop offset="100%" stop-color="#507090" stop-opacity="1"/>
     </linearGradient>
+    
+    
+    <path id="plaza-shape" stroke="none" d="M0.924,0.383 L0.383,0.924 L-0.383,0.924 L-0.924,0.383 L-0.924,-0.383 L-0.383,-0.924 L0.383,-0.924 L0.924,-0.383 Z" />
+     <radialGradient id="fountain-plaza">
+      <stop offset="0%" stop-color="#FFE4C1" />
+      <stop offset="50%" stop-color="#F4D481" />
+      <stop offset="90%" stop-color="#E3A22E" />
+    </radialGradient>
+    <radialGradient id="palace-grad" cx="35%">
+      <stop offset="0%" stop-color="#e0e0ff" />
+      <stop offset="35%" stop-color="#D3D1DC" />
+      <stop offset="70%" stop-color="#BDBFD8" />
+      <stop offset="100%" stop-color="#8999B3" />
+    </radialGradient>
+    <linearGradient id="guild-fade">
+        <stop offset="0%" stop-color="#8999B3" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#BDBFD8" />
+      <stop offset="95%" stop-color="#D3D1DC" />
+        <stop offset="100%" stop-color="#e0e0ff" stop-opacity="1"/>
+    </linearGradient>
+
 </defs>
 
-<g filter="url(#roughpaper)">
-    <rect x="0" y="0" width="100%" height="100%" fill="none"/>
+<g filter="url(#roughpaper)" stroke="none">
+    <rect x="-640" y="-380" width="1280" height="760" fill="none"/>
     <g stroke-width="10" fill="none">
-            <path stroke="url(#red-fade)" d="M30,30h100v250" pathLength="1" />
-            <path stroke="url(#purple-fade)" d="M135,70h30v50h70" />
+        <path stroke="purple" d="M0,175h-50v-25" /><!-- Harik Darb-->
+        <path stroke="yellow" d="M5,115h55v25h110" /> <!-- wahir darb -->
+        <path stroke="#ADBC55" d="M0,0 v280" /> <!-- Junub Tarik -->
+        <path stroke="#E499AE" d="M5,220h55v-25h110v50h97v25h190v-35h53v-40h25v-30h50" /> <!-- sharki Darb-->
     </g>
-    <circle stroke="#507090" stroke-width="10" fill="#507090" cx="268" cy="120" r="28" />
+    <circle fill="url(#palace-grad)" cx="595" cy="0" r="35" /><!-- Palace -->
+    <rect x="-615" y="-55" height="110" width="50" fill="url(#guild-fade)" /><!-- Guild -->
+    <circle fill="url(#fountain-plaza)" cx="-590" cy="0" r="25" />
+    <use xlink:href="#plaza-shape" fill="url(#fountain-plaza)" transform="scale(60)" />
+    <use xlink:href="#plaza-shape" fill="url(#fountain-plaza)" transform="translate(0,290)scale(60)" />
+    <use xlink:href="#plaza-shape" fill="url(#fountain-plaza)" transform="translate(510,0)scale(60)" />
+    <use xlink:href="#plaza-shape" fill="url(#fountain-plaza)" transform="translate(-510,0)scale(60)" />
 </g>
 <g class="midtext" filter="url(#roughwrite)">
-    <text x="205" y="110">Harik Plaza</text>
+    <text class="larger" x="0" y="280">Gate</text> 
+    <text class="larger" x="0" y="300">Plaza</text> 
+    <text class="larger" x="0" y="-10">Fountain</text> 
+    <text class="larger" x="0" y="10">Plaza</text> 
+    <text class="larger" x="0" y="-10">Fountain</text> 
+    <text class="larger" x="510" y="-20">Plaza</text>
+    <text class="larger" x="510" y="0">of the</text> 
+    <text class="larger" x="510" y="20">Palace</text> 
+    <text class="larger" x="-510" y="-20">Plaza</text>
+    <text class="larger" x="-510" y="0">of the</text> 
+    <text class="larger" x="-510" y="20">Fighters</text> 
+    <text x="595" y="0">Palace</text> 
+    <text x="-590" y="0">Guild</text> 
+    
+    <text x="0" y="360">Saurus Stables</text>
+    <text x="-35" y="190">Harik</text>
+    <text x="-35" y="205">Darb</text>
+    <text x="115" y="160">Wahir Darb</text>
+    <text x="360" y="290">Skarki Darb</text>
+    <text transform="translate(-10,108)rotate(-90)">Junub Tarik</text>
 </g>  
 </svg>
