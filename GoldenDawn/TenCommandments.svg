@@ -130,28 +130,28 @@ viewBox="-600 -1000 1200 2000" preserveAspectRatio="xMinYMin meet"
    stroke-width="1" font-weight="bold"
    font-size="40" font-family="verdana, sans-serif"
 >
-   <text x="0" y="-825">GRAVEN</text><!-- 1 -->
-   <text x="0" y="-775">IMAGES</text><!-- 1 -->
+   <text x="0" y="-825">OTHER</text><!-- 1 -->
+   <text x="0" y="-775">GODS</text><!-- 1 -->
 
-   <text x="346.41" y="-625">OTHER</text><!-- 2 -->
-   <text x="346.41" y="-575">GODS</text><!-- 2 -->
+   <text x="346.41" y="-625">GRAVEN</text><!-- 2 -->
+   <text x="346.41" y="-575">IMAGES</text><!-- 2 -->
 
    <text x="-346.41" y="-625">NAME</text><!-- 3 -->
    <text x="-346.41" y="-575">IN VAIN</text><!-- 3 -->
 
-   <text x="346.41" y="-225">KEEP</text><!-- 4 -->
-   <text x="346.41" y="-175">SABBATH</text><!-- 4 -->
+   <text x="346.41" y="-225">HONOR</text><!-- 4 -->
+   <text x="346.41" y="-175">PARENTS</text><!-- 4 -->
    
    <text x="-346.41" y="-200">MURDER</text><!-- 5 -->
 
-   <text x="0" y="-25">HONOR</text><!-- 6 -->
-   <text x="0" y="25">PARENTS</text><!-- 6 -->
+   <text x="0" y="-25">KEEP</text><!-- 6 -->
+   <text x="0" y="25">SABBATH</text><!-- 6 -->
 
-   <text x="346.41" y="200">ADULTERY</text><!-- 7 -->
+   <text x="346.41" y="200">STEAL</text><!-- 7 -->
    <text x="-346.41" y="175">FALSE</text><!-- 8 -->
    <text x="-346.41" y="225">WITNESS</text><!-- 8 -->
 
-   <text x="0" y="400">STEAL</text><!-- 9 -->
+   <text x="0" y="400">ADULTERY</text><!-- 9 -->
 
    <text x="0" y="775">NEIGHBOR</text><!-- 10 -->
    <text x="0" y="825">STUFF</text><!-- 10 -->
