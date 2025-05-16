@@ -143,10 +143,10 @@ the cube-of-space directions of all the paths as well, 2023.</desc>
   <text x="0" y="25">South</text>
   <text x="0" y="375">6</text>
   <text x="0" y="425">Below</text>
-  <text x="346.41" y="175">5</text>
-  <text x="346.41" y="225">Above</text>
-  <text x="-346.41" y="175">7</text>
-  <text x="-346.41" y="225">East</text>
+  <text x="346.41" y="175">7</text>
+  <text x="346.41" y="225">East</text>
+  <text x="-346.41" y="175">5</text>
+  <text x="-346.41" y="225">Above</text>
   <text x="0" y="-425">11</text>
   <text x="0" y="-375">Center</text>
 </g>

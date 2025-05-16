@@ -238,7 +238,7 @@ This version hand-coded by Richard Todd 2021</desc>
       <rect x="0" y="0"  width="20" height="10" stroke="none"
          fill="#000000" />
       <rect x="0" y="10"  width="20" height="10" stroke="none"
-         fill="#669900" />
+         fill="#6a7015" />
       <rect x="0" y="20"  width="20" height="10" stroke="none"
          fill="#ffff66" />
    </pattern>
@@ -372,11 +372,11 @@ This version hand-coded by Richard Todd 2021</desc>
   </g>
 
    <g transform="translate(0,800) rotate(45)">
-     <rect stroke="none" fill="#ffff66" x="-300" y="-300" 
+        <rect stroke="none" fill="#fff680" x="-300" y="-300" 
         width="300" height="300" clip-path="url(#sephClip)" />
-     <rect stroke="none" fill="#669900" x="0" y="-300" 
+     <rect stroke="none" fill="#6a7015" x="0" y="-300" 
         width="300" height="300" clip-path="url(#sephClip)" />
-     <rect stroke="none" fill="#cc6633" x="-300" y="0" 
+     <rect stroke="none" fill="#805339" x="-300" y="0" 
         width="300" height="300" clip-path="url(#sephClip)" />
      <rect stroke="none" fill="url(#pt10)" x="0" y="0" 
         width="300" height="300" clip-path="url(#sephClip)" />

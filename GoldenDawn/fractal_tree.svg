@@ -55,11 +55,11 @@ The sefirot are colored by Queen's Scale.</desc>
    <use xlink:href="#sephira" x="55" y="0" fill="#8989A9" /> <!-- chokmah  -->
    <use xlink:href="#sephira" x="-55" y="0" fill="#2d0000" /> <!-- bina -->
   <g transform="translate(0,55) rotate(45)">
-     <rect stroke="none" fill="#E5C560" x="-30" y="-30" 
+     <rect stroke="none" fill="#fff680" x="-30" y="-30" 
         width="30" height="30" clip-path="url(#sephClip)" />
-     <rect stroke="none" fill="#006A6E" x="0" y="-30" 
+     <rect stroke="none" fill="#6a7015" x="0" y="-30" 
         width="30" height="30" clip-path="url(#sephClip)" />
-     <rect stroke="none" fill="#663029" x="-30" y="0" 
+     <rect stroke="none" fill="#805339" x="-30" y="0" 
         width="30" height="30" clip-path="url(#sephClip)" />
      <rect stroke="none" fill="#000000" x="0" y="0" 
         width="30" height="30" clip-path="url(#sephClip)" />
